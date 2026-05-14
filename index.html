@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Fabric of Global Health Funding</title>
+</head>
+<body>
+    <div class="prog" id="prog"></div>
+    <div class="tip" id="tip"></div>
+
+    <!-- ─────────── HERO ─────────── -->
+    <section class="hero">
+    <div class="hero-inner">
+      <div class="kicker">A visual data essay · WHO Financing Networks · 2016–2025</div>
+      <h1>The Fabric of<br>Global Health Funding</h1>
+      <p>Every global health programme is connected to its funders through a thread of money. When many actors fund many programmes, a fabric forms. Whether that fabric holds together — or quietly comes apart — is a structural question, not a financial one.</p>
+      <p>This essay maps nine years of WHO financing data as a changing network. The story is not about the total amount of money. It is about the <em>texture</em> of the connections.</p>
+      <div class="byline">
+        Data: WHO Programme Budget (Q4 2016–2023; Q1 2024–2025) &nbsp;·&nbsp;
+        Analysis: Santos Dominguez et al. (peer-reviewed) &nbsp;·&nbsp;
+        Network: igraph (R) &nbsp;·&nbsp; Visualization: D3.js
+      </div>
+    </div>
+    </section>
+
+    <!-- ─────────── SCROLLY ─────────── -->
+    <section class="scrolly" id="scrolly">
+
+      <!-- LEFT: sticky viz panel -->
+      <div class="viz-panel" id="vizPanel">
+        <svg id="net-svg"></svg>
+        <div class="metric-strip" id="metricStrip">
+          <div class="metric-cell">
+            <span class="metric-label">Nodes</span>
+            <span class="metric-val" id="mv-nodes">—</span>
+            <div class="metric-bar-wrap"><div class="metric-bar" id="mb-nodes" style="width:0%"></div></div>
+          </div>
+          <div class="metric-cell">
+            <span class="metric-label">Edges</span>
+            <span class="metric-val" id="mv-edges">—</span>
+            <div class="metric-bar-wrap"><div class="metric-bar" id="mb-edges" style="width:0%"></div></div>
+          </div>
+          <div class="metric-cell">
+            <span class="metric-label">Density</span>
+            <span class="metric-val" id="mv-density">—</span>
+            <div class="metric-bar-wrap"><div class="metric-bar" id="mb-density" style="width:0%"></div></div>
+          </div>
+          <div class="metric-cell">
+            <span class="metric-label">Clustering</span>
+            <span class="metric-val" id="mv-clust">—</span>
+            <div class="metric-bar-wrap"><div class="metric-bar" id="mb-clust" style="width:0%"></div></div>
+          </div>
+          <div class="metric-cell">
+            <span class="metric-label">WCC</span>
+            <span class="metric-val" id="mv-wcc">—</span>
+            <div class="metric-bar-wrap"><div class="metric-bar" id="mb-wcc" style="width:0%"></div></div>
+          </div>
+          <div class="metric-cell">
+            <span class="metric-label">Modularity</span>
+            <span class="metric-val" id="mv-mod">—</span>
+            <div class="metric-bar-wrap"><div class="metric-bar" id="mb-mod" style="width:0%"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT: story steps -->
+      <div class="story-panel">
+
+        <!-- Step 1: What is a thread -->
+        <div class="step" data-step="intro">
+          <div class="step-inner">
+            <div class="step-n">Scene 01 — The unit</div>
+            <h2>What is a thread?</h2>
+            <p>Each financing relationship in the WHO system connects one actor — a government, a foundation, an international agency — to one WHO programme or recipient country through a flow of money.</p>
+            <p>In network terms: the actor is a <strong>node</strong>, the money is an <strong>edge</strong>, and the amount is the <strong>weight</strong>. When many nodes send many weighted edges to many recipients, a fabric forms.</p>
+            <p>The question this essay asks is not how much money flowed — but whether the resulting fabric held together.</p>
+            <div class="legend">
+              <div class="leg-item"><div class="leg-dot" style="background:var(--c-ms)"></div>Member States</div>
+              <div class="leg-item"><div class="leg-dot" style="background:var(--c-ph)"></div>Foundations</div>
+              <div class="leg-item"><div class="leg-dot" style="background:var(--c-pt)"></div>Partnerships</div>
+              <div class="leg-item"><div class="leg-dot" style="background:var(--c-un)"></div>UN Agencies</div>
+              <div class="leg-item"><div class="leg-dot" style="background:var(--c-ng)"></div>NGOs</div>
+              <div class="leg-item"><div class="leg-dot" style="background:var(--c-ps)"></div>Private Sector</div>
+              <div class="leg-item"><div class="leg-us"></div>US entities</div>
+              <div class="leg-item"><div class="leg-dot" style="background:var(--c-re)"></div>WHO Recipients</div>
+            </div>
+            <div class="mbox grn">
+                <strong>Methodological Caution:</strong>
+                <ul>
+                    <li>N = 5 biennia;</li>
+                    <li>descriptive visual reading;</li>
+                    <li>no causal claim;</li>
+                    <li>no prediction;</li>
+                    <li>no formal proof of tipping point, hysteresis or critical slowing down.</li>
+                </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Step 2: 2016-17 baseline -->
+        <div class="step" data-step="2016-17">
+          <div class="step-inner">
+            <div class="step-n">Scene 02 — 2016–17 Baseline</div>
+            <h2>A relatively integrated fabric</h2>
+            <p>In 2016–2017, the WHO financing network shows its most integrated structure in the observed period. Density is modest — the fabric is not tight — but it is coherent: relatively few disconnected pieces, moderate clustering, and the lowest modularity of any biennium.</p>
+            <div class="mbox grn">
+              Nodes: 636 &nbsp;·&nbsp; Edges: 3,477<br>
+              Density: 0.009 &nbsp;·&nbsp; Clustering: 0.043<br>
+              Weakly connected components: <strong>2</strong><br>
+              Modularity: 0.294
+            </div>
+            <p>Two weakly connected components means the network is essentially one integrated structure with one small satellite. The fabric holds — not tightly, but coherently.</p>
+            <p>The US cluster of entities (USAID, CDC, NIH and others) accounts for <strong>616M</strong> — 12.4% of total positive flows. Hover over nodes to see individual actors.</p>
+          </div>
+        </div>
+
+        <!-- Step 3: 2018-19 -->
+        <div class="step" data-step="2018-19">
+          <div class="step-inner">
+            <div class="step-n">Scene 03 — 2018–19: Early drift</div>
+            <h2>The patches separate — before any shock</h2>
+            <p>Two years later, and before any major external disruption, the network shows a striking structural shift. The number of weakly connected components grows from 2 to 123. Modularity rises by 59%.</p>
+            <div class="mbox red">
+              WCC: 2 → <strong>123</strong><br>
+              Modularity: 0.294 → <strong>0.466</strong> (+59%)<br>
+              Density: 0.009 → 0.008 (slight decline)
+            </div>
+            <p>The fabric is not broken — but the patches are becoming more self-contained. Actors are funding within communities rather than across them. This pattern is <em>suggestive of</em> declining integrative capacity.</p>
+          </div>
+        </div>
+
+        <!-- Step 4: 2020-21 COVID -->
+        <div class="step" data-step="2020-21">
+          <div class="step-inner">
+            <div class="step-n">Scene 04 — 2020–21: Expansion without binding</div>
+            <h2>More knots. More threads. Less fabric.</h2>
+            <p>During the COVID-19 period, the network expands dramatically — 60% more actors, 36% more financial links. And every measure of structural cohesion deteriorates simultaneously.</p>
+            <div class="mbox red">
+              Nodes: 624 → <strong>999</strong> (+60%)<br>
+              Edges: 3,277 → <strong>4,444</strong> (+36%)<br>
+              Density: 0.008 → <strong>0.004</strong> (−50%)<br>
+              Clustering: 0.050 → <strong>0.012</strong> (−76%)<br>
+              WCC: 123 → <strong>546</strong> (+344%)
+            </div>
+            <p>The fabric expands and thins simultaneously. New emergency actors enter. Existing ties proliferate. But the structure loses its reinforcing patches and becomes 546 loosely connected pieces.</p>
+          </div>
+        </div>
+
+        <!-- Step 5: 2022-25 -->
+        <div class="step" data-step="2022-23">
+          <div class="step-inner">
+            <div class="step-n">Scene 05 — 2022–25: Partial recovery</div>
+            <h2>The fabric partly re-stitches — but not to its original texture</h2>
+            <p>Post-pandemic, the network contracts and partially reorganizes. Density and average degree recover — more threads per knot. But clustering and weakly connected components do not return to 2016–17 levels.</p>
+            <div class="mbox">
+              Avg. degree: 4.45 → <strong>7.69</strong> (highest observed)<br>
+              Density: 0.013 (above 2016–17 baseline of 0.009)<br>
+              Clustering: 0.014 (vs. 0.043 in 2016–17)<br>
+              WCC: 121 (vs. 2 in 2016–17)<br>
+              <br>
+              2024–25*: density 0.012 · WCC 126 · clustering 0.018<br>
+              * Q1 2025 only — provisional
+            </div>
+            <p>The recovery is real but structurally incomplete. The new equilibrium is <em>consistent with</em> a different configuration — not a return to the pre-shock basin.</p>
+          </div>
+        </div>
+
+      </div><!-- /story-panel -->
+    </section>
+
+    <!-- ─────────── US REMOVAL ─────────── -->
+    <section class="fw-section" id="usSection">
+    <div class="fw-inner">
+      <h2>2025: What happens when a thick thread thins?</h2>
+      <p>US entities — USAID, CDC, NIH, DTRA, USFDA, USDA, State Department — contributed <strong>25M</strong> in the 2024–25 period (provisional): 10.9% of total positive flows, distributed across 1,530 financing relationships.</p>
+      <p>The scenario below fades US-linked flows to show which parts of the network become more exposed. Grey edges = US flows being removed. Highlighted nodes = those receiving ≥50% of their flows from US entities.</p>
+      <div class="toggle-row">
+        <button class="btn off" id="usBtn">Remove US flows</button>
+        <div>
+          <div class="exposure-note" id="expNote">25M removed · 1,530 edges faded · 4 nodes with ≥50% US dependency highlighted</div>
+        </div>
+      </div>
+      <div id="us-net-wrap" style="width:100%;height:520px;background:#fafafa;border:1px solid #eee;position:relative;border-radius:4px">
+        <svg id="us-svg" width="100%" height="100%"></svg>
+        <div style="position:absolute;bottom:10px;right:14px;font-family:'Courier New',monospace;font-size:10px;color:#bbb">
+          Top 35 donors + WHO recipients · 2024–25 (Q1, provisional)
+        </div>
+      </div>
+      <p style="margin-top:16px;font-size:14px;color:#666">
+        <strong>Finding:</strong> No node in this dataset receives flows <em>exclusively</em> from US entities — the network has no single point of US-only dependency at this aggregation level. Four recipient nodes rely on US sources for 50–74% of their observed flows: Poland, Czechia, Slovakia, and Iraq.
+      </p>
+    </div>
+    </section>
+
+    <!-- ─────────── MIDDLE POWERS ─────────── -->
+    <section class="fw-section dark">
+        <div class="fw-inner">
+            <h2>Middle Powers: The Potential Bridges?</h2>
+            <p>As the US presence in the network fluctuates, other actors have the scale to act as structural bridges. Germany, the European Commission, Canada, and major partnerships like GAVI have the volume and geographic reach that <em>could</em> position them as brokers.</p>
+            <div class="legend">
+                <div class="leg-item"><div class="leg-dot" style="background:var(--c-mid)"></div>Middle-power candidates (gold stroke)</div>
+            </div>
+            <p>However, structural betweenness remains low across the entire network (all values &lt; 0.001). While these actors are large funders, none yet occupies a dominant brokerage position in structural terms. Their role as "bridges" is a potentiality, not yet a confirmed structural reality.</p>
+        </div>
+    </section>
+
+    <!-- ─────────── BINDING MAP ─────────── -->
+    <section class="fw-section">
+    <div class="fw-inner">
+      <h2>The Binding Map</h2>
+      <p>The Binding Map below is an epilogue — a compact summary of where each biennium sits in a two-dimensional space defined by cohesion and structural stress.</p>
+
+      <div style="text-align:center;margin:30px 0">
+        <button class="btn" id="playBtn">Play trajectory</button>
+      </div>
+
+      <svg id="bmap-svg" viewBox="0 0 660 500" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <marker id="barr" markerWidth="7" markerHeight="7" refX="5.5" refY="3.5" orient="auto">
+            <polygon points="0 0,7 3.5,0 7" fill="#aaa"/>
+          </marker>
+        </defs>
+        <!-- Quadrants -->
+        <rect x="70"  y="30"  width="260" height="200" fill="rgba(155,34,38,.09)"/>
+        <rect x="330" y="30"  width="260" height="200" fill="rgba(199,123,58,.06)"/>
+        <rect x="70"  y="230" width="260" height="200" fill="rgba(82,183,136,.06)"/>
+        <rect x="330" y="230" width="260" height="200" fill="rgba(27,67,50,.09)"/>
+        <!-- Labels -->
+        <text x="200" y="55" class="q-lab" fill="#9B2226">Fragmented / Brittle</text>
+        <text x="460" y="55" class="q-lab" fill="#C77B3A">Connected / Rigid</text>
+        <text x="200" y="420" class="q-lab" fill="#3a8a60">Loose / Flexible</text>
+        <text x="460" y="420" class="q-lab" fill="#1B4332">Integrated / Adaptive</text>
+        <!-- Dividers -->
+        <line x1="70" y1="230" x2="590" y2="230" stroke="#ccc" stroke-width="1" stroke-dasharray="4,4"/>
+        <line x1="330" y1="30" x2="330" y2="430" stroke="#ccc" stroke-width="1" stroke-dasharray="4,4"/>
+        <!-- Axes -->
+        <line x1="70"  y1="430" x2="590" y2="430" stroke="#999" stroke-width="1.5"/>
+        <line x1="70"  y1="430" x2="70"  y2="30"  stroke="#999" stroke-width="1.5"/>
+        <text x="330" y="472" class="ax-lab" text-anchor="middle">← fragmented · Cohesion / Binding · integrated →</text>
+        <text x="20" y="230" class="ax-lab" text-anchor="middle" transform="rotate(-90,20,230)">← stable · Stress · fragile →</text>
+
+        <!-- Arrows -->
+        <line id="ba1" class="ba" x1="476" y1="430" x2="376" y2="273" stroke="#bbb" stroke-width="1.5" marker-end="url(#barr)"/>
+        <line id="ba2" class="ba" x1="371" y1="267" x2="140" y2="135" stroke="#bbb" stroke-width="1.5" marker-end="url(#barr)"/>
+        <line id="ba3" class="ba" x1="134" y1="129" x2="411" y2="295" stroke="#bbb" stroke-width="1.5" marker-end="url(#barr)"/>
+        <line id="ba4" class="ba" x1="417" y1="291" x2="390" y2="289" stroke="#bbb" stroke-width="1.5" marker-end="url(#barr)"/>
+
+        <!-- Points -->
+        <g id="bp1" class="bp"><circle cx="476" cy="430" r="6" fill="#1B4332"/><text x="485" y="435" style="font-size:10px">2016-17</text></g>
+        <g id="bp2" class="bp"><circle cx="371" cy="267" r="6" fill="#C77B3A"/><text x="380" y="272" style="font-size:10px">2018-19</text></g>
+        <g id="bp3" class="bp"><circle cx="134" cy="129" r="6" fill="#9B2226"/><text x="143" y="134" style="font-size:10px">2020-21</text></g>
+        <g id="bp4" class="bp"><circle cx="417" cy="291" r="6" fill="#3a8a60"/><text x="426" y="296" style="font-size:10px">2022-23</text></g>
+        <g id="bp5" class="bp"><circle cx="384" cy="288" r="6" fill="#1B4332"/><text x="393" y="293" style="font-size:10px">2024-25</text></g>
+      </svg>
+      <div id="bmap-note" style="opacity:0;font-size:13px;color:#666;margin-top:10px;text-align:center">Trajectory shows systemic drift away from the adaptive baseline.</div>
+    </div>
+    </section>
+
+    <script type="module" src="/src/main.js"></script>
+</body>
+</html>
