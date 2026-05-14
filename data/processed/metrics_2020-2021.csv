@@ -1,0 +1,1000 @@
+Id,Label,category,name,indegree,outdegree,degree,weighted indegree,weighted outdegree,weighted degree,Eccentricity,closnesscentrality,harmonicclosnesscentrality,betweenesscentrality,componentnumber,strongcompnum,modularity_class,stat_inf_class,clustering
+0,"23Technology Limited, United Kingdom",Private Sector Entities,"23Technology Limited, United Kingdom",0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+1,Acted,Non Governmental Organizations,Acted,0,1,1,0,34404,34404,1,1,1,0,1,2,85,244,0
+2,Administrative support (AS),Member States - Voluntary Specified,Administrative support (AS),0,1,1,0,200000,200000,1,1,1,0,1,4,145,65,0
+3,Afghanistan,Member States - Voluntary Specified,Afghanistan,36,1,37,199974585.02,9131780,209106365.02,0,0,0,0,1,5,145,192,0.027778
+4,Africa - Regional Office,,,86,0,86,331742660.01,0,331742660.01,0,0,0,0,1,6,6,52,0.026265
+5,Africa Re Foundation,Private Sector Entities,Africa Re Foundation,0,1,1,0,233645,233645,1,1,1,0,1,8,6,277,0
+6,African Development Bank Group,Development Banks and Funds,African Development Bank Group,0,28,28,0,26015148,26015148,1,1,1,0,1,35,167,49,0.013228
+7,African Field Epidemiology Network (AFENET),Non Governmental Organizations,African Field Epidemiology Network (AFENET),0,1,1,0,170998,170998,1,1,1,0,1,37,117,158,0
+8,African Union - United Nations Hybrid Operation in Darfur,United Nations Organizations,African Union - United Nations Hybrid Operation in Darfur,0,1,1,0,1915178,1915178,1,1,1,0,1,39,162,279,0
+9,"Agence Francaise de D�veloppement (AFD), France",Member States - Voluntary Specified,France,0,3,3,0,212279,212279,1,1,1,0,1,41,85,307,0
+10,"Agencia Nacional de Vigilancia Sanitaria (ANVISA), Brazil",Member States - Voluntary Specified,Brazil,0,0,0,0,0,0,0,0,0,0,2,42,2,1,0
+11,"Agriculture and Agri-food Canada (AAFC), Canada",Member States - Voluntary Specified,Canada,0,0,0,0,0,0,0,0,0,0,3,43,3,2,0
+12,Albania,,,20,0,20,6980267,0,6980267,0,0,0,0,1,44,120,16,0.018421
+13,Algeria,,,17,0,17,5312068,0,5312068,0,0,0,0,1,45,6,194,0.036765
+14,Alliance for Health Policy and Systems Research (AHPSR),Others,Alliance for Health Policy and Systems Research (AHPSR),0,4,4,0,503651,503651,1,1,1,0,1,50,117,268,0
+15,Alliance for International Medical Action (ALIMA),Non Governmental Organizations,Alliance for International Medical Action (ALIMA),0,0,0,0,0,0,0,0,0,0,4,51,4,3,0
+16,Alwaleed Philanthropies,Philanthropic Foundations,Alwaleed Philanthropies,0,4,4,0,3303738,3303738,1,1,1,0,1,54,6,289,0
+17,American Samoa,,,1,0,1,69000,0,69000,0,0,0,0,1,55,6,25,0
+18,Americas - Regional Office,,,74,0,74,107598374.09,0,107598374.09,0,0,0,0,1,49,6,165,0.004813
+19,Angola,Member States - Voluntary Specified,Angola,35,6,41,29444454.97,3387972.36,32832427.33,1,1,1,0.000023,1,56,145,15,0.125641
+20,Antigua and Barbuda,,,8,0,8,611598.72,0,611598.72,0,0,0,0,1,57,120,27,0.089286
+21,"AO Foundation, Switzerland",Philanthropic Foundations,"AO Foundation, Switzerland",0,4,4,0,554704,554704,1,1,1,0,1,61,162,279,0
+22,Apple Inc.,Private Sector Entities,Apple Inc.,0,0,0,0,0,0,0,0,0,0,5,62,5,4,0
+23,Argentina,,,15,0,15,5734568.54,0,5734568.54,0,0,0,0,1,63,120,235,0.02381
+24,Armenia,,,18,0,18,9424629.99,0,9424629.99,0,0,0,0,1,64,85,112,0.022876
+25,Asia-Europe Foundation (ASEF),Intergovernmental Organizations,Asia-Europe Foundation (ASEF),0,1,1,0,456185,456185,1,1,1,0,1,66,162,320,0
+26,Assessed Contributions,Assessed Contributions,Assessed Contributions,0,178,178,0,607821506.13,607821506.13,2,0.994444,0.997207,0,1,195,6,25,0.007205
+27,Australian Federation of AIDS Organisations (AFAO),Non Governmental Organizations,Australian Federation of AIDS Organisations (AFAO),0,0,0,0,0,0,0,0,0,0,6,196,7,5,0
+28,Australian Radiation Protection and Nuclear Safety Agency (ARPANSA),Member States - Voluntary Specified,Australia,0,0,0,0,0,0,0,0,0,0,7,197,8,6,0
+29,Austria,Member States - Voluntary Specified,Austria,0,3,3,0,513844,513844,1,1,1,0,1,198,120,66,0
+30,Austrian Development Agency (ADA),Member States - Voluntary Specified,Austria,0,10,10,0,3398296,3398296,2,0.916667,0.954545,0,1,199,147,206,0
+31,Autism Speaks,Non Governmental Organizations,Autism Speaks,0,0,0,0,0,0,0,0,0,0,8,200,9,7,0
+32,Azerbaijan,Member States - Voluntary Specified,Azerbaijan,27,61,88,10245304,8877897,19123201,2,0.86747,0.923611,0.001427,1,151,120,188,0.08059
+33,Bahamas,,,9,0,9,2379183.55,0,2379183.55,0,0,0,0,1,194,120,154,0
+34,Bahrain,,,2,0,2,327530,0,327530,0,0,0,0,1,193,6,185,0
+35,Bangladesh,Member States - Voluntary Specified,Bangladesh,33,1,34,74281834,8603210,82885044,0,0,0,0,1,121,120,252,0.037879
+36,Barbados,,,8,0,8,1547832.05,0,1547832.05,0,0,0,0,1,150,120,27,0.089286
+37,Bayer AG,Private Sector Entities,Bayer AG,0,6,6,0,1427253,1427253,2,0.8,0.875,0,1,201,145,139,0
+38,Becton Dickinson and Company (BD),Private Sector Entities,Becton Dickinson and Company (BD),0,0,0,0,0,0,0,0,0,0,9,202,10,8,0
+39,Belarus,,,14,0,14,9491519,0,9491519,0,0,0,0,1,113,85,212,0.065934
+40,Belgium,Member States - Voluntary Specified,Belgium,0,1,1,0,651501,651501,1,1,1,0,1,203,120,66,0
+41,Belize,,,10,0,10,2317419.82,0,2317419.82,0,0,0,0,1,149,120,280,0.066667
+42,Benin,,,42,0,42,17099342,0,17099342,0,0,0,0,1,14,6,292,0.077236
+43,Bernard van Leer Foundation (BvLF),Philanthropic Foundations,Bernard van Leer Foundation (BvLF),0,1,1,0,60608,60608,1,1,1,0,1,204,85,199,0
+44,Bhutan,,,22,0,22,10134626,0,10134626,0,0,0,0,1,148,6,267,0.017316
+45,Bill & Melinda Gates Foundation,Philanthropic Foundations,Bill & Melinda Gates Foundation,0,85,85,0,259227944.51,259227944.51,2,0.920792,0.956989,0,1,205,117,189,0.010504
+46,"Biomedical Research and Training Institute, Zimbabwe",Non Governmental Organizations,"Biomedical Research and Training Institute, Zimbabwe",0,0,0,0,0,0,0,0,0,0,10,206,11,9,0
+47,Bishan Gari Purification Industries PLC.,Private Sector Entities,Bishan Gari Purification Industries PLC.,0,0,0,0,0,0,0,0,0,0,11,207,12,10,0
+48,Bloomberg Family Foundation,Philanthropic Foundations,Bloomberg Family Foundation,0,55,55,0,5042911,5042911,3,0.759615,0.845992,0,1,208,6,26,0.019529
+49,BluAct Technologies GmbH,Private Sector Entities,BluAct Technologies GmbH,0,0,0,0,0,0,0,0,0,0,12,209,13,11,0
+50,Bolivia (Plurinational State of),,,22,0,22,9633872.09,0,9633872.09,0,0,0,0,1,147,120,224,0.015152
+51,Borrow Dental Milk Foundation,Non Governmental Organizations,Borrow Dental Milk Foundation,0,1,1,0,38274,38274,1,1,1,0,1,210,6,52,0
+52,Bosnia and Herzegovina,,,12,0,12,6401220,0,6401220,0,0,0,0,1,192,120,177,0
+53,Botswana,,,26,0,26,8730804,0,8730804,0,0,0,0,1,146,6,43,0.021538
+54,Brazil,,,24,0,24,15443233.98,0,15443233.98,0,0,0,0,1,120,6,187,0.025362
+55,Bridges to Development,Non Governmental Organizations,Bridges to Development,0,2,2,0,421603,421603,1,1,1,0,1,211,162,320,0
+56,Bristol-Myers Squibb Foundation,Private Sector Entities,Bristol-Myers Squibb Foundation,0,4,4,0,70565,70565,1,1,1,0,1,212,167,60,0
+57,"British Embassy, Cairo, Egypt of the Foreign and Commonwealth Office",Member States - Voluntary Specified,United Kingdom of Great Britain and Northern Ireland,0,1,1,0,1205303,1205303,1,1,1,0,1,213,120,289,0
+58,Brunei Darussalam,,,2,0,2,55000,0,55000,0,0,0,0,1,191,6,25,0
+59,Bulgaria,,,6,0,6,1069132,0,1069132,0,0,0,0,1,119,6,86,0.066667
+60,"Bundesamt f�r Umwelt (BAFU), Switzerland",Member States - Voluntary Specified,Switzerland,0,1,1,0,65062,65062,1,1,1,0,1,214,120,66,0
+61,Burkina Faso,Member States - Voluntary Specified,Burkina Faso,55,1,56,33141290,283168,33424458,0,0,0,0,1,34,145,97,0.030976
+62,Burundi,,,36,0,36,18931276,0,18931276,0,0,0,0,1,145,162,47,0.021429
+63,"Cabinet Office, United Kingdom",Member States - Voluntary Specified,United Kingdom of Great Britain and Northern Ireland,0,0,0,0,0,0,0,0,0,0,13,215,14,12,0
+64,Cabo Verde,Member States - Voluntary Specified,Cabo Verde,23,5,28,5871813,86937.77,5958750.77,1,1,1,0.000023,1,33,6,128,0.156085
+65,Cambodia,Member States - Voluntary Specified,Cambodia,39,1,40,23965435.02,208635,24174070.02,0,0,0,0,1,118,162,323,0.043185
+66,Cameroon,Member States - Voluntary Specified,Cameroon,46,1,47,47919789,2031621,49951410,0,0,0,0,1,32,145,155,0.029469
+67,Canadian Food Inspection Agency (CFIA),Member States - Voluntary Specified,Canada,0,0,0,0,0,0,0,0,0,0,14,216,15,13,0
+68,Canadian Institutes of Health Research,Member States - Voluntary Specified,Canada,0,0,0,0,0,0,0,0,0,0,15,217,16,14,0
+69,Carter Center,Non Governmental Organizations,Carter Center,0,22,22,0,4761215,4761215,2,0.958333,0.978261,0,1,218,145,234,0.025974
+70,Catholic Relief Services,Non Governmental Organizations,Catholic Relief Services,0,2,2,0,444071,444071,1,1,1,0,1,219,117,158,0
+71,CDC Foundation,Philanthropic Foundations,CDC Foundation,0,23,23,0,4235171,4235171,2,0.870968,0.925926,0,1,220,6,142,0.01581
+72,Center for Health Policies and Studies (PAS Center),Non Governmental Organizations,Center for Health Policies and Studies (PAS Center),0,2,2,0,942719,942719,1,1,1,0,1,221,120,66,0
+73,"Centers for Disease Control and Prevention (CDC), United States of America",Member States - Voluntary Specified,United States of America,0,78,78,0,63348606,63348606,3,0.6,0.739953,0,1,222,6,131,0.015984
+74,Central African Republic,Member States - Voluntary Specified,Central African Republic,38,1,39,26124012.99,2333333,28457345.99,0,0,0,0,1,13,6,153,0.110953
+75,Central European Initiative,Intergovernmental Organizations,Central European Initiative,0,2,2,0,24823,24823,1,1,1,0,1,223,147,208,0
+76,"Central Finance and Contracts Unit (CFCU), T�rkiye",Member States - Voluntary Specified,Turkey,0,1,1,0,2141761,2141761,2,0.666667,0.75,0,1,224,147,316,0
+77,Chad,Member States - Voluntary Specified,Chad,43,1,44,37088932,4385948,41474880,0,0,0,0,1,31,145,324,0.03876
+78,Chiba University,Academic Institutions,Chiba University,0,0,0,0,0,0,0,0,0,0,16,225,17,17,0
+79,Children's Investment Fund Foundation (UK),Philanthropic Foundations,Children's Investment Fund Foundation (UK),0,4,4,0,99099,99099,1,1,1,0,1,226,120,289,0
+80,Chile,,,15,0,15,3038295.74,0,3038295.74,0,0,0,0,1,144,6,309,0.033333
+81,China,Member States - Voluntary Specified,China,23,56,79,16358377.99,32849912.79,49208290.78,2,0.982759,0.991228,0.000518,1,190,6,31,0.126745
+82,China Medical Board (CMB),Philanthropic Foundations,China Medical Board (CMB),0,1,1,0,131416,131416,1,1,1,0,1,227,6,248,0
+83,Christian Hansen Holding S/A,Private Sector Entities,Christian Hansen Holding S/A,0,1,1,0,13029,13029,1,1,1,0,1,228,120,66,0
+84,Christian Medical College Vellore (CMC),Academic Institutions,Christian Medical College Vellore (CMC),0,3,3,0,132743,132743,1,1,1,0,1,229,165,101,0
+85,Christoffel-Blindenmission,Non Governmental Organizations,Christoffel-Blindenmission,0,0,0,0,0,0,0,0,0,0,17,230,18,19,0
+86,Clarke Mosquito,Private Sector Entities,Clarke Mosquito,0,0,0,0,0,0,0,0,0,0,18,231,19,20,0
+87,Clean Air Fund,Philanthropic Foundations,Clean Air Fund,0,0,0,0,0,0,0,0,0,0,19,232,20,21,0
+88,Clinton Health Access Initiative,Philanthropic Foundations,Clinton Health Access Initiative,0,1,1,0,227814,227814,1,1,1,0,1,233,145,161,0
+89,Cochlear Limited,Private Sector Entities,Cochlear Limited,0,0,0,0,0,0,0,0,0,0,20,234,21,22,0
+90,Colombia,,,24,0,24,9613879.63,0,9613879.63,0,0,0,0,1,143,120,235,0.018116
+91,Community Development Fund,Non Governmental Organizations,Community Development Fund,0,1,1,0,56662,56662,1,1,1,0,1,235,6,212,0
+92,Comoros,Member States - Voluntary Specified,Comoros,27,1,28,8384422,1292024,9676446,0,0,0,0,1,30,6,265,0.066952
+93,Congo,,,41,0,41,15500258.01,0,15500258.01,0,0,0,0,1,12,6,113,0.081707
+94,"Consumers, Health, Agriculture and Food Executive Agency (CHAFEA), European Commission",Intergovernmental Organizations,European Commission,0,11,11,0,235654,235654,2,0.823529,0.892857,0,1,236,120,220,0.027273
+95,Control Chemical (Pty) Ltd,Private Sector Entities,Control Chemical (Pty) Ltd,0,0,0,0,0,0,0,0,0,0,21,237,22,24,0
+96,Cook Islands,,,1,0,1,427680,0,427680,0,0,0,0,1,189,6,25,0
+97,Core Voluntary Contributions,Core Voluntary Contributions,Core Voluntary Contributions,0,131,131,0,151350391.65,151350391.65,2,0.874286,0.928105,0,1,238,6,243,0.010628
+98,Costa Rica,,,18,0,18,5035630.44,0,5035630.44,0,0,0,0,1,142,120,284,0.022876
+99,C�te d'Ivoire,Member States - Voluntary Specified,C�te d'Ivoire,42,1,43,21606692,460173,22066865,0,0,0,0,1,29,145,63,0.03252
+100,COVID-19 Solidarity Fund,COVID-19 Solidarity Fund,COVID-19 Solidarity Fund,0,107,107,0,49213151.42,49213151.42,2,0.783069,0.861486,0,1,239,120,77,0.013842
+101,COVID-19 Strategic Preparedness and Response Plan Member States Pool Fund,COVID-19 Strategic Preparedness and Response Plan Member States Pool Fund,COVID-19 Strategic Preparedness and Response Plan Member States Pool Fund,0,44,44,0,16522805.06,16522805.06,2,0.958333,0.978261,0,1,240,117,321,0
+102,Croatia,,,6,0,6,521337,0,521337,0,0,0,0,1,188,6,220,0
+103,Crown Agents Services Limited,Private Sector Entities,Crown Agents Services Limited,0,0,0,0,0,0,0,0,0,0,22,241,23,28,0
+104,Cuba,,,12,0,12,4422940.21,0,4422940.21,0,0,0,0,1,141,120,251,0.045455
+105,Czechia,Member States - Voluntary Specified,Czechia,9,2,11,1090757,220590.09,1311347.09,1,1,1,0.000004,1,117,6,66,0.154545
+106,D2D Water Solutions B.V.,Private Sector Entities,D2D Water Solutions B.V.,0,0,0,0,0,0,0,0,0,0,23,242,24,30,0
+107,David and Lucile Packard Foundation,Philanthropic Foundations,David and Lucile Packard Foundation,0,1,1,0,21902,21902,1,1,1,0,1,243,145,161,0
+108,"Defense Threat Reduction Agency (DTRA), United States of America",Member States - Voluntary Specified,United States of America,0,19,19,0,4101010,4101010,3,0.558442,0.608527,0,1,244,162,112,0.020468
+109,Democratic People's Republic of Korea,,,10,0,10,12644921.02,0,12644921.02,0,0,0,0,1,187,162,210,0.066667
+110,Democratic Republic of the Congo,Member States - Voluntary Specified,Democratic Republic of the Congo,61,1,62,190069022,8346819,198415841,0,0,0,0,1,3,145,65,0.05847
+111,Denmark,Member States - Voluntary Specified,Denmark,0,0,0,0,0,0,0,0,0,0,24,245,25,32,0
+112,"Department for International Development (DFID), United Kingdom",Member States - Voluntary Specified,United Kingdom of Great Britain and Northern Ireland,0,138,138,0,241364307.6,241364307.6,2,0.948052,0.972603,0,1,246,145,50,0.007511
+113,"Department of Communications, Climate Action and Environment, Ireland",Member States � Voluntary Thematic,Ireland,0,0,0,0,0,0,0,0,0,0,25,247,26,33,0
+114,"Department of Foreign Affairs and Trade (DFAT), Australia",Member States - Voluntary Specified,Australia,0,25,25,0,31514952.86,31514952.86,2,0.962963,0.980769,0,1,248,162,150,0.003333
+115,"Department of Foreign Affairs, Trade and Development (DFATD), Canada",Member States - Voluntary Specified,Canada,0,124,124,0,89018252.21,89018252.21,2,0.976923,0.988189,0,1,249,145,223,0.006425
+116,"Department of Health and Social Care, United Kingdom",Member States - Voluntary Specified,United Kingdom of Great Britain and Northern Ireland,0,3,3,0,5660005,5660005,2,0.636364,0.714286,0,1,250,145,239,0
+117,"Department of Health, Philippines",Member States - Voluntary Specified,Philippines,0,1,1,0,225995.14,225995.14,1,1,1,0,1,251,6,248,0
+118,Desert Rose Consultancy PLC,Private Sector Entities,Desert Rose Consultancy PLC,0,0,0,0,0,0,0,0,0,0,26,252,27,34,0
+119,"Deutsche Gesellschaft f�r Internationale Zusammenarbeit (GIZ), Germany",Member States - Voluntary Specified,Germany,0,10,10,0,3639731,3639731,1,1,1,0,1,253,145,290,0
+120,"DG Education and Culture (EAC), European Commission",Intergovernmental Organizations,European Commission,0,3,3,0,625835,625835,3,0.394636,0.420712,0,1,254,120,66,0.166667
+121,"DG Environment, European Commission",Intergovernmental Organizations,European Commission,0,5,5,0,294913,294913,3,0.611111,0.712121,0,1,255,120,283,0.05
+122,"DG for Employment, Social Affairs and Inclusion, European Commission",Intergovernmental Organizations,European Commission,0,1,1,0,16000,16000,1,1,1,0,1,256,6,165,0
+123,"DG for Health and Food Safety (SANTE), European Commission",Intergovernmental Organizations,European Commission,0,0,0,0,0,0,0,0,0,0,27,257,28,35,0
+124,"DG for Neighbourhood and Enlargement Negotiations (NEAR), European Commission",Intergovernmental Organizations,European Commission,0,18,18,0,106405374,106405374,3,0.534591,0.592157,0,1,258,85,177,0.006536
+125,"DG for Trade, European Commission",Intergovernmental Organizations,European Commission,0,11,11,0,339715,339715,3,0.708333,0.813725,0,1,259,6,277,0.009091
+126,"DG Structural Reform Support, European Commission",Intergovernmental Organizations,European Commission,0,0,0,0,0,0,0,0,0,0,28,260,29,37,0
+127,"Directorate-General for European Civil Protection and Humanitarian Aid Operations (ECHO), European Commission",Intergovernmental Organizations,European Commission,0,34,34,0,111154702,111154702,3,0.583815,0.660066,0,1,261,145,36,0.008913
+128,"Directorate-General for International Partnerships (INTPA), European Commission",Intergovernmental Organizations,European Commission,0,114,114,0,151913309.7,151913309.7,2,0.865385,0.922222,0,1,262,162,105,0.010557
+129,Diversey Inc.,Private Sector Entities,Diversey Inc.,0,0,0,0,0,0,0,0,0,0,29,263,30,38,0
+130,Djibouti,,,16,0,16,9722114,0,9722114,0,0,0,0,1,140,6,40,0.0625
+131,Dominica,,,11,0,11,2195258.21,0,2195258.21,0,0,0,0,1,139,145,195,0.054545
+132,Dominican Republic,,,19,0,19,5559861.54,0,5559861.54,0,0,0,0,1,138,145,251,0.023392
+133,Donna L. Rengh Revocable Trust,Others,Donna L. Rengh Revocable Trust,0,0,0,0,0,0,0,0,0,0,30,264,31,39,0
+134,East African Community,Intergovernmental Organizations,East African Community,0,13,13,0,8112890,8112890,2,0.809524,0.882353,0,1,265,6,71,0.012821
+135,Eastern Mediterranean - Regional Office,,,67,0,67,136473266.01,0,136473266.01,0,0,0,0,1,60,6,76,0.005201
+136,Economic Research Institute for Asean & East Asia (ERIA),Academic Institutions,Economic Research Institute for Asean & East Asia (ERIA),0,0,0,0,0,0,0,0,0,0,31,266,32,41,0
+137,Ecuador,,,21,0,21,7791389.05,0,7791389.05,0,0,0,0,1,137,120,266,0.021429
+138,Edmond J. Safra Foundation,Philanthropic Foundations,Edmond J. Safra Foundation,0,0,0,0,0,0,0,0,0,0,32,267,33,42,0
+139,Egypt,Member States - Voluntary Specified,Egypt,29,1,30,19199382.01,795727,19995109.01,0,0,0,0,1,53,120,289,0.050493
+140,"Eisai Co., Ltd.",Private Sector Entities,"Eisai Co., Ltd.",0,4,4,0,152897,152897,2,0.666667,0.75,0,1,268,117,308,0
+141,El Salvador,,,17,0,17,3734267.04,0,3734267.04,0,0,0,0,1,136,145,166,0.036765
+142,Eleanor Crook Foundation,Philanthropic Foundations,Eleanor Crook Foundation,0,0,0,0,0,0,0,0,0,0,33,269,34,44,0
+143,Elrha,Non Governmental Organizations,Elrha,0,0,0,0,0,0,0,0,0,0,34,270,35,45,0
+144,Elyptol,Private Sector Entities,Elyptol,0,0,0,0,0,0,0,0,0,0,35,271,36,46,0
+145,"Enabel - Belgian Development Agency, Belgium",Member States - Voluntary Specified,Belgium,0,1,1,0,3298826,3298826,1,1,1,0,1,272,162,47,0
+146,End Fund,Non Governmental Organizations,End Fund,0,0,0,0,0,0,0,0,0,0,36,273,37,48,0
+147,Equatorial Guinea,Member States - Voluntary Specified,Equatorial Guinea,23,1,24,8267232,1399534,9666766,0,0,0,0,1,28,6,132,0.061265
+148,Eritrea,Member States - Voluntary Specified,Eritrea,27,1,28,6835456,61644,6897100,0,0,0,0,1,135,162,107,0.051282
+149,Estate of EB Spanjer,Individuals,Estate of EB Spanjer,0,1,1,0,178300,178300,1,1,1,0,1,274,6,52,0
+150,Estonia,,,7,0,7,403266,0,403266,0,0,0,0,1,116,6,220,0.095238
+151,Eswatini,Member States - Voluntary Specified,Eswatini,30,0,30,8825104,0,8825104,0,0,0,0,1,27,120,60,0.016092
+152,Ethiopia,,,59,0,59,109256472,0,109256472,0,0,0,0,1,59,145,161,0.008182
+153,Europe - Regional Office,,,112,0,112,177319125.99,0,177319125.99,0,0,0,0,1,77,120,66,0.015846
+154,European and Developing Countries Clinical Trials Partnership,Partnerships,European and Developing Countries Clinical Trials Partnership,0,1,1,0,7528,7528,1,1,1,0,1,275,6,52,0
+155,European Hearing Instrument Manufacturers Association (EHIMA),Private Sector Entities,European Hearing Instrument Manufacturers Association (EHIMA),0,0,0,0,0,0,0,0,0,0,37,276,38,53,0
+156,European Investment Bank,Development Banks and Funds,European Investment Bank,0,1,1,0,315283,315283,1,1,1,0,1,277,165,211,0
+157,European Respiratory Society (ERS),Non Governmental Organizations,European Respiratory Society (ERS),0,1,1,0,44248,44248,1,1,1,0,1,278,120,66,0
+158,European Society for Medical Oncology,Non Governmental Organizations,European Society for Medical Oncology,0,0,0,0,0,0,0,0,0,0,38,279,39,54,0
+159,Expanded Special Project for Elimination of Neglected Tropical Diseases (ESPEN),Partnerships,Expanded Special Project for Elimination of Neglected Tropical Diseases (ESPEN),0,2,2,0,184948,184948,1,1,1,0,1,280,6,52,0
+160,Expertise France,Member States - Voluntary Specified,France,0,0,0,0,0,0,0,0,0,0,39,281,40,55,0
+161,External Quality Assurance Assessment Scheme (EQAAS) Fees,Private Sector Entities,External Quality Assurance Assessment Scheme (EQAAS) Fees,0,0,0,0,0,0,0,0,0,0,40,282,41,56,0
+162,Family Health International (FHI),Non Governmental Organizations,Family Health International (FHI),0,0,0,0,0,0,0,0,0,0,41,283,42,57,0
+163,Famine Relief Fund,Philanthropic Foundations,Famine Relief Fund,0,1,1,0,3347383,3347383,1,1,1,0,1,284,165,101,0
+164,"Federal Foreign Office, Germany",Member States - Voluntary Specified,Germany,0,60,60,0,111023466,111023466,2,0.983871,0.991803,0,1,285,165,271,0.004237
+165,"Federal Institute For Drugs and Medical Devices, Germany",Member States - Voluntary Specified,Germany,0,0,0,0,0,0,0,0,0,0,42,286,43,58,0
+166,"Federal Ministry for Economic Cooperation and Development (BMZ), Germany",Member States - Voluntary Specified,Germany,0,56,56,0,30211939.38,30211939.38,2,0.982759,0.991228,0,1,287,117,79,0.004545
+167,"Federal Ministry for the Environment, Nature Conservation and Nuclear Safety, Germany",Member States - Voluntary Specified,Germany,0,10,10,0,301062,301062,1,1,1,0,1,288,120,235,0
+168,"Federal Office of Public Health (FOPH), Switzerland",Member States - Voluntary Specified,Switzerland,0,1,1,0,40792,40792,1,1,1,0,1,289,120,66,0
+169,"Federal Public Service of Foreign Affairs, Foreign Trade and Development Cooperation, Belgium",Member States - Voluntary Specified,Belgium,0,9,9,0,1211201.24,1211201.24,1,1,1,0,1,290,145,193,0
+170,FIA Foundation,Non Governmental Organizations,FIA Foundation,0,3,3,0,40047,40047,2,0.714286,0.8,0,1,291,165,322,0
+171,Fiji,,,4,0,4,864290,0,864290,0,0,0,0,1,186,6,185,0
+172,Finland,Member States - Voluntary Specified,Finland,0,3,3,0,349837.69,349837.69,1,1,1,0,1,292,120,66,0
+173,Fondation Botnar (FB),Philanthropic Foundations,Fondation Botnar (FB),0,3,3,0,51000,51000,1,1,1,0,1,293,6,66,0
+174,Fondation d'Entreprise Sanofi Espoir,Private Sector Entities,Fondation d'Entreprise Sanofi Espoir,0,0,0,0,0,0,0,0,0,0,43,294,44,61,0
+175,Fondation d'Harcourt,Philanthropic Foundations,Fondation d'Harcourt,0,1,1,0,14000,14000,1,1,1,0,1,295,6,165,0
+176,Fonto De Vivo Sas,Private Sector Entities,Fonto De Vivo Sas,0,0,0,0,0,0,0,0,0,0,44,296,45,62,0
+177,Food and Agriculture Organization (FAO),United Nations Organizations,Food and Agriculture Organization (FAO),0,1,1,0,614368,614368,1,1,1,0,1,297,167,332,0
+178,"Food and Drug Administration (USFDA), United States of America",Member States - Voluntary Specified,United States of America,0,9,9,0,743717,743717,2,0.846154,0.909091,0,1,298,162,267,0
+179,"Food Standards Agency, United Kingdom",Member States - Voluntary Specified,United Kingdom of Great Britain and Northern Ireland,0,0,0,0,0,0,0,0,0,0,45,299,46,64,0
+180,"Foreign, Commonwealth & Development Office (FCDO), United Kingdom",Member States - Voluntary Specified,United Kingdom of Great Britain and Northern Ireland,0,57,57,0,38756535,38756535,3,0.673333,0.773927,0,1,300,6,183,0.012218
+181,Foundation for Innovative New Diagnostics (FIND),Non Governmental Organizations,Foundation for Innovative New Diagnostics (FIND),0,2,2,0,336777,336777,1,1,1,0,1,301,145,65,0
+182,Fountain House Inc.,Non Governmental Organizations,Fountain House Inc.,0,2,2,0,48000,48000,2,0.75,0.833333,0,1,302,120,66,0.5
+183,France,Member States - Voluntary Specified,France,0,10,10,0,3774268.2,3774268.2,1,1,1,0,1,303,147,135,0.011111
+184,Fred Hollows Foundation (FHF),Non Governmental Organizations,Fred Hollows Foundation (FHF),0,3,3,0,72522,72522,1,1,1,0,1,304,162,140,0
+185,French Polynesia,Local Governments,French Polynesia,1,0,1,36000,0,36000,0,0,0,0,1,185,6,25,0
+186,Fundaci�n Anesvad,Non Governmental Organizations,Fundaci�n Anesvad,0,0,0,0,0,0,0,0,0,0,46,305,47,67,0
+187,"Fundacion Mundo Sano, Spain",Private Sector Entities,"Fundacion Mundo Sano, Spain",0,0,0,0,0,0,0,0,0,0,47,306,48,68,0
+188,Fundaci�n Probitas,Private Sector Entities,Fundaci�n Probitas,0,0,0,0,0,0,0,0,0,0,48,307,49,69,0
+189,Gabon,,,31,0,31,17041578.01,0,17041578.01,0,0,0,0,1,184,94,145,0.012903
+190,Gambia,,,22,0,22,6326180,0,6326180,0,0,0,0,1,134,145,254,0.019481
+191,"Gates Ventures, LLC",Private Sector Entities,"Gates Ventures, LLC",0,1,1,0,45000,45000,1,1,1,0,1,308,6,165,0
+192,GAVI Alliance,Partnerships,GAVI Alliance,0,109,109,0,346249551.7,346249551.7,2,0.929134,0.961864,0,1,309,117,274,0.006201
+193,"Generalitat de Catalunya, Spain",Local Governments,"Generalitat de Catalunya, Spain",0,9,9,0,3658716,3658716,1,1,1,0,1,310,120,121,0.027778
+194,Georgia,,,24,0,24,11994729,0,11994729,0,0,0,0,1,112,85,218,0.052536
+195,Germany,Member States - Voluntary Specified,Germany,0,156,156,0,503467837.22,503467837.22,2,0.993671,0.996815,0,1,311,120,125,0.009305
+196,Ghana,,,50,0,50,30701506,0,30701506,0,0,0,0,1,26,145,138,0.006531
+197,Gharda Chemicals Limited,Private Sector Entities,Gharda Chemicals Limited,0,0,0,0,0,0,0,0,0,0,49,312,50,70,0
+198,Gilead Sciences Inc.,Private Sector Entities,Gilead Sciences Inc.,0,17,17,0,2193725,2193725,2,0.793103,0.869565,0,1,313,6,107,0.014706
+199,GlaxoSmithKline (GSK),Private Sector Entities,GlaxoSmithKline (GSK),0,15,15,0,1180519,1180519,1,1,1,0,1,314,6,302,0.004762
+200,Global Antibiotic Research & Development Partnership (GARDP),Non Governmental Organizations,Global Antibiotic Research & Development Partnership (GARDP),0,0,0,0,0,0,0,0,0,0,50,315,51,72,0
+201,Global Disability Innovation Hub,Academic Institutions,Global Disability Innovation Hub,0,0,0,0,0,0,0,0,0,0,51,316,52,73,0
+202,"Global Fund to Fight AIDS, Tuberculosis and Malaria (GFATM)",Partnerships,"Global Fund to Fight AIDS, Tuberculosis and Malaria (GFATM)",0,67,67,0,9942626.32,9942626.32,3,0.679348,0.766667,0,1,317,6,246,0.016961
+203,Gojo Industries Inc.,Private Sector Entities,Gojo Industries Inc.,0,0,0,0,0,0,0,0,0,0,52,318,53,74,0
+204,"Gongali Model Co. Ltd, Tanzania",Private Sector Entities,"Gongali Model Co. Ltd, Tanzania",0,0,0,0,0,0,0,0,0,0,53,319,54,75,0
+205,"Government of Flanders, Belgium",Local Governments,"Government of Flanders, Belgium",0,2,2,0,1338900,1338900,1,1,1,0,1,320,147,52,0
+206,Governors of The University of Calgary,Academic Institutions,Governors of The University of Calgary,0,1,1,0,17699,17699,1,1,1,0,1,321,6,76,0
+207,Greece,Member States � Voluntary Thematic,Greece,9,1,10,3179495,686065,3865560,1,1,1,0.000001,1,173,120,220,0.133333
+208,Grenada,,,9,0,9,878768.77,0,878768.77,0,0,0,0,1,133,120,306,0.069444
+209,Guam,,,1,0,1,21527,0,21527,0,0,0,0,1,183,6,25,0
+210,Guarany Industria e Commercio,Private Sector Entities,Guarany Industria e Commercio,0,0,0,0,0,0,0,0,0,0,54,322,55,78,0
+211,Guatemala,,,17,0,17,9590685.31,0,9590685.31,0,0,0,0,1,132,120,280,0.029412
+212,Guinea,Member States - Voluntary Specified,Guinea,47,1,48,25852373,1677067,27529440,0,0,0,0,1,182,145,318,0.028215
+213,Guinea-Bissau,Member States - Voluntary Specified,Guinea-Bissau,31,1,32,11224737,2559799,13784536,0,0,0,0,1,25,162,159,0.046237
+214,Guyana,,,18,0,18,4426548.25,0,4426548.25,0,0,0,0,1,131,6,195,0.03268
+215,Haiti,,,18,0,18,13002980.03,0,13002980.03,0,0,0,0,1,130,120,200,0.029412
+216,Harvard School of Public Health (HSPH),Academic Institutions,Harvard School of Public Health (HSPH),0,0,0,0,0,0,0,0,0,0,55,323,56,80,0
+217,"Health Insurance Review and Assessment Service, Republic of Korea (HIRA)",Member States - Voluntary Specified,Republic of Korea,0,0,0,0,0,0,0,0,0,0,56,324,57,81,0
+218,Hearing Conservation Council (HCC),Non Governmental Organizations,Hearing Conservation Council (HCC),0,1,1,0,2096,2096,3,0.390805,0.410131,0,1,325,120,146,0
+219,Hepatitis Fund,Philanthropic Foundations,Hepatitis Fund,0,0,0,0,0,0,0,0,0,0,57,326,58,82,0
+220,Hilfsaktion Noma e.V.,Non Governmental Organizations,Hilfsaktion Noma e.V.,0,13,13,0,869892,869892,2,0.882353,0.933333,0,1,327,6,269,0.019231
+221,Hindustan Syringes & Medical Devices Ltd. (HMD),Private Sector Entities,Hindustan Syringes & Medical Devices Ltd. (HMD),0,0,0,0,0,0,0,0,0,0,58,328,59,83,0
+222,"Holy See, Rome",Others,"Holy See, Rome",0,1,1,0,104411,104411,1,1,1,0,1,329,165,206,0
+223,Honduras,,,22,0,22,10202123.12,0,10202123.12,0,0,0,0,1,129,120,139,0.021645
+224,"Hong Kong, SAR, People�s Republic of China",Local Governments,"Hong Kong, SAR, People�s Republic of China",0,0,0,0,0,0,0,0,0,0,59,330,60,84,0
+225,Hovid Berhad,Private Sector Entities,Hovid Berhad,0,0,0,0,0,0,0,0,0,0,60,331,61,85,0
+226,Hungary,,,5,0,5,975223,0,975223,0,0,0,0,1,115,6,220,0.15
+227,ICTRP Access Fee,Others,ICTRP Access Fee,0,0,0,0,0,0,0,0,0,0,61,332,62,87,0
+228,Ikea Foundation,Private Sector Entities,Ikea Foundation,0,0,0,0,0,0,0,0,0,0,62,333,63,88,0
+229,Imperial College of Science Technology and Medicine,Academic Institutions,Imperial College of Science Technology and Medicine,0,0,0,0,0,0,0,0,0,0,63,334,64,89,0
+230,India,Member States - Voluntary Specified,India,45,5,50,148686788,38202941.9,186889729.9,1,1,1,0.00005,1,181,117,110,0.068878
+231,Indonesia,Member States - Voluntary Specified,Indonesia,24,1,25,47833992.99,4124574,51958566.99,0,0,0,0,1,180,162,308,0.041667
+232,"Institut National de la Sant� et la Recherche Medicale (INSERM), France",Member States - Voluntary Specified,France,0,5,5,0,173062,173062,3,0.484076,0.510965,0,1,335,120,300,0
+233,"Institut National du Cancer (INCa), France",Member States - Voluntary Specified,France,0,0,0,0,0,0,0,0,0,0,64,336,65,90,0
+234,International Atomic Energy Agency (IAEA),United Nations Organizations,International Atomic Energy Agency (IAEA),0,0,0,0,0,0,0,0,0,0,65,337,66,91,0
+235,International Company for Medical Necessities,Private Sector Entities,International Company for Medical Necessities,0,0,0,0,0,0,0,0,0,0,66,338,67,92,0
+236,International Development Association (IDA),Development Banks and Funds,World Bank,0,2,2,0,111454832,111454832,1,1,1,0,1,339,165,101,0
+237,International Development Law Organization,Intergovernmental Organizations,International Development Law Organization,0,5,5,0,291743,291743,2,0.666667,0.75,0,1,340,167,225,0
+238,International Federation of Anthroposophic Medical Associations,Non Governmental Organizations,International Federation of Anthroposophic Medical Associations,0,0,0,0,0,0,0,0,0,0,67,341,68,93,0
+239,International League against Epilepsy,Non Governmental Organizations,International League against Epilepsy,0,0,0,0,0,0,0,0,0,0,68,342,69,94,0
+240,International Medical Corps,Non Governmental Organizations,International Medical Corps,0,0,0,0,0,0,0,0,0,0,69,343,70,95,0
+241,International Organization for Migration (IOM),Intergovernmental Organizations,International Organization for Migration (IOM),0,5,5,0,2339212,2339212,2,0.666667,0.75,0,1,344,147,307,0
+242,International Society of Audiology (AUDI),Non Governmental Organizations,International Society of Audiology (AUDI),0,0,0,0,0,0,0,0,0,0,70,345,71,96,0
+243,International Telecommunication Union (ITU),United Nations Organizations,International Telecommunication Union (ITU),0,2,2,0,118617,118617,2,0.75,0.833333,0,1,346,145,305,0
+244,International Union against Tuberculosis and Lung Disease (IUATLD),Non Governmental Organizations,International Union against Tuberculosis and Lung Disease (IUATLD),0,0,0,0,0,0,0,0,0,0,71,347,72,98,0
+245,International Vaccine Institute (IVI),Non Governmental Organizations,International Vaccine Institute (IVI),0,0,0,0,0,0,0,0,0,0,72,348,73,99,0
+246,International Water Association (IWA),Non Governmental Organizations,International Water Association (IWA),0,0,0,0,0,0,0,0,0,0,73,349,74,100,0
+247,Iran (Islamic Republic of),Member States - Voluntary Specified,Iran (Islamic Republic of),32,1,33,90765107.03,49498890,140263997.03,0,0,0,0,1,176,165,206,0.034274
+248,Iraq,,,32,0,32,62816135.99,0,62816135.99,0,0,0,0,1,175,147,288,0.003024
+249,Irish Aid,Member States - Voluntary Specified,Ireland,0,10,10,0,8065627,8065627,2,0.777778,0.857143,0,1,350,167,47,0.011111
+250,Islamic Development Bank,Development Banks and Funds,Islamic Development Bank,0,2,2,0,112007,112007,1,1,1,0,1,351,6,239,0
+251,Isle of Man,Local Governments,Isle of Man,0,2,2,0,1045684,1045684,1,1,1,0,1,352,6,158,0
+252,Israel,Member States - Voluntary Specified,Israel,0,2,2,0,81788,81788,1,1,1,0,1,353,85,66,0
+253,"Istituto Nazionale per la promozione della salute delle popolazioni Migranti e per il contrasto delle malattie della Povert� (INMP), Italy",Member States - Voluntary Specified,Italy,0,0,0,0,0,0,0,0,0,0,74,354,75,104,0
+254,Italy,Member States - Voluntary Specified,Italy,1,7,8,1199870,2876566,4076436,3,0.403101,0.442308,0.000202,1,174,120,300,0.142857
+255,Jamaica,,,8,0,8,3165013.4,0,3165013.4,0,0,0,0,1,128,120,219,0.107143
+256,Japan,Member States - Voluntary Specified,Japan,0,41,41,0,69652597.68,69652597.68,3,0.669492,0.757384,0,1,355,162,228,0.020122
+257,Japan Liaison of Oriental Medicine (JLOM),Non Governmental Organizations,Japan Liaison of Oriental Medicine (JLOM),0,0,0,0,0,0,0,0,0,0,75,356,76,106,0
+258,Japanese International Cooperation Agency (JICA),Member States - Voluntary Specified,Japan,0,2,2,0,6328477,6328477,1,1,1,0,1,357,145,241,0
+259,Jhpiego Corporation,Non Governmental Organizations,Jhpiego Corporation,0,0,0,0,0,0,0,0,0,0,76,358,77,108,0
+260,JMI Syringes & Medical Devices Ltd.,Private Sector Entities,JMI Syringes & Medical Devices Ltd.,0,0,0,0,0,0,0,0,0,0,77,359,78,109,0
+261,John D. and Catherine T. Macarthur Foundation,Philanthropic Foundations,John D. and Catherine T. Macarthur Foundation,0,1,1,0,393883,393883,2,0.555556,0.6,0,1,360,117,110,0
+262,Johnson & Johnson Services Inc.,Private Sector Entities,Johnson & Johnson,0,0,0,0,0,0,0,0,0,0,78,361,79,111,0
+263,"Johnson and Johnson Family of Companies Contribution Fund, Inc.",Private Sector Entities,"Johnson and Johnson Family of Companies Contribution Fund, Inc.",0,2,2,0,90302,90302,1,1,1,0,1,362,162,165,0
+264,Joint United Nations Programme on HIV/AIDS (UNAIDS),United Nations Organizations,Joint United Nations Programme on HIV/AIDS (UNAIDS),0,83,83,0,12982892.88,12982892.88,2,0.867257,0.923469,0,1,363,6,310,0.009257
+265,Jordan,,,19,0,19,32014528,0,32014528,0,0,0,0,1,172,85,199,0.035088
+266,"Kanagawa Prefecture, Japan",Local Governments,"Kanagawa Prefecture, Japan",0,1,1,0,23506,23506,1,1,1,0,1,364,162,320,0
+267,Kazakhstan,Member States - Voluntary Specified,Kazakhstan,20,6,26,10566867,3338563,13905430,2,0.875,0.928571,0.000109,1,114,120,103,0.127692
+268,Kenya,Member States - Voluntary Specified,Kenya,49,5,54,34156237,3612026.96,37768263.96,1,1,1,0.000056,1,179,6,222,0.059748
+269,"KfW Entwicklungsbank, Germany",Member States - Voluntary Specified,Germany,0,7,7,0,84182935,84182935,1,1,1,0,1,365,117,23,0.02381
+270,King Baudouin Foundation United States (KBFUS),Philanthropic Foundations,King Baudouin Foundation United States (KBFUS),0,12,12,0,3037383,3037383,2,0.875,0.928571,0,1,366,6,129,0.022727
+271,"King Salman Humanitarian Aid & Relief Center, KSrelief",Member States - Voluntary Specified,Saudi Arabia,0,21,21,0,50523641,50523641,3,0.551546,0.596573,0,1,367,165,212,0.040476
+272,King's College London,Academic Institutions,King's College London,0,0,0,0,0,0,0,0,0,0,79,368,80,115,0
+273,Kiribati,,,8,0,8,1319638,0,1319638,0,0,0,0,1,178,6,330,0
+274,KNCV Tuberculosis Foundation,Philanthropic Foundations,KNCV Tuberculosis Foundation,0,2,2,0,93902,93902,1,1,1,0,1,369,167,161,0
+275,"Kobe Group (Hyogo Prefecture Kobe Chamber of Commerce and Industry and Kobe Steel, Ltd.)",Private Sector Entities,"Kobe Group (Hyogo Prefecture Kobe Chamber of Commerce and Industry and Kobe Steel, Ltd.)",0,0,0,0,0,0,0,0,0,0,80,370,81,116,0
+276,Korea Centers for Disease Control and Prevention,Member States - Voluntary Specified,Republic of Korea,0,11,11,0,3855328,3855328,3,0.542373,0.583333,0,1,371,162,330,0.045455
+277,Korea International Cooperation Agency (KOICA),Member States - Voluntary Specified,Republic of Korea,0,22,22,0,17401572.82,17401572.82,2,0.892857,0.94,0,1,372,162,199,0.006494
+278,Korea Suicide Prevention Center,Member States - Voluntary Specified,Republic of Korea,0,0,0,0,0,0,0,0,0,0,81,373,82,117,0
+279,Korean Foundation for International Healthcare - Dr Lee Jong-Wook Memorial Fund (KOFIH),Non Governmental Organizations,Korean Foundation for International Healthcare - Dr Lee Jong-Wook Memorial Fund (KOFIH),0,4,4,0,986911,986911,2,0.833333,0.9,0,1,374,162,305,0
+280,Kuwait,Member States - Voluntary Specified,Kuwait,5,15,20,961432,80890006,81851438,4,0.311475,0.380848,0.000116,1,177,165,238,0.181287
+281,Kuwait Fund for Arab Economic Development (KFAED),Member States - Voluntary Specified,Kuwait,0,3,3,0,4177195,4177195,1,1,1,0,1,375,85,101,0
+282,Kyrgyzstan,,,31,0,31,13889181,0,13889181,0,0,0,0,1,111,120,290,0.024731
+283,"L�Office National de Nutrition, (ONN) Madagascar",Member States - Voluntary Specified,Madagascar,0,1,1,0,75000,75000,1,1,1,0,1,376,117,158,0
+284,"La M�tropole Grand Lyon, France",Local Governments,"La M�tropole Grand Lyon, France",0,0,0,0,0,0,0,0,0,0,82,377,83,119,0
+285,Laerdal Foundation,Philanthropic Foundations,Laerdal Foundation,0,0,0,0,0,0,0,0,0,0,83,378,84,120,0
+286,Lao People's Democratic Republic,Member States - Voluntary Specified,Lao People's Democratic Republic,43,1,44,31535801.03,323134,31858935.03,0,0,0,0,1,171,162,127,0.032669
+287,Latter-Day Saints (LDS) Charities,Non Governmental Organizations,Latter-Day Saints (LDS) Charities,0,2,2,0,1101226,1101226,1,1,1,0,1,379,145,161,0
+288,Latvia,,,6,0,6,907442,0,907442,0,0,0,0,1,110,6,220,0.133333
+289,Lebanon,Member States - Voluntary Specified,Lebanon,27,1,28,92881220,13396514,106277734,0,0,0,0,1,40,85,307,0.041311
+290,Lesotho,Member States - Voluntary Specified,Lesotho,32,1,33,8955803,152254,9108057,0,0,0,0,1,24,120,249,0.045363
+291,Liberia,Member States - Voluntary Specified,Liberia,45,1,46,23433489.03,2564985,25998474.03,0,0,0,0,1,23,6,217,0.029293
+292,Libya,Member States - Voluntary Specified,Libya,21,1,22,36303348.99,178689,36482037.99,0,0,0,0,1,170,165,147,0.059524
+293,Lillian Lincoln Foundation,Philanthropic Foundations,Lillian Lincoln Foundation,0,2,2,0,45000,45000,1,1,1,0,1,380,6,165,0
+294,Lions Clubs International Foundation,Philanthropic Foundations,Lions Clubs International Foundation,0,0,0,0,0,0,0,0,0,0,84,381,86,124,0
+295,Lithuania,,,6,0,6,381572,0,381572,0,0,0,0,1,109,6,311,0.1
+296,London School of Hygiene and Tropical Medicine,Academic Institutions,London School of Hygiene and Tropical Medicine,0,0,0,0,0,0,0,0,0,0,85,382,87,126,0
+297,Lux-Development (Societ� Luxembourgeoise pour la Cooperation Internationale),Member States - Voluntary Specified,Luxembourg,0,1,1,0,947410,947410,1,1,1,0,1,383,162,127,0
+298,Luxembourg,Member States - Voluntary Specified,Luxembourg,0,9,9,0,3065994,3065994,2,0.736842,0.821429,0,1,384,145,135,0
+299,"Macao, SAR, People�s Republic of China",Local Governments,"Macao, SAR, People�s Republic of China",0,1,1,0,125000,125000,1,1,1,0,1,385,120,268,0
+300,Madagascar,Member States - Voluntary Specified,Madagascar,44,1,45,25859784.03,3735454,29595238.03,0,0,0,0,1,36,117,158,0.022727
+301,"Mahidol University, Thailand",Academic Institutions,"Mahidol University, Thailand",0,0,0,0,0,0,0,0,0,0,86,386,88,130,0
+302,Malawi,,,39,0,39,14936926,0,14936926,0,0,0,0,1,22,120,325,0.009447
+303,Malaysia,Member States - Voluntary Specified,Malaysia,15,2,17,6740528.01,57.68,6740585.69,1,1,1,0.000003,1,169,6,142,0.091912
+304,Maldives,,,14,0,14,12184997,0,12184997,0,0,0,0,1,168,120,228,0
+305,Mali,Member States - Voluntary Specified,Mali,47,1,48,24132997,653028,24786025,0,0,0,0,1,21,145,286,0.03469
+306,Malta,Member States - Voluntary Specified,Malta,1,1,2,10000,11021,21021,1,1,1,0,1,167,145,266,0.5
+307,Marathon EG Production Ltd.,Private Sector Entities,Marathon EG Production Ltd.,0,1,1,0,141434,141434,1,1,1,0,1,387,6,132,0
+308,Marshall Islands,,,4,0,4,407888,0,407888,0,0,0,0,1,166,6,228,0
+309,Mauritania,Member States - Voluntary Specified,Mauritania,29,1,30,14317861,1542938,15860799,0,0,0,0,1,127,120,234,0.061576
+310,Mauritius,,,25,0,25,5359872,0,5359872,0,0,0,0,1,7,6,277,0.016667
+311,Mectizan Donation Programme (MDP),Private Sector Entities,Mectizan Donation Programme (MDP),0,0,0,0,0,0,0,0,0,0,87,388,89,136,0
+312,Medicines Development for Global Health Limited (MDGH),Private Sector Entities,Medicines Development for Global Health Limited (MDGH),0,0,0,0,0,0,0,0,0,0,88,389,90,137,0
+313,Mental Health Commission Of Canada (MHCC),Non Governmental Organizations,Mental Health Commission Of Canada (MHCC),0,1,1,0,25000,25000,1,1,1,0,1,390,6,165,0
+314,"Merck & Co., Inc.",Private Sector Entities,"Merck & Co., Inc.",0,1,1,0,115044,115044,1,1,1,0,1,391,117,181,0
+315,Merck KGAA,Private Sector Entities,Merck KGAA,0,2,2,0,25000,25000,1,1,1,0,1,392,162,320,0
+316,"Merck Sharp and Dohme Corp.,",Private Sector Entities,"Merck & Co., Inc.",0,2,2,0,136149,136149,1,1,1,0,1,393,117,181,0
+317,"Met Office, United Kingdom",Member States � Voluntary Thematic,United Kingdom of Great Britain and Northern Ireland,0,1,1,0,27912,27912,1,1,1,0,1,394,120,66,0
+318,Mexico,Member States - Voluntary Specified,Mexico,20,2,22,5736808.49,23.08,5736831.57,1,1,1,0.000006,1,165,6,287,0.058442
+319,Micronesia,,,9,0,9,1614361,0,1614361,0,0,0,0,1,164,6,140,0
+320,"Ministry for Europe and Foreign Affairs (MEAE), France",Member States � Voluntary Thematic,France,0,35,35,0,11830622.94,11830622.94,5,0.302663,0.468,0,1,395,6,147,0.010924
+321,"Ministry for Foreign Affairs, Iceland",Member States - Voluntary Specified,Iceland,0,0,0,0,0,0,0,0,0,0,89,396,91,141,0
+322,"Ministry for Housing, Spatial Planning and the Environment (VROM), Netherlands",Member States - Voluntary Specified,Netherlands,0,2,2,0,75081,75081,2,0.75,0.833333,0,1,397,120,66,0.5
+323,"Ministry Of Agriculture, Forestry And Fisheries, Japan (MAFF)",Member States - Voluntary Specified,Japan,0,0,0,0,0,0,0,0,0,0,90,398,92,143,0
+324,"Ministry of Ayurveda, Yoga & Naturopathy, Unani, Siddha and Homeopathy, India (AYUSH)",Member States - Voluntary Specified,India,0,1,1,0,42871,42871,1,1,1,0,1,399,6,248,0
+325,"Ministry of Civil Defence, Emergencies and Disaster Relief, Russian Federation",Member States - Voluntary Specified,Russian Federation,0,0,0,0,0,0,0,0,0,0,91,400,93,144,0
+326,"Ministry of Development Cooperation and Humanitarian Affairs, Luxembourg",Member States - Voluntary Specified,Luxembourg,0,22,22,0,1719156.67,1719156.67,3,0.818182,0.901235,0,1,401,162,326,0.006494
+327,"Ministry of Economy and Finance, Gabon",Member States - Voluntary Specified,Gabon,0,1,1,0,6502517,6502517,1,1,1,0,1,402,94,145,0
+328,"Ministry of Environment (MEV), Republic of Korea",Member States - Voluntary Specified,Republic of Korea,0,4,4,0,3473347,3473347,1,1,1,0,1,403,162,311,0
+329,"Ministry of Environmental Protection, Republic of Serbia",Member States - Voluntary Specified,Serbia,0,1,1,0,5287,5287,1,1,1,0,1,404,120,66,0
+330,Ministry of Finance Libya,Member States - Voluntary Specified,Libya,0,1,1,0,457143,457143,1,1,1,0,1,405,165,147,0
+331,"Ministry of Finance, Democratic Republic of the Congo",Member States - Voluntary Specified,Democratic Republic of the Congo,0,1,1,0,1224189,1224189,1,1,1,0,1,406,145,65,0
+332,"Ministry of Finance, Russian Federation",Member States - Voluntary Specified,Russian Federation,0,20,20,0,2951540,2951540,3,0.563758,0.617063,0,1,407,120,86,0.023684
+333,"Ministry of Finance, Saudi Arabia",Member States - Voluntary Specified,Saudi Arabia,0,43,43,0,17414762.63,17414762.63,3,0.604938,0.704082,0,1,408,162,133,0.011628
+334,"Ministry Of Food And Drug Safety, Republic of Korea",Member States - Voluntary Specified,Republic of Korea,0,10,10,0,2339095,2339095,1,1,1,0,1,409,162,166,0.011111
+335,"Ministry of Foreign Affairs & International Cooperation, United Arab Emirates",Member States - Voluntary Specified,United Arab Emirates,0,1,1,0,4344684,4344684,1,1,1,0,1,410,165,101,0
+336,"Ministry of Foreign Affairs and Cooperation, Spain",Member States - Voluntary Specified,Spain,0,0,0,0,0,0,0,0,0,0,92,411,95,149,0
+337,"Ministry of Foreign Affairs and Trade - Aid Programme, New Zealand",Member States - Voluntary Specified,New Zealand,0,5,5,0,7293058,7293058,1,1,1,0,1,412,162,330,0
+338,Ministry of Foreign Affairs of the Czech Republic,Member States - Voluntary Specified,Czechia,0,1,1,0,81463,81463,1,1,1,0,1,413,165,211,0
+339,"Ministry of Foreign Affairs, China (People's Republic of)",Member States - Voluntary Specified,China,0,1,1,0,93458,93458,1,1,1,0,1,414,162,134,0
+340,"Ministry of Foreign Affairs, Denmark",Member States - Voluntary Specified,Denmark,0,52,52,0,12272972,12272972,2,0.964286,0.981481,0,1,415,167,236,0.005656
+341,"Ministry of Foreign Affairs, Estonia",Member States - Voluntary Specified,Estonia,0,0,0,0,0,0,0,0,0,0,93,416,96,151,0
+342,"Ministry of Foreign Affairs, Finland",Member States - Voluntary Specified,Finland,0,0,0,0,0,0,0,0,0,0,94,417,97,152,0
+343,"Ministry of Foreign Affairs, Ireland",Member States - Voluntary Specified,Ireland,0,2,2,0,816015,816015,1,1,1,0,1,418,145,161,0
+344,"Ministry of Foreign Affairs, Italy",Member States - Voluntary Specified,Italy,0,21,21,0,23853182,23853182,2,0.92,0.956522,0,1,419,165,40,0.004762
+345,"Ministry of Foreign Affairs, Japan",Member States - Voluntary Specified,Japan,0,23,23,0,27323289,27323289,2,0.848485,0.910714,0,1,420,147,273,0.001976
+346,"Ministry of Foreign Affairs, Monaco",Member States � Voluntary Thematic,Monaco,0,10,10,0,1255349,1255349,1,1,1,0,1,421,6,158,0
+347,"Ministry of Foreign Affairs, Netherlands",Member States - Voluntary Specified,Netherlands,0,41,41,0,5722859.95,5722859.95,2,0.669421,0.753086,0,1,422,162,309,0.015854
+348,"Ministry of Foreign Affairs, Norway",Member States - Voluntary Specified,Norway,0,48,48,0,35119687,35119687,3,0.643312,0.732673,0,1,423,147,167,0.010195
+349,"Ministry of Foreign Affairs, Portugal",Member States - Voluntary Specified,Portugal,0,0,0,0,0,0,0,0,0,0,95,424,98,157,0
+350,"Ministry of Foreign Affairs, Republic of Korea",Member States - Voluntary Specified,Republic of Korea,0,6,6,0,4160034,4160034,3,0.484472,0.514957,0,1,425,145,211,0
+351,"Ministry of Foreign Affairs, Romania",Member States - Voluntary Specified,Romania,0,1,1,0,5263,5263,1,1,1,0,1,426,147,208,0
+352,"Ministry of Foreign Affairs, Russian Federation",Member States - Voluntary Specified,Russian Federation,0,1,1,0,2803738,2803738,1,1,1,0,1,427,147,227,0
+353,"Ministry Of Foreign Affairs, Sweden",Member States - Voluntary Specified,Sweden,0,22,22,0,5338623,5338623,2,0.892857,0.94,0,1,428,6,18,0.017316
+354,"Ministry Of Foreign Affairs, Thailand",Member States - Voluntary Specified,Thailand,0,1,1,0,46729,46729,1,1,1,0,1,429,120,252,0
+355,"Ministry Of Foreign Affairs, T�rkiye",Member States - Voluntary Specified,Turkey,0,1,1,0,37383,37383,1,1,1,0,1,430,145,161,0
+356,"Ministry of Foreign and European Affairs, Croatia",Member States - Voluntary Specified,Croatia,0,2,2,0,245382,245382,1,1,1,0,1,431,165,211,0
+357,"Ministry of Foreign and European Affairs, France",Member States - Voluntary Specified,France,0,0,0,0,0,0,0,0,0,0,96,432,99,162,0
+358,"Ministry of Higher Education, Research and Innovation (MESRI), France",Member States - Voluntary Specified,France,0,1,1,0,52374.86,52374.86,1,1,1,0,1,433,6,76,0
+359,"Ministry of Human Capacities, Hungary",Member States - Voluntary Specified,Hungary,0,3,3,0,8002.01,8002.01,1,1,1,0,1,434,120,66,0
+360,"Ministry of Infrastructure and Water Management, Netherlands",Member States - Voluntary Specified,Netherlands,0,1,1,0,50975.39,50975.39,1,1,1,0,1,435,120,66,0
+361,Miscellaneous,Miscellaneous,Miscellaneous,0,65,65,0,36410340.14,36410340.14,3,0.673913,0.760753,0,1,436,6,229,0.012981
+362,Miscellaneous,Others,Miscellaneous,0,0,0,0,0,0,0,0,0,0,97,437,100,163,0
+363,Miscellaneous Fees for International Nonproprietary Names (INN),Private Sector Entities,Miscellaneous Fees for International Nonproprietary Names (INN),0,0,0,0,0,0,0,0,0,0,98,438,101,164,0
+364,Miscellaneous Healthy Cities,Others,Miscellaneous Healthy Cities,0,2,2,0,884306,884306,1,1,1,0,1,439,120,66,0
+365,Monash University (MU),Academic Institutions,Monash University (MU),0,1,1,0,83110,83110,1,1,1,0,1,440,6,165,0
+366,Mongolia,,,27,0,27,18001443,0,18001443,0,0,0,0,1,163,120,240,0
+367,Montenegro,,,17,0,17,3965467,0,3965467,0,0,0,0,1,108,147,208,0.022059
+368,Morocco,,,20,0,20,7093789,0,7093789,0,0,0,0,1,107,6,253,0.015789
+369,Mozambique,Member States - Voluntary Specified,Mozambique,46,1,47,27952172,878505,28830677,0,0,0,0,1,126,147,205,0.036232
+370,Mr. Michael David Lincoln Chowen CBE DL,Individuals,Mr. Michael David Lincoln Chowen CBE DL,0,0,0,0,0,0,0,0,0,0,99,441,102,168,0
+371,Myanmar,,,35,0,35,38328127.99,0,38328127.99,0,0,0,0,1,106,162,275,0.007563
+372,Namibia,,,29,0,29,8090996,0,8090996,0,0,0,0,1,162,6,264,0.014778
+373,"National Administration of Traditional Chinese Medicine (NATCM), China (People's Republic of)",Member States - Voluntary Specified,China,0,0,0,0,0,0,0,0,0,0,100,442,103,169,0
+374,"National Centre for Disease Prevention and Control (CCM), Italy",Member States - Voluntary Specified,Italy,0,0,0,0,0,0,0,0,0,0,101,443,104,170,0
+375,National Emergency Response Council on HIV/AIDS (NERCHA),Member States - Voluntary Specified,Eswatini,0,0,0,0,0,0,0,0,0,0,102,444,105,171,0
+376,"National Health Insurance Service (NHIS), Republic of Korea",Member States - Voluntary Specified,Republic of Korea,0,1,1,0,126739,126739,1,1,1,0,1,445,162,320,0
+377,National Hospital Organization Kurihama Medical and Addiction Center,Non Governmental Organizations,National Hospital Organization Kurihama Medical and Addiction Center,0,0,0,0,0,0,0,0,0,0,103,446,106,172,0
+378,"National Institute of Child Health and Human Development (NICHD), United States of America",Member States - Voluntary Specified,"National Institutes of Health (NIH), United States of America",0,0,0,0,0,0,0,0,0,0,104,447,107,173,0
+379,"National Institute of Infectious Diseases Prof.Dr.Matei Bals, Romania",Member States - Voluntary Specified,Romania,0,1,1,0,103549,103549,2,0.6,0.666667,0,1,448,120,86,0
+380,"National Institute of Public Health, Romania",Member States - Voluntary Specified,Romania,0,1,1,0,92813,92813,2,0.6,0.666667,0,1,449,120,86,0
+381,"National Institute on Deafness and Other Communication Disorders (NIDCD), USA",Member States - Voluntary Specified,"National Institutes of Health (NIH), United States of America",0,0,0,0,0,0,0,0,0,0,105,450,108,174,0
+382,"National Institutes of Health (NIH), United States of America",Member States - Voluntary Specified,United States of America,0,0,0,0,0,0,0,0,0,0,106,451,109,175,0
+383,"National Malaria Elimination Program (NMEP), Nigeria",Member States - Voluntary Specified,Nigeria,0,1,1,0,9680674,9680674,1,1,1,0,1,452,117,181,0
+384,National Philanthropic Trust (NPT),Non Governmental Organizations,National Philanthropic Trust (NPT),0,35,35,0,40772628,40772628,2,0.926829,0.960526,0,1,453,145,160,0.009244
+385,"National Rehabilitation Centre (NRC) of Abu Dhabi, United Arab Emirates",Member States - Voluntary Specified,United Arab Emirates,0,0,0,0,0,0,0,0,0,0,107,454,110,176,0
+386,Nauru,,,1,0,1,101000,0,101000,0,0,0,0,1,161,6,25,0
+387,Nepal,,,43,0,43,30896399,0,30896399,0,0,0,0,1,58,6,282,0.008306
+388,Netherlands (Kingdom of the),Member States � Voluntary Thematic,Netherlands (Kingdom of the),0,21,21,0,2336975.06,2336975.06,3,0.551948,0.613725,0,1,455,120,208,0.021429
+389,New Sunshine Charity Foundation,Non Governmental Organizations,New Sunshine Charity Foundation,0,0,0,0,0,0,0,0,0,0,108,456,111,178,0
+390,New Venture Fund (NVF),Non Governmental Organizations,New Venture Fund (NVF),0,0,0,0,0,0,0,0,0,0,109,457,112,179,0
+391,Nicaragua,,,15,0,15,6450513.21,0,6450513.21,0,0,0,0,1,125,120,59,0.033333
+392,Niger,Member States - Voluntary Specified,Niger,45,1,46,33636555.03,1902498,35539053.03,0,0,0,0,1,20,145,122,0.036364
+393,Nigeria,Member States - Voluntary Specified,Nigeria,59,1,60,246399551.98,3402924,249802475.98,0,0,0,0,1,105,117,181,0.024839
+394,Niigata University,Academic Institutions,Niigata University,0,0,0,0,0,0,0,0,0,0,110,458,113,182,0
+395,Nippon Foundation,Philanthropic Foundations,Nippon Foundation,0,31,31,0,1177364,1177364,2,0.860465,0.918919,0,1,459,6,257,0.004301
+396,Niue,,,1,0,1,94080,0,94080,0,0,0,0,1,160,6,25,0
+397,"Nordic Council of Ministers, Denmark",Intergovernmental Organizations,"Nordic Council of Ministers, Denmark",0,1,1,0,67763,67763,1,1,1,0,1,460,120,66,0
+398,North Macedonia,,,15,0,15,5003201,0,5003201,0,0,0,0,1,104,120,177,0.085714
+399,Northern Mariana Islands,,,1,0,1,37000,0,37000,0,0,0,0,1,159,6,25,0
+400,Norway,Member States - Voluntary Specified,Norway,0,5,5,0,591637.01,591637.01,1,1,1,0,1,461,120,260,0
+401,Norwegian Agency for Development Cooperation (NORAD),Member States � Voluntary Thematic,Norway,0,89,89,0,49138898.68,49138898.68,3,0.72,0.80787,0,1,462,6,185,0.016982
+402,Norwegian Institute of Public Health (NIPH),Academic Institutions,Norwegian Institute of Public Health (NIPH),0,4,4,0,1411101,1411101,1,1,1,0,1,463,165,211,0
+403,Norwegian Refugee Council (NRC),Non Governmental Organizations,Norwegian Refugee Council (NRC),0,0,0,0,0,0,0,0,0,0,111,464,114,186,0
+404,Novartis,Private Sector Entities,Novartis,0,11,11,0,472011,472011,1,1,1,0,1,465,145,71,0
+405,occupied Palestinian territory,,,37,0,37,49338705,0,49338705,0,0,0,0,1,158,165,211,0.002252
+406,Oman,,,7,0,7,3496287,0,3496287,0,0,0,0,1,157,6,196,0
+407,OPEC Fund for International Development (OFID),Development Banks and Funds,OPEC Fund for International Development (OFID),0,5,5,0,1489281,1489281,1,1,1,0,1,466,165,266,0
+408,Open Society Foundations,Philanthropic Foundations,Open Society Foundations,0,0,0,0,0,0,0,0,0,0,112,467,115,190,0
+409,P&P Patents and Technologies SRL (PPPT),Private Sector Entities,P&P Patents and Technologies SRL (PPPT),0,0,0,0,0,0,0,0,0,0,113,468,116,191,0
+410,Pacific Islands Health Officers Association (PIHOA),Non Governmental Organizations,Pacific Islands Health Officers Association (PIHOA),0,1,1,0,467290,467290,1,1,1,0,1,469,162,320,0
+411,Pakistan,Member States - Voluntary Specified,Pakistan,49,1,50,341920753,72924216,414844969,0,0,0,0,1,48,117,241,0.028912
+412,Palau,,,1,0,1,120000,0,120000,0,0,0,0,1,156,6,25,0
+413,Palestine,Others,Palestine,0,1,1,0,135480,135480,1,1,1,0,1,470,165,211,0
+414,Panama,Member States - Voluntary Specified,Panama,14,2,16,23329891.71,16.15,23329907.86,1,1,1,0.000014,1,124,120,284,0.104167
+415,Pandemic Emergency Financing (PEF),Development Banks and Funds,World Bank,0,22,22,0,39011944,39011944,1,1,1,0,1,471,145,195,0
+416,"PandemicTech, Texas",Others,"PandemicTech, Texas",0,1,1,0,18692,18692,1,1,1,0,1,472,6,52,0
+417,Papua New Guinea,Member States - Voluntary Specified,Papua New Guinea,25,1,26,28978535,1988200,30966735,0,0,0,0,1,155,162,302,0.04
+418,Paraguay,,,16,0,16,6016523.01,0,6016523.01,0,0,0,0,1,123,6,257,0.0375
+419,Path Vaccine Solutions (PVS),Non Governmental Organizations,Path Vaccine Solutions (PVS),0,0,0,0,0,0,0,0,0,0,114,473,118,197,0
+420,Paul G. Allen Family Foundation,Philanthropic Foundations,Paul G. Allen Family Foundation,0,1,1,0,138244,138244,1,1,1,0,1,474,145,65,0
+421,Persian American Society for Health Advancement (PASHA),Non Governmental Organizations,Persian American Society for Health Advancement (PASHA),0,0,0,0,0,0,0,0,0,0,115,475,119,198,0
+422,Peru,,,16,0,16,4660100.98,0,4660100.98,0,0,0,0,1,122,6,180,0.029167
+423,Philippine Business for Social Progress (PBSP),Private Sector Entities,Philippine Business for Social Progress (PBSP),0,1,1,0,315597,315597,2,0.666667,0.75,0,1,476,120,305,0
+424,Philippines,Member States - Voluntary Specified,Philippines,41,1,42,30668931.98,20078,30689009.98,1,1,1,0.00001,1,154,120,305,0.017422
+425,"Pilipinas Shell Foundation, Inc.",Private Sector Entities,"Pilipinas Shell Foundation, Inc.",0,1,1,0,493333,493333,2,0.666667,0.75,0,1,477,120,305,0
+426,PIP Framework Contributors,PIP Framework Contributors,PIP Framework Contributors,0,54,54,0,15531424.03,15531424.03,2,0.717742,0.803371,0,1,478,120,123,0.009085
+427,Poland,,,7,0,7,904042,0,904042,0,0,0,0,1,103,6,326,0.071429
+428,Population Action International (PAI),Non Governmental Organizations,Population Action International (PAI),0,1,1,0,14194,14194,2,0.545455,0.583333,0,1,479,6,222,0
+429,Population Services International (PSI),Non Governmental Organizations,Population Services International (PSI),0,1,1,0,494725,494725,1,1,1,0,1,480,162,127,0
+430,Portugal,Member States - Voluntary Specified,Portugal,0,0,0,0,0,0,0,0,0,0,116,481,121,202,0
+431,Potsdam Institute for Climate Impact Research (PIK),Academic Institutions,Potsdam Institute for Climate Impact Research (PIK),0,1,1,0,21105,21105,1,1,1,0,1,482,120,66,0
+432,Premiere Urgence Internationale (PUI),Private Sector Entities,Premiere Urgence Internationale (PUI),0,0,0,0,0,0,0,0,0,0,117,483,122,203,0
+433,Pre-Qualification Fees (PQF),Private Sector Entities,Pre-Qualification Fees (PQF),0,2,2,0,235247,235247,1,1,1,0,1,484,6,66,0
+434,Principality of Liechtenstein,Others,Principality of Liechtenstein,0,0,0,0,0,0,0,0,0,0,118,485,123,204,0
+435,Program for Appropriate Technology In Health (PATH),Non Governmental Organizations,Program for Appropriate Technology In Health (PATH),0,5,5,0,198578,198578,2,0.692308,0.777778,0,1,486,147,222,0.05
+436,Programme Support Costs,Programme Support Costs,Programme Support Costs,0,134,134,0,168323118.31,168323118.31,5,0.658436,0.879792,0,1,487,6,270,0.006565
+437,Public Health Agency of Canada (PHAC),Member States - Voluntary Specified,Canada,0,3,3,0,195976,195976,1,1,1,0,1,488,120,66,0
+438,"Public Health Wales, United Kingdom",Member States - Voluntary Specified,United Kingdom of Great Britain and Northern Ireland,0,1,1,0,90051,90051,1,1,1,0,1,489,120,66,0
+439,Qatar,Member States - Voluntary Specified,Qatar,2,1,3,110854,73724,184578,0,0,0,0,1,153,6,25,0.5
+440,Qatar Fund For Development,Member States - Voluntary Specified,Qatar,0,1,1,0,934579,934579,1,1,1,0,1,490,162,279,0
+441,"Razi Vaccine and Serum Research Institute, Iran",Academic Institutions,"Razi Vaccine and Serum Research Institute, Iran",0,1,1,0,11555,11555,1,1,1,0,1,491,165,206,0
+442,Reckitt Benckiser Group Plc,Private Sector Entities,Reckitt Benckiser Group Plc,0,0,0,0,0,0,0,0,0,0,119,492,124,207,0
+443,Regional Government of Apulia,Local Governments,Regional Government of Apulia,0,4,4,0,145579,145579,2,0.833333,0.9,0,1,493,120,300,0
+444,Rehabilitation International,Non Governmental Organizations,Rehabilitation International,0,0,0,0,0,0,0,0,0,0,120,494,125,209,0
+445,Republic of Korea,Member States - Voluntary Specified,Republic of Korea,0,18,18,0,10253491,10253491,3,0.57265,0.631841,0,1,495,162,210,0.03268
+446,Republic of Moldova,Member States - Voluntary Specified,Republic of Moldova,24,1,25,17045709,213494,17259203,0,0,0,0,1,102,85,121,0.052536
+447,"Republican Scientific and Practical Center for Medical Technologies, Information, and Administration and Management of Health (RSPCMT), Belarus",Member States - Voluntary Specified,Belarus,0,1,1,0,303632,303632,1,1,1,0,1,496,85,212,0
+448,Research4Life Publisher Access Fees,Others,Research4Life Publisher Access Fees,0,0,0,0,0,0,0,0,0,0,121,497,126,213,0
+449,Richter Gedeon Vegyeszeti Gyar,Private Sector Entities,Richter Gedeon Vegyeszeti Gyar,0,0,0,0,0,0,0,0,0,0,122,498,127,214,0
+450,"Rijksinstituut voor Volksgezondheid en Milieu (RIVM), Netherlands",Member States - Voluntary Specified,Netherlands,0,0,0,0,0,0,0,0,0,0,123,499,128,215,0
+451,Robert Koch Institute (RKI),Academic Institutions,Robert Koch Institute (RKI),0,0,0,0,0,0,0,0,0,0,124,500,129,216,0
+452,Robert Wood Johnson Foundation,Philanthropic Foundations,Robert Wood Johnson Foundation,0,1,1,0,176991,176991,1,1,1,0,1,501,120,66,0
+453,Rockefeller Foundation,Philanthropic Foundations,Rockefeller Foundation,0,2,2,0,16000,16000,1,1,1,0,1,502,120,268,0
+454,Romania,Member States - Voluntary Specified,Romania,14,3,17,2694719,713273,3407992,1,1,1,0.000021,1,101,120,86,0.191667
+455,Romanian Agency for International Development Cooperation (RoAid),Member States - Voluntary Specified,Romania,0,1,1,0,10982,10982,3,0.467949,0.481735,0,1,503,120,219,0
+456,Rotary International,Non Governmental Organizations,Rotary International,0,61,61,0,108815655,108815655,2,0.955224,0.976562,0,1,504,145,156,0.007377
+457,Royal National Lifeboat Institution,Non Governmental Organizations,Royal National Lifeboat Institution,0,2,2,0,263461,263461,1,1,1,0,1,505,162,320,0
+458,Russian Federation,Member States - Voluntary Specified,Russian Federation,14,44,58,4476453,13649762,18126215,2,0.63522,0.712871,0.000641,1,152,120,146,0.119048
+459,Rwanda,,,45,0,45,15852948.02,0,15852948.02,0,0,0,0,1,83,6,201,0.043434
+460,Safaricom Foundation,Private Sector Entities,Safaricom Foundation,0,1,1,0,100000,100000,2,0.545455,0.583333,0,1,506,6,222,0
+461,Saint Kitts and Nevis,,,8,0,8,736178.51,0,736178.51,0,0,0,0,1,100,120,306,0.089286
+462,Saint Lucia,,,9,0,9,884907.49,0,884907.49,0,0,0,0,1,99,120,306,0.069444
+463,Saint Vincent and the Grenadines,,,11,0,11,2216646.79,0,2216646.79,0,0,0,0,1,98,145,306,0.054545
+464,Samoa,,,9,0,9,3449985,0,3449985,0,0,0,0,1,97,6,150,0
+465,San Marino,Member States - Voluntary Specified,San Marino,0,1,1,0,59436,59436,1,1,1,0,1,507,120,66,0
+466,Sandoz AG,Private Sector Entities,Sandoz AG,0,1,1,0,93458,93458,1,1,1,0,1,508,162,127,0
+467,Saniswiss SA,Private Sector Entities,Saniswiss SA,0,0,0,0,0,0,0,0,0,0,125,509,130,226,0
+468,Sanofi-Aventis,Private Sector Entities,Sanofi-Aventis,0,24,24,0,1472100,1472100,2,0.961538,0.98,0,1,510,6,132,0
+469,Sao Tome and Principe,Member States - Voluntary Specified,Sao Tome and Principe,26,1,27,7187510,1921554,9109064,0,0,0,0,1,19,6,18,0.070769
+470,Sasakawa Health Foundation,Philanthropic Foundations,Sasakawa Health Foundation,0,55,55,0,2918242.75,2918242.75,2,0.936508,0.966102,0,1,511,6,221,0.002694
+471,Saudi Arabia,,,6,0,6,3397527,0,3397527,0,0,0,0,1,96,6,230,0
+472,"Saudi Central Board for Accreditation of Healthcare Institutions (CBAHI), Saudi Arabia",Member States - Voluntary Specified,Saudi Arabia,0,1,1,0,150750,150750,1,1,1,0,1,512,6,230,0
+473,Save The Children UK,Non Governmental Organizations,Save The Children UK,0,0,0,0,0,0,0,0,0,0,126,513,131,231,0
+474,"SC Johnson and Son, Inc.",Private Sector Entities,"SC Johnson and Son, Inc.",0,0,0,0,0,0,0,0,0,0,127,514,132,232,0
+475,SC Johnson Professional,Private Sector Entities,SC Johnson Professional,0,0,0,0,0,0,0,0,0,0,128,515,133,233,0
+476,"Secretariat Executif National de Lutte Contre le Sida (SENLS), Mauritania",Member States - Voluntary Specified,Mauritania,0,1,1,0,758869,758869,1,1,1,0,1,516,120,234,0
+477,Secretariat of the Pacific Community (SPC),Intergovernmental Organizations,Secretariat of the Pacific Community (SPC),0,1,1,0,467290,467290,1,1,1,0,1,517,162,320,0
+478,Senegal,Member States - Voluntary Specified,Senegal,45,1,46,14379267,103910,14483177,0,0,0,0,1,95,6,294,0.036869
+479,Seoul Metropolitan Government of the Republic of Korea,Local Governments,Seoul Metropolitan Government of the Republic of Korea,0,1,1,0,516177,516177,1,1,1,0,1,518,162,320,0
+480,Serbia,,,26,0,26,9545998,0,9545998,0,0,0,0,1,94,120,260,0.018462
+481,Seychelles,Member States - Voluntary Specified,Seychelles,17,5,22,3499330,54082.92,3553412.92,1,1,1,0.000004,1,93,120,278,0.170996
+482,Shobikaa Impex Private Limited,Private Sector Entities,Shobikaa Impex Private Limited,0,0,0,0,0,0,0,0,0,0,129,519,134,237,0
+483,"Sicilia, Italy",Local Governments,"Sicilia, Italy",0,3,3,0,304147,304147,1,1,1,0,1,520,120,220,0.166667
+484,Sierra Leone,Member States - Voluntary Specified,Sierra Leone,40,1,41,29868934,1645077,31514011,0,0,0,0,1,18,6,239,0.034615
+485,Sightsavers,Non Governmental Organizations,Sightsavers,0,5,5,0,288160,288160,1,1,1,0,1,521,6,330,0
+486,"Sindh, Pakistan",Local Governments,"Sindh, Pakistan",0,1,1,0,3754734,3754734,1,1,1,0,1,522,117,241,0
+487,Singapore,Member States - Voluntary Specified,Singapore,0,0,0,0,0,0,0,0,0,0,130,523,135,242,0
+488,Slovakia,Member States - Voluntary Specified,Slovakia,3,1,4,805185,206082,1011267,1,1,1,0,1,92,6,66,0.25
+489,Slovenia,Member States - Voluntary Specified,Slovenia,8,1,9,728361,29207,757568,1,1,1,0.000004,1,91,6,300,0.041667
+490,SolarSack APS,Private Sector Entities,SolarSack APS,0,0,0,0,0,0,0,0,0,0,131,524,136,245,0
+491,Solomon Islands,Member States - Voluntary Specified,Solomon Islands,11,1,12,9879674,733321,10612995,0,0,0,0,1,90,162,330,0.090909
+492,Somalia,Member States - Voluntary Specified,Somalia,43,1,44,90127720,7785829,97913549,0,0,0,0,1,47,145,328,0.031561
+493,South Africa,,,31,0,31,21128831,0,21128831,0,0,0,0,1,52,6,129,0.023656
+494,South East Asia - Regional Office,,,52,0,52,91282973.05,0,91282973.05,0,0,0,0,1,89,6,248,0.022624
+495,South Sudan,,,46,0,46,72129223.97,0,72129223.97,0,0,0,0,1,17,162,134,0.008213
+496,Southeast Asia Tobacco Control Alliance (SEATCA),Non Governmental Organizations,Southeast Asia Tobacco Control Alliance (SEATCA),0,1,1,0,88493,88493,1,1,1,0,1,525,162,323,0
+497,Southern African Development Community Secretariat (SADC),Intergovernmental Organizations,Southern African Development Community Secretariat (SADC),0,7,7,0,7942395,7942395,1,1,1,0,1,526,120,249,0
+498,Spain,Member States - Voluntary Specified,Spain,0,0,0,0,0,0,0,0,0,0,132,527,137,250,0
+499,Spanish Agency for International Cooperation (AECID),Member States � Voluntary Thematic,Spain,0,18,18,0,2959095.82,2959095.82,2,0.78125,0.86,0,1,528,6,59,0.013072
+500,Sri Lanka,Member States - Voluntary Specified,Sri Lanka,25,1,26,17166851,10020,17176871,0,0,0,0,1,88,120,225,0.058333
+501,St.Jude Children�s Research Hospital,Academic Institutions,St.Jude Children�s Research Hospital,0,24,24,0,3293656,3293656,1,1,1,0,1,529,6,253,0.001812
+502,"Standard Chartered Bank Ltd, Gambia",Private Sector Entities,"Standard Chartered Bank Ltd, Gambia",0,1,1,0,135514,135514,1,1,1,0,1,530,145,254,0
+503,Sudan,,,53,0,53,109127204.99,0,109127204.99,0,0,0,0,1,38,162,279,0.00762
+504,Sultan Ahmed bin Sulayem,Individuals,Sultan Ahmed bin Sulayem,0,0,0,0,0,0,0,0,0,0,133,531,138,255,0
+505,Sumitomo Chemical Co. Ltd.,Private Sector Entities,Sumitomo Chemical Co. Ltd.,0,0,0,0,0,0,0,0,0,0,134,532,139,256,0
+506,Suriname,,,13,0,13,2866274.37,0,2866274.37,0,0,0,0,1,87,120,59,0.044872
+507,Swedish Chemicals Agency,Member States � Voluntary Thematic,Sweden,0,0,0,0,0,0,0,0,0,0,135,533,140,258,0
+508,Swedish International Development Cooperation Agency (SIDA),Member States - Voluntary Specified,Sweden,0,30,30,0,6098876.42,6098876.42,2,0.96875,0.983871,0,1,534,6,187,0.004598
+509,Swiss Development Cooperation Agency (SDC/DDC),Member States - Voluntary Specified,Switzerland,0,35,35,0,8197278.37,8197278.37,3,0.646552,0.731111,0,1,535,147,148,0.015966
+510,Swiss Federal Food Safety and Veterinary Office (FSVO),Member States - Voluntary Specified,Switzerland,0,3,3,0,15709.83,15709.83,1,1,1,0,1,536,120,66,0
+511,Swiss Philanthropy Foundation,Philanthropic Foundations,Swiss Philanthropy Foundation,0,0,0,0,0,0,0,0,0,0,136,537,141,261,0
+512,Switzerland,Member States - Voluntary Specified,Switzerland,0,0,0,0,0,0,0,0,0,0,137,538,142,262,0
+513,Syrian Arab Republic,,,34,0,34,108108007.02,0,108108007.02,0,0,0,0,1,86,147,227,0.002674
+514,Tagros Chemicals India Ltd.,Private Sector Entities,Tagros Chemicals India Ltd.,0,0,0,0,0,0,0,0,0,0,138,539,143,263,0
+515,Tajikistan,Member States - Voluntary Specified,Tajikistan,35,1,36,16558577.01,111094,16669671.01,0,0,0,0,1,85,120,102,0.055462
+516,Task Force for Global Health (TFGH),Non Governmental Organizations,Task Force for Global Health (TFGH),0,8,8,0,563360,563360,1,1,1,0,1,540,6,265,0
+517,TDR Pooled Proxy Donor,Others,TDR Pooled Proxy Donor,0,2,2,0,45000,45000,1,1,1,0,1,541,6,165,0
+518,"Tetra Pak Export FZE, United Arab Emirates",Private Sector Entities,"Tetra Pak Export FZE, United Arab Emirates",0,1,1,0,226939,226939,1,1,1,0,1,542,165,101,0
+519,Thailand,Member States - Voluntary Specified,Thailand,23,3,26,21919404,250112.91,22169516.91,1,1,1,0.000016,1,84,162,322,0.095
+520,Timor-Leste,Member States - Voluntary Specified,Timor-Leste,32,1,33,25905611.98,886189,26791800.98,0,0,0,0,1,46,120,268,0.045363
+521,Togo,,,36,0,36,15324524,0,15324524,0,0,0,0,1,16,6,247,0.009524
+522,Tokelau,,,1,0,1,95973,0,95973,0,0,0,0,1,82,6,25,0
+523,Tonga,,,3,0,3,980883,0,980883,0,0,0,0,1,81,6,25,0
+524,Trinidad and Tobago,,,10,0,10,3494352.73,0,3494352.73,0,0,0,0,1,80,120,194,0.077778
+525,Trustees of Columbia University in the City of New York,Academic Institutions,Trustees of Columbia University in the City of New York,0,0,0,0,0,0,0,0,0,0,139,543,144,272,0
+526,Tunisia,,,20,0,20,12897779,0,12897779,0,0,0,0,1,79,165,238,0.036842
+527,T�rkiye,Member States - Voluntary Specified,T�rkiye,40,2,42,106645929,1370829,108016758,1,1,1,0.000008,1,78,147,316,0.05061
+528,Turkmenistan,,,21,0,21,5433689,0,5433689,0,0,0,0,1,76,120,283,0.016667
+529,Tuvalu,,,2,0,2,130724,0,130724,0,0,0,0,1,75,6,25,0
+530,UCB SA,Private Sector Entities,UCB SA,0,2,2,0,364278,364278,1,1,1,0,1,544,162,165,0
+531,Uganda,Member States - Voluntary Specified,Uganda,46,5,51,45446234,1064948.02,46511182.02,1,1,1,0.00006,1,15,167,276,0.071373
+532,Uganda Virus Research Institute (UVRI),Member States - Voluntary Specified,Uganda,0,1,1,0,18858,18858,2,0.545455,0.583333,0,1,545,167,276,0
+533,Ukraine,Member States - Voluntary Specified,Ukraine,45,1,46,49617901,8373949,57991850,0,0,0,0,1,1,85,244,0.022222
+534,UN Multi-Partner Trust Fund Office (MPTF),United Nations Organizations,United Nations Development Programme (UNDP),0,64,64,0,47020095,47020095,3,0.708609,0.797508,0,1,546,162,333,0.008681
+535,UN Partnership to Promote the Rights of Persons with Disabilities (UNPRPD),United Nations Organizations,UN Partnership to Promote the Rights of Persons with Disabilities (UNPRPD),0,3,3,0,276030,276030,1,1,1,0,1,547,6,267,0
+536,UN Regional Director ESA,United Nations Organizations,UN Regional Director ESA,0,1,1,0,69081,69081,1,1,1,0,1,548,6,277,0
+537,UNDP - Sudan Common Humanitarian Fund (CHF),United Nations Organizations,UNDP Multi-Partner Trust Fund (MPTF),0,1,1,0,979979,979979,1,1,1,0,1,549,162,279,0
+538,UNITAID,Partnerships,UNITAID,0,38,38,0,4532858.34,4532858.34,3,0.66087,0.747807,0,1,550,6,259,0.018492
+539,United Arab Emirates,Member States - Voluntary Specified,United Arab Emirates,1,1,2,30463,41448249,41478712,1,1,1,0,1,74,117,25,0.5
+540,United Kingdom of Great Britain and Northern Ireland,Member States - Voluntary Specified,United Kingdom of Great Britain and Northern Ireland,0,45,45,0,6476793,6476793,2,0.909091,0.95,0,1,551,120,27,0.00202
+541,United Nations Central Emergency Response Fund (CERF),United Nations Organizations,United Nations Central Emergency Response Fund (CERF),0,51,51,0,131750830,131750830,3,0.643312,0.742574,0,1,552,145,200,0.01098
+542,United Nations Children's Fund (UNICEF),United Nations Organizations,United Nations Children's Fund (UNICEF),0,33,33,0,20151174,20151174,2,0.883721,0.934211,0,1,553,145,114,0.003788
+543,United Nations Department of Economic and Social Affairs (UNDESA),United Nations Organizations,United Nations Department of Economic and Social Affairs (UNDESA),0,4,4,0,174290,174290,1,1,1,0,1,554,6,165,0
+544,United Nations Development Programme (UNDP),United Nations Organizations,United Nations Development Programme (UNDP),0,27,27,0,33185624,33185624,2,0.864865,0.921875,0,1,555,117,16,0
+545,United Nations Economic Commission for Europe (UNECE),United Nations Organizations,United Nations Economic Commission for Europe (UNECE),0,2,2,0,106916,106916,1,1,1,0,1,556,120,66,0
+546,United Nations Entity for Gender Equality and the Empowerment of Women (UN Women),United Nations Organizations,United Nations Entity for Gender Equality and the Empowerment of Women (UN Women),0,2,2,0,56267,56267,1,1,1,0,1,557,117,312,0
+547,United Nations Environment Programme (UNEP),United Nations Organizations,United Nations Environment Programme (UNEP),0,27,27,0,5316910,5316910,1,1,1,0,1,558,6,184,0
+548,United Nations Fund for International Partnerships (UNFIP),United Nations Organizations,United Nations Fund for International Partnerships (UNFIP),0,23,23,0,2673984.77,2673984.77,2,0.828571,0.896552,0,1,559,6,287,0.001976
+549,United Nations High Commissioner for Refugees (UNHCR),United Nations Organizations,United Nations High Commissioner for Refugees (UNHCR),0,2,2,0,313689,313689,2,0.6,0.666667,0,1,560,117,16,0
+550,United Nations Industrial Development Organization (UNIDO),United Nations Organizations,United Nations Industrial Development Organization (UNIDO),0,0,0,0,0,0,0,0,0,0,140,561,146,285,0
+551,United Nations Multidimensional Integrated Stabilization Mission In Mali,United Nations Organizations,United Nations Multidimensional Integrated Stabilization Mission In Mali,0,1,1,0,138333,138333,1,1,1,0,1,562,145,286,0
+552,United Nations Office for Project Services (UNOPS),United Nations Organizations,United Nations Office for Project Services (UNOPS),0,28,28,0,18217495,18217495,2,0.9375,0.966667,0,1,563,162,180,0
+553,United Nations Office for the Coordination of Humanitarian Affairs (UNOCHA),United Nations Organizations,United Nations Office for the Coordination of Humanitarian Affairs (UNOCHA),0,11,11,0,139433465,139433465,2,0.923077,0.958333,0,1,564,165,193,0
+554,United Nations Office on Drugs and Crime (UNODC),United Nations Organizations,United Nations Office on Drugs and Crime (UNODC),0,3,3,0,826860,826860,1,1,1,0,1,565,120,289,0
+555,United Nations Peace and Development Trust Fund (UNPDF),United Nations Organizations,United Nations Peace and Development Trust Fund (UNPDF),0,7,7,0,1507077,1507077,1,1,1,0,1,566,120,225,0
+556,United Nations Population Fund (UNFPA),United Nations Organizations,United Nations Population Fund (UNFPA),0,33,33,0,19039602,19039602,2,0.883721,0.934211,0,1,567,120,278,0.011364
+557,United Nations Trust Fund for Human Security (UNTFHS),United Nations Organizations,United Nations Trust Fund for Human Security (UNTFHS),0,1,1,0,103585,103585,1,1,1,0,1,568,162,279,0
+558,United Nations University Institute for Global Health (UNU-IIGH),United Nations Organizations,United Nations University Institute for Global Health (UNU-IIGH),0,1,1,0,9346,9346,1,1,1,0,1,569,6,248,0
+559,United Republic of Tanzania,Member States - Voluntary Specified,United Republic of Tanzania,54,1,55,23782153,92869,23875022,0,0,0,0,1,11,167,51,0.021663
+560,United States Agency for International Development (USAID),Member States � Voluntary Thematic,United States of America,0,98,98,0,242062606,242062606,2,0.775281,0.855072,0,1,570,147,281,0.010099
+561,United States Department of Agriculture (USDA),Member States - Voluntary Specified,United States of America,0,6,6,0,60014,60014,2,0.75,0.833333,0,1,571,6,325,0.033333
+562,United States Department of Health and Human Services (USDHHS),Member States - Voluntary Specified,United States of America,0,0,0,0,0,0,0,0,0,0,141,572,148,293,0
+563,United States Department of State (USDOS),Member States - Voluntary Specified,United States of America,0,13,13,0,8029565,8029565,2,0.933333,0.964286,0,1,573,147,252,0
+564,United States Environmental Protection Agency (USEPA),Member States - Voluntary Specified,United States of America,0,0,0,0,0,0,0,0,0,0,142,574,149,295,0
+565,Universit� degli Studi di Verona,Academic Institutions,Universit� degli Studi di Verona,0,0,0,0,0,0,0,0,0,0,143,575,150,296,0
+566,Universit� Europea del Mediterraneo Onlus,Academic Institutions,Universit� Europea del Mediterraneo Onlus,0,0,0,0,0,0,0,0,0,0,144,576,151,297,0
+567,University College London (UCL),Academic Institutions,University College London (UCL),0,0,0,0,0,0,0,0,0,0,145,577,152,298,0
+568,University of Birmingham,Academic Institutions,University of Birmingham,0,0,0,0,0,0,0,0,0,0,146,578,153,299,0
+569,University of Copenhagen,Academic Institutions,University of Copenhagen,0,1,1,0,2591,2591,1,1,1,0,1,579,120,66,0
+570,University of Edinburgh,Academic Institutions,University of Edinburgh,0,45,45,0,50442,50442,2,0.978723,0.98913,0,1,580,6,291,0.010101
+571,"University of Exeter, United Kingdom",Academic Institutions,"University of Exeter, United Kingdom",0,4,4,0,161314,161314,3,0.480519,0.504505,0,1,581,120,300,0.083333
+572,University of Lucerne,Academic Institutions,University of Lucerne,0,0,0,0,0,0,0,0,0,0,147,582,154,301,0
+573,"University of Newcastle, Australia",Academic Institutions,"University of Newcastle, Australia",0,1,1,0,94128,94128,1,1,1,0,1,583,162,302,0
+574,University of Oxford,Academic Institutions,University of Oxford,0,0,0,0,0,0,0,0,0,0,148,584,155,303,0
+575,University of York,Academic Institutions,University of York,0,0,0,0,0,0,0,0,0,0,149,585,156,304,0
+576,"University Research Co., LLC",Private Sector Entities,"University Research Co., LLC",0,1,1,0,242652,242652,2,0.666667,0.75,0,1,586,120,305,0
+577,Uppsala Monitoring Centre,Academic Institutions,Uppsala Monitoring Centre,0,2,2,0,128500,128500,1,1,1,0,1,587,167,181,0
+578,Uruguay,,,8,0,8,2006824.98,0,2006824.98,0,0,0,0,1,73,120,219,0.089286
+579,Uzbekistan,,,23,0,23,21194639,0,21194639,0,0,0,0,1,72,120,23,0.013834
+580,Vanuatu,,,20,0,20,4432005,0,4432005,0,0,0,0,1,71,162,140,0.026316
+581,Velux Stiftung,Philanthropic Foundations,Velux Stiftung,0,2,2,0,19090,19090,3,0.504274,0.514124,0,1,588,6,309,0
+582,Venezuela (Bolivarian Republic of),,,14,0,14,9510914.95,0,9510914.95,0,0,0,0,1,70,145,266,0.049451
+583,Viet Nam,Member States - Voluntary Specified,Viet Nam,31,1,32,25643532.97,162277,25805809.97,0,0,0,0,1,69,162,312,0.03871
+584,Vietnam National Lung Hospital,Member States - Voluntary Specified,Viet Nam,0,1,1,0,48310,48310,1,1,1,0,1,589,162,312,0
+585,Village Water Filters,Private Sector Entities,Village Water Filters,0,0,0,0,0,0,0,0,0,0,150,590,157,313,0
+586,Vital Strategies,Non Governmental Organizations,Vital Strategies,0,35,35,0,13680618,13680618,3,0.651786,0.737443,0,1,591,117,29,0.023529
+587,Vrije Universiteit Amsterdam,Academic Institutions,Vrije Universiteit Amsterdam,0,0,0,0,0,0,0,0,0,0,151,592,158,314,0
+588,"WateROAM Private Limited, Singapore",Private Sector Entities,"WateROAM Private Limited, Singapore",0,0,0,0,0,0,0,0,0,0,152,593,159,315,0
+589,Wellcome Trust,Philanthropic Foundations,Wellcome Trust,0,6,6,0,764958,764958,1,1,1,0,1,594,6,316,0.033333
+590,Wellspring Philanthropic Fund,Philanthropic Foundations,Wellspring Philanthropic Fund,0,0,0,0,0,0,0,0,0,0,153,595,160,317,0
+591,West African Health Organisation (WAHO),Intergovernmental Organizations,West African Health Organisation (WAHO),0,9,9,0,884956,884956,1,1,1,0,1,596,6,159,0
+592,"Western Australia, Australia",Local Governments,"Western Australia, Australia",0,0,0,0,0,0,0,0,0,0,154,597,161,319,0
+593,Western Pacific - Regional Office,,,65,0,65,178287630.98,0,178287630.98,0,0,0,0,1,65,162,320,0.011779
+594,WHO Contingency Fund for Emergencies,WHO Contingency Fund for Emergencies,WHO Contingency Fund for Emergencies,0,30,30,0,44955050.92,44955050.92,3,0.630631,0.711905,0,1,598,145,154,0.01954
+595,World Bank,Development Banks and Funds,World Bank,0,10,10,0,7334479,7334479,2,0.916667,0.954545,0,1,599,117,322,0.011111
+596,World Diabetes Foundation,Non Governmental Organizations,World Diabetes Foundation,0,1,1,0,290693,290693,1,1,1,0,1,600,162,323,0
+597,World Food Programme (WFP),United Nations Organizations,World Food Programme (WFP),0,3,3,0,997316,997316,1,1,1,0,1,601,162,279,0
+598,World Hepatitis Alliance,Non Governmental Organizations,World Hepatitis Alliance,0,2,2,0,107760,107760,1,1,1,0,1,602,120,66,0
+599,World Meteorological Organization (WMO),United Nations Organizations,World Meteorological Organization (WMO),0,2,2,0,348931,348931,1,1,1,0,1,603,120,325,0
+600,World Organization for Animal Health (OIE),Intergovernmental Organizations,World Organization for Animal Health (OIE),0,3,3,0,58191,58191,3,0.55,0.621212,0,1,604,85,322,0
+601,World Psychiatric Association (WPA),Non Governmental Organizations,World Psychiatric Association (WPA),0,0,0,0,0,0,0,0,0,0,155,605,163,327,0
+602,World Vision International,Non Governmental Organizations,World Vision International,0,1,1,0,860490,860490,1,1,1,0,1,606,145,328,0
+603,Xinix International AB,Private Sector Entities,Xinix International AB,0,0,0,0,0,0,0,0,0,0,156,607,164,329,0
+604,Yemen,Member States - Voluntary Specified,Yemen,46,1,47,424983423.03,18762036,443745459.03,0,0,0,0,1,68,165,101,0.029469
+605,Zambia,Member States - Voluntary Specified,Zambia,41,1,42,23463362,54790,23518152,0,0,0,0,1,10,120,118,0.039024
+606,Zeshan Foundation,Philanthropic Foundations,Zeshan Foundation,0,1,1,0,324303,324303,1,1,1,0,1,608,162,320,0
+607,"Zhongshan Ophthalmic Center ,China",Academic Institutions,"Zhongshan Ophthalmic Center ,China",0,0,0,0,0,0,0,0,0,0,157,609,166,331,0
+608,Zimbabwe,Member States - Voluntary Specified,Zimbabwe,45,1,46,32328689,348493,32677182,0,0,0,0,1,9,167,332,0.030303
+609,Programs,Recep_program,,14,0,14,4694864,0,4694864,0,0,0,0,1,67,6,212,0
+1164,,,,0,0,0,0,0,0,0,0,0,0,158,610,168,334,0
+1165,,,,0,0,0,0,0,0,0,0,0,0,159,611,169,335,0
+1166,,,,0,0,0,0,0,0,0,0,0,0,160,612,170,336,0
+1167,,,,0,0,0,0,0,0,0,0,0,0,161,613,171,337,0
+1168,,,,0,0,0,0,0,0,0,0,0,0,162,614,172,338,0
+1169,,,,0,0,0,0,0,0,0,0,0,0,163,615,173,339,0
+1170,,,,0,0,0,0,0,0,0,0,0,0,164,616,174,340,0
+1171,,,,0,0,0,0,0,0,0,0,0,0,165,617,175,341,0
+1172,,,,0,0,0,0,0,0,0,0,0,0,166,618,176,342,0
+1173,,,,0,0,0,0,0,0,0,0,0,0,167,619,177,343,0
+1174,,,,0,0,0,0,0,0,0,0,0,0,168,620,178,344,0
+1175,,,,0,0,0,0,0,0,0,0,0,0,169,621,179,345,0
+1176,,,,0,0,0,0,0,0,0,0,0,0,170,622,180,346,0
+1177,,,,0,0,0,0,0,0,0,0,0,0,171,623,181,347,0
+1178,,,,0,0,0,0,0,0,0,0,0,0,172,624,182,348,0
+1179,,,,0,0,0,0,0,0,0,0,0,0,173,625,183,349,0
+1180,,,,0,0,0,0,0,0,0,0,0,0,174,626,184,350,0
+1181,,,,0,0,0,0,0,0,0,0,0,0,175,627,185,351,0
+1182,,,,0,0,0,0,0,0,0,0,0,0,176,628,186,352,0
+1183,,,,0,0,0,0,0,0,0,0,0,0,177,629,187,353,0
+1184,,,,0,0,0,0,0,0,0,0,0,0,178,630,188,354,0
+1185,,,,0,0,0,0,0,0,0,0,0,0,179,631,189,355,0
+1186,,,,0,0,0,0,0,0,0,0,0,0,180,632,190,356,0
+1187,,,,0,0,0,0,0,0,0,0,0,0,181,633,191,357,0
+1188,,,,0,0,0,0,0,0,0,0,0,0,182,634,192,358,0
+1189,,,,0,0,0,0,0,0,0,0,0,0,183,635,193,359,0
+1190,,,,0,0,0,0,0,0,0,0,0,0,184,636,194,360,0
+1191,,,,0,0,0,0,0,0,0,0,0,0,185,637,195,361,0
+1192,,,,0,0,0,0,0,0,0,0,0,0,186,638,196,362,0
+1193,,,,0,0,0,0,0,0,0,0,0,0,187,639,197,363,0
+1194,,,,0,0,0,0,0,0,0,0,0,0,188,640,198,364,0
+1195,,,,0,0,0,0,0,0,0,0,0,0,189,641,199,365,0
+1196,,,,0,0,0,0,0,0,0,0,0,0,190,642,200,366,0
+1197,,,,0,0,0,0,0,0,0,0,0,0,191,643,201,367,0
+1198,,,,0,0,0,0,0,0,0,0,0,0,192,644,202,368,0
+1199,,,,0,0,0,0,0,0,0,0,0,0,193,645,203,369,0
+1200,,,,0,0,0,0,0,0,0,0,0,0,194,646,204,370,0
+1201,,,,0,0,0,0,0,0,0,0,0,0,195,647,205,371,0
+1202,,,,0,0,0,0,0,0,0,0,0,0,196,648,206,372,0
+1203,,,,0,0,0,0,0,0,0,0,0,0,197,649,207,373,0
+1204,,,,0,0,0,0,0,0,0,0,0,0,198,650,208,374,0
+1205,,,,0,0,0,0,0,0,0,0,0,0,199,651,209,375,0
+1206,,,,0,0,0,0,0,0,0,0,0,0,200,652,210,376,0
+1207,,,,0,0,0,0,0,0,0,0,0,0,201,653,211,377,0
+1208,,,,0,0,0,0,0,0,0,0,0,0,202,654,212,378,0
+1209,,,,0,0,0,0,0,0,0,0,0,0,203,655,213,379,0
+1210,,,,0,0,0,0,0,0,0,0,0,0,204,656,214,380,0
+1211,,,,0,0,0,0,0,0,0,0,0,0,205,657,215,381,0
+1212,,,,0,0,0,0,0,0,0,0,0,0,206,658,216,382,0
+1213,,,,0,0,0,0,0,0,0,0,0,0,207,659,217,383,0
+1214,,,,0,0,0,0,0,0,0,0,0,0,208,660,218,384,0
+1215,,,,0,0,0,0,0,0,0,0,0,0,209,661,219,385,0
+1216,,,,0,0,0,0,0,0,0,0,0,0,210,662,220,386,0
+1217,,,,0,0,0,0,0,0,0,0,0,0,211,663,221,387,0
+1218,,,,0,0,0,0,0,0,0,0,0,0,212,664,222,388,0
+1219,,,,0,0,0,0,0,0,0,0,0,0,213,665,223,389,0
+1220,,,,0,0,0,0,0,0,0,0,0,0,214,666,224,390,0
+1221,,,,0,0,0,0,0,0,0,0,0,0,215,667,225,391,0
+1222,,,,0,0,0,0,0,0,0,0,0,0,216,668,226,392,0
+1223,,,,0,0,0,0,0,0,0,0,0,0,217,669,227,393,0
+1224,,,,0,0,0,0,0,0,0,0,0,0,218,670,228,394,0
+1225,,,,0,0,0,0,0,0,0,0,0,0,219,671,229,395,0
+1226,,,,0,0,0,0,0,0,0,0,0,0,220,672,230,396,0
+1227,,,,0,0,0,0,0,0,0,0,0,0,221,673,231,397,0
+1228,,,,0,0,0,0,0,0,0,0,0,0,222,674,232,398,0
+1229,,,,0,0,0,0,0,0,0,0,0,0,223,675,233,399,0
+1230,,,,0,0,0,0,0,0,0,0,0,0,224,676,234,400,0
+1231,,,,0,0,0,0,0,0,0,0,0,0,225,677,235,401,0
+1232,,,,0,0,0,0,0,0,0,0,0,0,226,678,236,402,0
+1233,,,,0,0,0,0,0,0,0,0,0,0,227,679,237,403,0
+1234,,,,0,0,0,0,0,0,0,0,0,0,228,680,238,404,0
+1235,,,,0,0,0,0,0,0,0,0,0,0,229,681,239,405,0
+1236,,,,0,0,0,0,0,0,0,0,0,0,230,682,240,406,0
+1237,,,,0,0,0,0,0,0,0,0,0,0,231,683,241,407,0
+1238,,,,0,0,0,0,0,0,0,0,0,0,232,684,242,408,0
+1239,,,,0,0,0,0,0,0,0,0,0,0,233,685,243,409,0
+1240,,,,0,0,0,0,0,0,0,0,0,0,234,686,244,410,0
+1241,,,,0,0,0,0,0,0,0,0,0,0,235,687,245,411,0
+1242,,,,0,0,0,0,0,0,0,0,0,0,236,688,246,412,0
+1243,,,,0,0,0,0,0,0,0,0,0,0,237,689,247,413,0
+1244,,,,0,0,0,0,0,0,0,0,0,0,238,690,248,414,0
+1245,,,,0,0,0,0,0,0,0,0,0,0,239,691,249,415,0
+1246,,,,0,0,0,0,0,0,0,0,0,0,240,692,250,416,0
+1247,,,,0,0,0,0,0,0,0,0,0,0,241,693,251,417,0
+1248,,,,0,0,0,0,0,0,0,0,0,0,242,694,252,418,0
+1249,,,,0,0,0,0,0,0,0,0,0,0,243,695,253,419,0
+1250,,,,0,0,0,0,0,0,0,0,0,0,244,696,254,420,0
+1251,,,,0,0,0,0,0,0,0,0,0,0,245,697,255,421,0
+1252,,,,0,0,0,0,0,0,0,0,0,0,246,698,256,422,0
+1253,,,,0,0,0,0,0,0,0,0,0,0,247,699,257,423,0
+1254,,,,0,0,0,0,0,0,0,0,0,0,248,700,258,424,0
+1255,,,,0,0,0,0,0,0,0,0,0,0,249,701,259,425,0
+1256,,,,0,0,0,0,0,0,0,0,0,0,250,702,260,426,0
+1257,,,,0,0,0,0,0,0,0,0,0,0,251,703,261,427,0
+1258,,,,0,0,0,0,0,0,0,0,0,0,252,704,262,428,0
+1259,,,,0,0,0,0,0,0,0,0,0,0,253,705,263,429,0
+1260,,,,0,0,0,0,0,0,0,0,0,0,254,706,264,430,0
+1261,,,,0,0,0,0,0,0,0,0,0,0,255,707,265,431,0
+1262,,,,0,0,0,0,0,0,0,0,0,0,256,708,266,432,0
+1263,,,,0,0,0,0,0,0,0,0,0,0,257,709,267,433,0
+1264,,,,0,0,0,0,0,0,0,0,0,0,258,710,268,434,0
+1265,,,,0,0,0,0,0,0,0,0,0,0,259,711,269,435,0
+1266,,,,0,0,0,0,0,0,0,0,0,0,260,712,270,436,0
+1267,,,,0,0,0,0,0,0,0,0,0,0,261,713,271,437,0
+1268,,,,0,0,0,0,0,0,0,0,0,0,262,714,272,438,0
+1269,,,,0,0,0,0,0,0,0,0,0,0,263,715,273,439,0
+1270,,,,0,0,0,0,0,0,0,0,0,0,264,716,274,440,0
+1271,,,,0,0,0,0,0,0,0,0,0,0,265,717,275,441,0
+1272,,,,0,0,0,0,0,0,0,0,0,0,266,718,276,442,0
+1273,,,,0,0,0,0,0,0,0,0,0,0,267,719,277,443,0
+1274,,,,0,0,0,0,0,0,0,0,0,0,268,720,278,444,0
+1275,,,,0,0,0,0,0,0,0,0,0,0,269,721,279,445,0
+1276,,,,0,0,0,0,0,0,0,0,0,0,270,722,280,446,0
+1277,,,,0,0,0,0,0,0,0,0,0,0,271,723,281,447,0
+1278,,,,0,0,0,0,0,0,0,0,0,0,272,724,282,448,0
+1279,,,,0,0,0,0,0,0,0,0,0,0,273,725,283,449,0
+1280,,,,0,0,0,0,0,0,0,0,0,0,274,726,284,450,0
+1281,,,,0,0,0,0,0,0,0,0,0,0,275,727,285,451,0
+1282,,,,0,0,0,0,0,0,0,0,0,0,276,728,286,452,0
+1283,,,,0,0,0,0,0,0,0,0,0,0,277,729,287,453,0
+1284,,,,0,0,0,0,0,0,0,0,0,0,278,730,288,454,0
+1285,,,,0,0,0,0,0,0,0,0,0,0,279,731,289,455,0
+1286,,,,0,0,0,0,0,0,0,0,0,0,280,732,290,456,0
+1287,,,,0,0,0,0,0,0,0,0,0,0,281,733,291,457,0
+1288,,,,0,0,0,0,0,0,0,0,0,0,282,734,292,458,0
+1289,,,,0,0,0,0,0,0,0,0,0,0,283,735,293,459,0
+1290,,,,0,0,0,0,0,0,0,0,0,0,284,736,294,460,0
+1291,,,,0,0,0,0,0,0,0,0,0,0,285,737,295,461,0
+1292,,,,0,0,0,0,0,0,0,0,0,0,286,738,296,462,0
+1293,,,,0,0,0,0,0,0,0,0,0,0,287,739,297,463,0
+1294,,,,0,0,0,0,0,0,0,0,0,0,288,740,298,464,0
+1295,,,,0,0,0,0,0,0,0,0,0,0,289,741,299,465,0
+1296,,,,0,0,0,0,0,0,0,0,0,0,290,742,300,466,0
+1297,,,,0,0,0,0,0,0,0,0,0,0,291,743,301,467,0
+1298,,,,0,0,0,0,0,0,0,0,0,0,292,744,302,468,0
+1299,,,,0,0,0,0,0,0,0,0,0,0,293,745,303,469,0
+1300,,,,0,0,0,0,0,0,0,0,0,0,294,746,304,470,0
+1301,,,,0,0,0,0,0,0,0,0,0,0,295,747,305,471,0
+1302,,,,0,0,0,0,0,0,0,0,0,0,296,748,306,472,0
+1303,,,,0,0,0,0,0,0,0,0,0,0,297,749,307,473,0
+1304,,,,0,0,0,0,0,0,0,0,0,0,298,750,308,474,0
+1305,,,,0,0,0,0,0,0,0,0,0,0,299,751,309,475,0
+1306,,,,0,0,0,0,0,0,0,0,0,0,300,752,310,476,0
+1307,,,,0,0,0,0,0,0,0,0,0,0,301,753,311,477,0
+1308,,,,0,0,0,0,0,0,0,0,0,0,302,754,312,478,0
+1309,,,,0,0,0,0,0,0,0,0,0,0,303,755,313,479,0
+1310,,,,0,0,0,0,0,0,0,0,0,0,304,756,314,480,0
+1311,,,,0,0,0,0,0,0,0,0,0,0,305,757,315,481,0
+1312,,,,0,0,0,0,0,0,0,0,0,0,306,758,316,482,0
+1313,,,,0,0,0,0,0,0,0,0,0,0,307,759,317,483,0
+1314,,,,0,0,0,0,0,0,0,0,0,0,308,760,318,484,0
+1315,,,,0,0,0,0,0,0,0,0,0,0,309,761,319,485,0
+1316,,,,0,0,0,0,0,0,0,0,0,0,310,762,320,486,0
+1317,,,,0,0,0,0,0,0,0,0,0,0,311,763,321,487,0
+1318,,,,0,0,0,0,0,0,0,0,0,0,312,764,322,488,0
+1319,,,,0,0,0,0,0,0,0,0,0,0,313,765,323,489,0
+1320,,,,0,0,0,0,0,0,0,0,0,0,314,766,324,490,0
+1321,,,,0,0,0,0,0,0,0,0,0,0,315,767,325,491,0
+1322,,,,0,0,0,0,0,0,0,0,0,0,316,768,326,492,0
+1323,,,,0,0,0,0,0,0,0,0,0,0,317,769,327,493,0
+1324,,,,0,0,0,0,0,0,0,0,0,0,318,770,328,494,0
+1325,,,,0,0,0,0,0,0,0,0,0,0,319,771,329,495,0
+1326,,,,0,0,0,0,0,0,0,0,0,0,320,772,330,496,0
+1327,,,,0,0,0,0,0,0,0,0,0,0,321,773,331,497,0
+1328,,,,0,0,0,0,0,0,0,0,0,0,322,774,332,498,0
+1329,,,,0,0,0,0,0,0,0,0,0,0,323,775,333,499,0
+1330,,,,0,0,0,0,0,0,0,0,0,0,324,776,334,500,0
+1331,,,,0,0,0,0,0,0,0,0,0,0,325,777,335,501,0
+1332,,,,0,0,0,0,0,0,0,0,0,0,326,778,336,502,0
+1333,,,,0,0,0,0,0,0,0,0,0,0,327,779,337,503,0
+1334,,,,0,0,0,0,0,0,0,0,0,0,328,780,338,504,0
+1335,,,,0,0,0,0,0,0,0,0,0,0,329,781,339,505,0
+1336,,,,0,0,0,0,0,0,0,0,0,0,330,782,340,506,0
+1337,,,,0,0,0,0,0,0,0,0,0,0,331,783,341,507,0
+1338,,,,0,0,0,0,0,0,0,0,0,0,332,784,342,508,0
+1339,,,,0,0,0,0,0,0,0,0,0,0,333,785,343,509,0
+1340,,,,0,0,0,0,0,0,0,0,0,0,334,786,344,510,0
+1341,,,,0,0,0,0,0,0,0,0,0,0,335,787,345,511,0
+1342,,,,0,0,0,0,0,0,0,0,0,0,336,788,346,512,0
+1343,,,,0,0,0,0,0,0,0,0,0,0,337,789,347,513,0
+1344,,,,0,0,0,0,0,0,0,0,0,0,338,790,348,514,0
+1345,,,,0,0,0,0,0,0,0,0,0,0,339,791,349,515,0
+1346,,,,0,0,0,0,0,0,0,0,0,0,340,792,350,516,0
+1347,,,,0,0,0,0,0,0,0,0,0,0,341,793,351,517,0
+1348,,,,0,0,0,0,0,0,0,0,0,0,342,794,352,518,0
+1349,,,,0,0,0,0,0,0,0,0,0,0,343,795,353,519,0
+1350,,,,0,0,0,0,0,0,0,0,0,0,344,796,354,520,0
+1351,,,,0,0,0,0,0,0,0,0,0,0,345,797,355,521,0
+1352,,,,0,0,0,0,0,0,0,0,0,0,346,798,356,522,0
+1353,,,,0,0,0,0,0,0,0,0,0,0,347,799,357,523,0
+1354,,,,0,0,0,0,0,0,0,0,0,0,348,800,358,524,0
+1355,,,,0,0,0,0,0,0,0,0,0,0,349,801,359,525,0
+1356,,,,0,0,0,0,0,0,0,0,0,0,350,802,360,526,0
+1357,,,,0,0,0,0,0,0,0,0,0,0,351,803,361,527,0
+1358,,,,0,0,0,0,0,0,0,0,0,0,352,804,362,528,0
+1359,,,,0,0,0,0,0,0,0,0,0,0,353,805,363,529,0
+1360,,,,0,0,0,0,0,0,0,0,0,0,354,806,364,530,0
+1361,,,,0,0,0,0,0,0,0,0,0,0,355,807,365,531,0
+1362,,,,0,0,0,0,0,0,0,0,0,0,356,808,366,532,0
+1363,,,,0,0,0,0,0,0,0,0,0,0,357,809,367,533,0
+1364,,,,0,0,0,0,0,0,0,0,0,0,358,810,368,534,0
+1365,,,,0,0,0,0,0,0,0,0,0,0,359,811,369,535,0
+1366,,,,0,0,0,0,0,0,0,0,0,0,360,812,370,536,0
+1367,,,,0,0,0,0,0,0,0,0,0,0,361,813,371,537,0
+1368,,,,0,0,0,0,0,0,0,0,0,0,362,814,372,538,0
+1369,,,,0,0,0,0,0,0,0,0,0,0,363,815,373,539,0
+1370,,,,0,0,0,0,0,0,0,0,0,0,364,816,374,540,0
+1371,,,,0,0,0,0,0,0,0,0,0,0,365,817,375,541,0
+1372,,,,0,0,0,0,0,0,0,0,0,0,366,818,376,542,0
+1373,,,,0,0,0,0,0,0,0,0,0,0,367,819,377,543,0
+1374,,,,0,0,0,0,0,0,0,0,0,0,368,820,378,544,0
+1375,,,,0,0,0,0,0,0,0,0,0,0,369,821,379,545,0
+1376,,,,0,0,0,0,0,0,0,0,0,0,370,822,380,546,0
+1377,,,,0,0,0,0,0,0,0,0,0,0,371,823,381,547,0
+1378,,,,0,0,0,0,0,0,0,0,0,0,372,824,382,548,0
+1379,,,,0,0,0,0,0,0,0,0,0,0,373,825,383,549,0
+1380,,,,0,0,0,0,0,0,0,0,0,0,374,826,384,550,0
+1381,,,,0,0,0,0,0,0,0,0,0,0,375,827,385,551,0
+1382,,,,0,0,0,0,0,0,0,0,0,0,376,828,386,552,0
+1383,,,,0,0,0,0,0,0,0,0,0,0,377,829,387,553,0
+1384,,,,0,0,0,0,0,0,0,0,0,0,378,830,388,554,0
+1385,,,,0,0,0,0,0,0,0,0,0,0,379,831,389,555,0
+1386,,,,0,0,0,0,0,0,0,0,0,0,380,832,390,556,0
+1387,,,,0,0,0,0,0,0,0,0,0,0,381,833,391,557,0
+1388,,,,0,0,0,0,0,0,0,0,0,0,382,834,392,558,0
+1389,,,,0,0,0,0,0,0,0,0,0,0,383,835,393,559,0
+1390,,,,0,0,0,0,0,0,0,0,0,0,384,836,394,560,0
+1391,,,,0,0,0,0,0,0,0,0,0,0,385,837,395,561,0
+1392,,,,0,0,0,0,0,0,0,0,0,0,386,838,396,562,0
+1393,,,,0,0,0,0,0,0,0,0,0,0,387,839,397,563,0
+1394,,,,0,0,0,0,0,0,0,0,0,0,388,840,398,564,0
+1395,,,,0,0,0,0,0,0,0,0,0,0,389,841,399,565,0
+1396,,,,0,0,0,0,0,0,0,0,0,0,390,842,400,566,0
+1397,,,,0,0,0,0,0,0,0,0,0,0,391,843,401,567,0
+1398,,,,0,0,0,0,0,0,0,0,0,0,392,844,402,568,0
+1399,,,,0,0,0,0,0,0,0,0,0,0,393,845,403,569,0
+1400,,,,0,0,0,0,0,0,0,0,0,0,394,846,404,570,0
+1401,,,,0,0,0,0,0,0,0,0,0,0,395,847,405,571,0
+1402,,,,0,0,0,0,0,0,0,0,0,0,396,848,406,572,0
+1403,,,,0,0,0,0,0,0,0,0,0,0,397,849,407,573,0
+1404,,,,0,0,0,0,0,0,0,0,0,0,398,850,408,574,0
+1405,,,,0,0,0,0,0,0,0,0,0,0,399,851,409,575,0
+1406,,,,0,0,0,0,0,0,0,0,0,0,400,852,410,576,0
+1407,,,,0,0,0,0,0,0,0,0,0,0,401,853,411,577,0
+1408,,,,0,0,0,0,0,0,0,0,0,0,402,854,412,578,0
+1409,,,,0,0,0,0,0,0,0,0,0,0,403,855,413,579,0
+1410,,,,0,0,0,0,0,0,0,0,0,0,404,856,414,580,0
+1411,,,,0,0,0,0,0,0,0,0,0,0,405,857,415,581,0
+1412,,,,0,0,0,0,0,0,0,0,0,0,406,858,416,582,0
+1413,,,,0,0,0,0,0,0,0,0,0,0,407,859,417,583,0
+1414,,,,0,0,0,0,0,0,0,0,0,0,408,860,418,584,0
+1415,,,,0,0,0,0,0,0,0,0,0,0,409,861,419,585,0
+1416,,,,0,0,0,0,0,0,0,0,0,0,410,862,420,586,0
+1417,,,,0,0,0,0,0,0,0,0,0,0,411,863,421,587,0
+1418,,,,0,0,0,0,0,0,0,0,0,0,412,864,422,588,0
+1419,,,,0,0,0,0,0,0,0,0,0,0,413,865,423,589,0
+1420,,,,0,0,0,0,0,0,0,0,0,0,414,866,424,590,0
+1421,,,,0,0,0,0,0,0,0,0,0,0,415,867,425,591,0
+1422,,,,0,0,0,0,0,0,0,0,0,0,416,868,426,592,0
+1423,,,,0,0,0,0,0,0,0,0,0,0,417,869,427,593,0
+1424,,,,0,0,0,0,0,0,0,0,0,0,418,870,428,594,0
+1425,,,,0,0,0,0,0,0,0,0,0,0,419,871,429,595,0
+1426,,,,0,0,0,0,0,0,0,0,0,0,420,872,430,596,0
+1427,,,,0,0,0,0,0,0,0,0,0,0,421,873,431,597,0
+1428,,,,0,0,0,0,0,0,0,0,0,0,422,874,432,598,0
+1429,,,,0,0,0,0,0,0,0,0,0,0,423,875,433,599,0
+1430,,,,0,0,0,0,0,0,0,0,0,0,424,876,434,600,0
+1431,,,,0,0,0,0,0,0,0,0,0,0,425,877,435,601,0
+1432,,,,0,0,0,0,0,0,0,0,0,0,426,878,436,602,0
+1433,,,,0,0,0,0,0,0,0,0,0,0,427,879,437,603,0
+1434,,,,0,0,0,0,0,0,0,0,0,0,428,880,438,604,0
+1435,,,,0,0,0,0,0,0,0,0,0,0,429,881,439,605,0
+1436,,,,0,0,0,0,0,0,0,0,0,0,430,882,440,606,0
+1437,,,,0,0,0,0,0,0,0,0,0,0,431,883,441,607,0
+1438,,,,0,0,0,0,0,0,0,0,0,0,432,884,442,608,0
+1439,,,,0,0,0,0,0,0,0,0,0,0,433,885,443,609,0
+1440,,,,0,0,0,0,0,0,0,0,0,0,434,886,444,610,0
+1441,,,,0,0,0,0,0,0,0,0,0,0,435,887,445,611,0
+1442,,,,0,0,0,0,0,0,0,0,0,0,436,888,446,612,0
+1443,,,,0,0,0,0,0,0,0,0,0,0,437,889,447,613,0
+1444,,,,0,0,0,0,0,0,0,0,0,0,438,890,448,614,0
+1445,,,,0,0,0,0,0,0,0,0,0,0,439,891,449,615,0
+1446,,,,0,0,0,0,0,0,0,0,0,0,440,892,450,616,0
+1447,,,,0,0,0,0,0,0,0,0,0,0,441,893,451,617,0
+1448,,,,0,0,0,0,0,0,0,0,0,0,442,894,452,618,0
+1449,,,,0,0,0,0,0,0,0,0,0,0,443,895,453,619,0
+1450,,,,0,0,0,0,0,0,0,0,0,0,444,896,454,620,0
+1451,,,,0,0,0,0,0,0,0,0,0,0,445,897,455,621,0
+1452,,,,0,0,0,0,0,0,0,0,0,0,446,898,456,622,0
+1453,,,,0,0,0,0,0,0,0,0,0,0,447,899,457,623,0
+1454,,,,0,0,0,0,0,0,0,0,0,0,448,900,458,624,0
+1455,,,,0,0,0,0,0,0,0,0,0,0,449,901,459,625,0
+1456,,,,0,0,0,0,0,0,0,0,0,0,450,902,460,626,0
+1457,,,,0,0,0,0,0,0,0,0,0,0,451,903,461,627,0
+1458,,,,0,0,0,0,0,0,0,0,0,0,452,904,462,628,0
+1459,,,,0,0,0,0,0,0,0,0,0,0,453,905,463,629,0
+1460,,,,0,0,0,0,0,0,0,0,0,0,454,906,464,630,0
+1461,,,,0,0,0,0,0,0,0,0,0,0,455,907,465,631,0
+1462,,,,0,0,0,0,0,0,0,0,0,0,456,908,466,632,0
+1463,,,,0,0,0,0,0,0,0,0,0,0,457,909,467,633,0
+1464,,,,0,0,0,0,0,0,0,0,0,0,458,910,468,634,0
+1465,,,,0,0,0,0,0,0,0,0,0,0,459,911,469,635,0
+1466,,,,0,0,0,0,0,0,0,0,0,0,460,912,470,636,0
+1467,,,,0,0,0,0,0,0,0,0,0,0,461,913,471,637,0
+1468,,,,0,0,0,0,0,0,0,0,0,0,462,914,472,638,0
+1469,,,,0,0,0,0,0,0,0,0,0,0,463,915,473,639,0
+1470,,,,0,0,0,0,0,0,0,0,0,0,464,916,474,640,0
+1471,,,,0,0,0,0,0,0,0,0,0,0,465,917,475,641,0
+1472,,,,0,0,0,0,0,0,0,0,0,0,466,918,476,642,0
+1473,,,,0,0,0,0,0,0,0,0,0,0,467,919,477,643,0
+1474,,,,0,0,0,0,0,0,0,0,0,0,468,920,478,644,0
+1475,,,,0,0,0,0,0,0,0,0,0,0,469,921,479,645,0
+1476,,,,0,0,0,0,0,0,0,0,0,0,470,922,480,646,0
+1477,,,,0,0,0,0,0,0,0,0,0,0,471,923,481,647,0
+1478,,,,0,0,0,0,0,0,0,0,0,0,472,924,482,648,0
+1479,,,,0,0,0,0,0,0,0,0,0,0,473,925,483,649,0
+1480,,,,0,0,0,0,0,0,0,0,0,0,474,926,484,650,0
+1481,,,,0,0,0,0,0,0,0,0,0,0,475,927,485,651,0
+1482,,,,0,0,0,0,0,0,0,0,0,0,476,928,486,652,0
+1483,,,,0,0,0,0,0,0,0,0,0,0,477,929,487,653,0
+1484,,,,0,0,0,0,0,0,0,0,0,0,478,930,488,654,0
+1485,,,,0,0,0,0,0,0,0,0,0,0,479,931,489,655,0
+1486,,,,0,0,0,0,0,0,0,0,0,0,480,932,490,656,0
+1487,,,,0,0,0,0,0,0,0,0,0,0,481,933,491,657,0
+1488,,,,0,0,0,0,0,0,0,0,0,0,482,934,492,658,0
+1489,,,,0,0,0,0,0,0,0,0,0,0,483,935,493,659,0
+1490,,,,0,0,0,0,0,0,0,0,0,0,484,936,494,660,0
+1491,,,,0,0,0,0,0,0,0,0,0,0,485,937,495,661,0
+1492,,,,0,0,0,0,0,0,0,0,0,0,486,938,496,662,0
+1493,,,,0,0,0,0,0,0,0,0,0,0,487,939,497,663,0
+1494,,,,0,0,0,0,0,0,0,0,0,0,488,940,498,664,0
+1495,,,,0,0,0,0,0,0,0,0,0,0,489,941,499,665,0
+1496,,,,0,0,0,0,0,0,0,0,0,0,490,942,500,666,0
+1497,,,,0,0,0,0,0,0,0,0,0,0,491,943,501,667,0
+1498,,,,0,0,0,0,0,0,0,0,0,0,492,944,502,668,0
+1499,,,,0,0,0,0,0,0,0,0,0,0,493,945,503,669,0
+1500,,,,0,0,0,0,0,0,0,0,0,0,494,946,504,670,0
+1501,,,,0,0,0,0,0,0,0,0,0,0,495,947,505,671,0
+1502,,,,0,0,0,0,0,0,0,0,0,0,496,948,506,672,0
+1503,,,,0,0,0,0,0,0,0,0,0,0,497,949,507,673,0
+1504,,,,0,0,0,0,0,0,0,0,0,0,498,950,508,674,0
+1505,,,,0,0,0,0,0,0,0,0,0,0,499,951,509,675,0
+1506,,,,0,0,0,0,0,0,0,0,0,0,500,952,510,676,0
+1507,,,,0,0,0,0,0,0,0,0,0,0,501,953,511,677,0
+1508,,,,0,0,0,0,0,0,0,0,0,0,502,954,512,678,0
+1509,,,,0,0,0,0,0,0,0,0,0,0,503,955,513,679,0
+1510,,,,0,0,0,0,0,0,0,0,0,0,504,956,514,680,0
+1511,,,,0,0,0,0,0,0,0,0,0,0,505,957,515,681,0
+1512,,,,0,0,0,0,0,0,0,0,0,0,506,958,516,682,0
+1513,,,,0,0,0,0,0,0,0,0,0,0,507,959,517,683,0
+1514,,,,0,0,0,0,0,0,0,0,0,0,508,960,518,684,0
+1515,,,,0,0,0,0,0,0,0,0,0,0,509,961,519,685,0
+1516,,,,0,0,0,0,0,0,0,0,0,0,510,962,520,686,0
+1517,,,,0,0,0,0,0,0,0,0,0,0,511,963,521,687,0
+1518,,,,0,0,0,0,0,0,0,0,0,0,512,964,522,688,0
+1519,,,,0,0,0,0,0,0,0,0,0,0,513,965,523,689,0
+1520,,,,0,0,0,0,0,0,0,0,0,0,514,966,524,690,0
+1521,,,,0,0,0,0,0,0,0,0,0,0,515,967,525,691,0
+1522,,,,0,0,0,0,0,0,0,0,0,0,516,968,526,692,0
+1523,,,,0,0,0,0,0,0,0,0,0,0,517,969,527,693,0
+1524,,,,0,0,0,0,0,0,0,0,0,0,518,970,528,694,0
+1525,,,,0,0,0,0,0,0,0,0,0,0,519,971,529,695,0
+1526,,,,0,0,0,0,0,0,0,0,0,0,520,972,530,696,0
+1527,,,,0,0,0,0,0,0,0,0,0,0,521,973,531,697,0
+1528,,,,0,0,0,0,0,0,0,0,0,0,522,974,532,698,0
+1529,,,,0,0,0,0,0,0,0,0,0,0,523,975,533,699,0
+1530,,,,0,0,0,0,0,0,0,0,0,0,524,976,534,700,0
+1531,,,,0,0,0,0,0,0,0,0,0,0,525,977,535,701,0
+1532,,,,0,0,0,0,0,0,0,0,0,0,526,978,536,702,0
+1533,,,,0,0,0,0,0,0,0,0,0,0,527,979,537,703,0
+1534,,,,0,0,0,0,0,0,0,0,0,0,528,980,538,704,0
+1535,,,,0,0,0,0,0,0,0,0,0,0,529,981,539,705,0
+1536,,,,0,0,0,0,0,0,0,0,0,0,530,982,540,706,0
+1537,,,,0,0,0,0,0,0,0,0,0,0,531,983,541,707,0
+1538,,,,0,0,0,0,0,0,0,0,0,0,532,984,542,708,0
+1539,,,,0,0,0,0,0,0,0,0,0,0,533,985,543,709,0
+1540,,,,0,0,0,0,0,0,0,0,0,0,534,986,544,710,0
+1541,,,,0,0,0,0,0,0,0,0,0,0,535,987,545,711,0
+1542,,,,0,0,0,0,0,0,0,0,0,0,536,988,546,712,0
+1543,,,,0,0,0,0,0,0,0,0,0,0,537,989,547,713,0
+1544,,,,0,0,0,0,0,0,0,0,0,0,538,990,548,714,0
+1545,,,,0,0,0,0,0,0,0,0,0,0,539,991,549,715,0
+1546,,,,0,0,0,0,0,0,0,0,0,0,540,992,550,716,0
+1547,,,,0,0,0,0,0,0,0,0,0,0,541,993,551,717,0
+1548,,,,0,0,0,0,0,0,0,0,0,0,542,994,552,718,0
+1549,,,,0,0,0,0,0,0,0,0,0,0,543,995,553,719,0
+1550,,,,0,0,0,0,0,0,0,0,0,0,544,996,554,720,0
+1551,,,,0,0,0,0,0,0,0,0,0,0,545,997,555,721,0
+"#N/A",,,,0,6,6,0,1427417,1427417,1,1,1,0,1,998,120,316,0.033333
