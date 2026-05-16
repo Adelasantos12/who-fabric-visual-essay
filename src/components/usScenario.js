@@ -4,6 +4,7 @@ import { NETWORK_DATA as NET, CAT_COLOR } from '../data/network_data.js';
 let usOn = false;
 let simBaseline = null;
 let simExposed = null;
+let stats = { ties: 0, flow: 0, dep: 0 };
 
 const DEFAULT_COLOR = '#ccc';
 function getColor(cat) { return CAT_COLOR[cat] || DEFAULT_COLOR; }
@@ -16,22 +17,26 @@ export function toggleUS() {
         btn.className = usOn ? 'btn' : 'btn off';
     }
 
+    const statInitial = document.querySelector('.stat-initial');
     const statItems = document.querySelectorAll('.stat-item');
-    statItems.forEach(el => el.classList.toggle('active', usOn));
 
     if (usOn) {
+        if (statInitial) statInitial.style.display = 'none';
+        statItems.forEach(el => {
+            el.style.display = 'inline';
+            el.classList.add('active');
+        });
+
         // Step-wise animation
-        // 1. Highlight US-linked flows in Exposed view
         const usEdges = d3.select('#us-svg-exposed').selectAll('.us-e');
         usEdges.classed('us-edge-highlight', true);
 
         // Update stats
-        document.getElementById('stat-ties').textContent = '1,530';
-        document.getElementById('stat-flow').textContent = '$525M';
-        document.getElementById('stat-dep').textContent = '4';
+        document.getElementById('stat-ties').textContent = stats.ties;
+        document.getElementById('stat-flow').textContent = `$${stats.flow}M`;
+        document.getElementById('stat-dep').textContent = stats.dep;
 
         setTimeout(() => {
-            // 2. Fade them
             usEdges.classed('us-edge-highlight', false)
                 .transition().duration(1000)
                 .attr('stroke-opacity', 0.03)
@@ -40,13 +45,17 @@ export function toggleUS() {
             d3.select('#us-svg-exposed').selectAll('.us-node-c').transition().duration(1000)
                 .attr('opacity', 0.15);
 
-            // 3. Highlight exposed nodes
             d3.select('#us-svg-exposed').selectAll('.dep-ring').transition().delay(500).duration(1000)
                 .attr('opacity', 1);
         }, 1500);
 
     } else {
-        // Reset
+        if (statInitial) statInitial.style.display = 'inline';
+        statItems.forEach(el => {
+            el.style.display = 'none';
+            el.classList.remove('active');
+        });
+
         const exposed = d3.select('#us-svg-exposed');
         exposed.selectAll('.us-e').interrupt().transition().duration(500)
             .attr('stroke-opacity', null)
@@ -66,18 +75,56 @@ export function toggleUS() {
 
 function buildSinglePanel(svgId, data, isExposed, tipId) {
     const wrap = document.querySelector('.us-view-box');
-    const W = wrap.clientWidth, H = 500 - 35; // subtract label height approx
+    const W = wrap.clientWidth, H = 500 - 35;
     const svg = d3.select(svgId).attr('width', '100%').attr('height', '100%');
     svg.selectAll('*').remove();
 
     const idSet = new Set(data.nodes.map(d => d.id));
-    const edges = data.edges.filter(e => idSet.has(e.s) && idSet.has(e.t));
+    const edges = data.edges.filter(e => {
+        const sId = e.source?.id || e.source || e.s;
+        const tId = e.target?.id || e.target || e.t;
+        return idSet.has(sId) && idSet.has(tId);
+    });
+
+    // Dynamic Exposure Calculation
+    const US_IDS = new Set(data.nodes.filter(d => d.is_us).map(d => d.id));
+    const nodeStats = {};
+    data.nodes.forEach(n => { nodeStats[n.id] = { totalIn: 0, usIn: 0 }; });
+    edges.forEach(e => {
+        const sId = e.source?.id || e.source || e.s;
+        const tId = e.target?.id || e.target || e.t;
+        const w = e.weight || e.w || 0;
+        if (nodeStats[tId]) {
+            nodeStats[tId].totalIn += w;
+            if (US_IDS.has(sId)) nodeStats[tId].usIn += w;
+        }
+    });
+
+    const depIds = new Set(
+        data.nodes
+            .filter(n => {
+                const s = nodeStats[n.id];
+                return s.totalIn > 0 && (s.usIn / s.totalIn) >= 0.5;
+            })
+            .map(n => n.id)
+    );
+
+    // Global Stats for US Toggle
+    const usEdgesFilter = edges.filter(e => {
+        const sId = e.source?.id || e.source || e.s;
+        return US_IDS.has(sId);
+    });
+    stats = {
+        ties: usEdgesFilter.length,
+        flow: Math.round(d3.sum(usEdgesFilter, e => (e.weight || e.w || 0)) / 1e6),
+        dep: depIds.size
+    };
 
     const wArr = data.nodes.map(d => d.total_w).filter(v => v > 0);
     const wMax = d3.max(wArr) || 1, wMin = d3.min(wArr) || 0.001;
     const rScale = d => 5 + 11 * (Math.log(Math.max(d.total_w, 0.001)) - Math.log(wMin)) / (Math.log(wMax) - Math.log(wMin));
 
-    const eArr = edges.map(e => e.w).filter(v => v > 0);
+    const eArr = edges.map(e => e.weight || e.w).filter(v => v > 0);
     const eMax = d3.max(eArr) || 1, eMin = d3.min(eArr) || 0.001;
     const eOp = w => 0.1 + 0.4 * (Math.log(Math.max(w, .001)) - Math.log(eMin)) / (Math.log(eMax) - Math.log(eMin));
     const eW = w => 0.4 + 2 * (Math.log(Math.max(w, .001)) - Math.log(eMin)) / (Math.log(eMax) - Math.log(eMin));
@@ -85,20 +132,17 @@ function buildSinglePanel(svgId, data, isExposed, tipId) {
     const g = svg.append('g');
     svg.call(d3.zoom().scaleExtent([0.3, 4]).on('zoom', e => g.attr('transform', e.transform)));
 
-    const depLabels = ['Poland', 'Czechia', 'Slovakia', 'Iraq'];
-    const depIds = new Set(data.nodes.filter(d => depLabels.some(l => d.label.includes(l))).map(d => d.id));
-
     const link = g.append('g').selectAll('line').data(edges).join('line')
         .attr('class', d => {
-            const src = data.nodes.find(n => n.id === d.s);
-            return (src && src.is_us) ? 'us-e' : '';
+            const sId = d.source?.id || d.source || d.s;
+            return US_IDS.has(sId) ? 'us-e' : '';
         })
         .attr('stroke', d => {
-            const src = data.nodes.find(n => n.id === d.s);
-            return (src && src.is_us) ? '#FFCDD2' : '#ddd';
+            const sId = d.source?.id || d.source || d.s;
+            return US_IDS.has(sId) ? '#FFCDD2' : '#ddd';
         })
-        .attr('stroke-width', d => eW(d.w))
-        .attr('stroke-opacity', d => eOp(d.w));
+        .attr('stroke-width', d => eW(d.weight || d.w))
+        .attr('stroke-opacity', d => eOp(d.weight || d.w));
 
     const nodeG = g.append('g').selectAll('g').data(data.nodes).join('g')
         .call(d3.drag()
@@ -158,7 +202,7 @@ function buildSinglePanel(svgId, data, isExposed, tipId) {
 
 export function buildUSPanel(unusedId, tipId) {
     const biennium = '2024-25';
-    const data = JSON.parse(JSON.stringify(NET[biennium])); // Deep clone to avoid shared positions between sims
+    const data = JSON.parse(JSON.stringify(NET[biennium]));
     const dataExposed = JSON.parse(JSON.stringify(NET[biennium]));
 
     simBaseline = buildSinglePanel('#us-svg-baseline', data, false, tipId);

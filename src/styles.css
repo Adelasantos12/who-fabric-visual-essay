@@ -177,3 +177,8 @@ em{font-style:italic} strong{font-weight:bold}
 .dep-ring {
     transition: opacity 0.8s ease;
 }
+
+.stat-initial {
+    font-style: italic;
+    color: #999;
+}
