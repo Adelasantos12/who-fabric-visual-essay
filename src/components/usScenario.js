@@ -2,6 +2,8 @@ import * as d3 from 'd3';
 import { NETWORK_DATA as NET, CAT_COLOR } from '../data/network_data.js';
 
 let usOn = false;
+let simBaseline = null;
+let simExposed = null;
 
 const DEFAULT_COLOR = '#ccc';
 function getColor(cat) { return CAT_COLOR[cat] || DEFAULT_COLOR; }
@@ -10,38 +12,62 @@ export function toggleUS() {
     usOn = !usOn;
     const btn = document.getElementById('usBtn');
     if (btn) {
-        btn.textContent = usOn ? 'Restore US flows' : 'Remove US flows';
+        btn.textContent = usOn ? 'Reset view' : 'Show US exposure';
         btn.className = usOn ? 'btn' : 'btn off';
     }
-    const expNote = document.getElementById('expNote');
-    if (expNote) {
-        expNote.className = usOn ? 'exposure-note on' : 'exposure-note';
+
+    const statItems = document.querySelectorAll('.stat-item');
+    statItems.forEach(el => el.classList.toggle('active', usOn));
+
+    if (usOn) {
+        // Step-wise animation
+        // 1. Highlight US-linked flows in Exposed view
+        const usEdges = d3.select('#us-svg-exposed').selectAll('.us-e');
+        usEdges.classed('us-edge-highlight', true);
+
+        // Update stats
+        document.getElementById('stat-ties').textContent = '1,530';
+        document.getElementById('stat-flow').textContent = '$525M';
+        document.getElementById('stat-dep').textContent = '4';
+
+        setTimeout(() => {
+            // 2. Fade them
+            usEdges.classed('us-edge-highlight', false)
+                .transition().duration(1000)
+                .attr('stroke-opacity', 0.03)
+                .attr('stroke', '#ddd');
+
+            d3.select('#us-svg-exposed').selectAll('.us-node-c').transition().duration(1000)
+                .attr('opacity', 0.15);
+
+            // 3. Highlight exposed nodes
+            d3.select('#us-svg-exposed').selectAll('.dep-ring').transition().delay(500).duration(1000)
+                .attr('opacity', 1);
+        }, 1500);
+
+    } else {
+        // Reset
+        const exposed = d3.select('#us-svg-exposed');
+        exposed.selectAll('.us-e').interrupt().transition().duration(500)
+            .attr('stroke-opacity', null)
+            .attr('stroke', '#FFCDD2');
+
+        exposed.selectAll('.us-node-c').interrupt().transition().duration(500)
+            .attr('opacity', 1);
+
+        exposed.selectAll('.dep-ring').interrupt().transition().duration(500)
+            .attr('opacity', 0);
+
+        document.getElementById('stat-ties').textContent = '0';
+        document.getElementById('stat-flow').textContent = '$0M';
+        document.getElementById('stat-dep').textContent = '0';
     }
-
-    // Fading logic for US-related elements
-    d3.selectAll('.us-edge').transition().duration(600)
-        .attr('stroke-opacity', usOn ? 0.03 : null)
-        .attr('stroke', usOn ? '#ddd' : '#FFCDD2');
-
-    d3.selectAll('.us-node circle').transition().duration(600)
-        .attr('opacity', usOn ? 0.15 : 1);
-
-    // US Panel specific elements
-    d3.select('#us-svg').selectAll('.us-e').transition().duration(600)
-        .attr('stroke-opacity', usOn ? 0.03 : null);
-
-    d3.selectAll('.dep-ring').transition().duration(600)
-        .attr('opacity', usOn ? 1 : 0);
 }
 
-export function buildUSPanel(svgId, tipId) {
-    const biennium = '2024-25';
-    const data = NET[biennium];
-    if (!data) return;
-
-    const wrap = document.getElementById('us-net-wrap');
-    const W = wrap.clientWidth, H = wrap.clientHeight || 520;
-    const svg = d3.select(svgId).attr('width', W).attr('height', H);
+function buildSinglePanel(svgId, data, isExposed, tipId) {
+    const wrap = document.querySelector('.us-view-box');
+    const W = wrap.clientWidth, H = 500 - 35; // subtract label height approx
+    const svg = d3.select(svgId).attr('width', '100%').attr('height', '100%');
     svg.selectAll('*').remove();
 
     const idSet = new Set(data.nodes.map(d => d.id));
@@ -76,9 +102,9 @@ export function buildUSPanel(svgId, tipId) {
 
     const nodeG = g.append('g').selectAll('g').data(data.nodes).join('g')
         .call(d3.drag()
-            .on('start', (ev, d) => { if (!ev.active) sim2.alphaTarget(.3).restart(); d.fx = d.x; d.fy = d.y; })
+            .on('start', (ev, d) => { if (!ev.active) sim.alphaTarget(.3).restart(); d.fx = d.x; d.fy = d.y; })
             .on('drag', (ev, d) => { d.fx = ev.x; d.fy = ev.y; })
-            .on('end', (ev, d) => { if (!ev.active) sim2.alphaTarget(0); d.fx = null; d.fy = null; }));
+            .on('end', (ev, d) => { if (!ev.active) sim.alphaTarget(0); d.fx = null; d.fy = null; }));
 
     nodeG.append('circle')
         .attr('r', d => rScale(d))
@@ -87,15 +113,17 @@ export function buildUSPanel(svgId, tipId) {
         .attr('stroke-width', d => d.is_us ? 2.5 : 1)
         .attr('class', d => d.is_us ? 'us-node-c' : '');
 
-    nodeG.filter(d => depIds.has(d.id))
-        .append('circle')
-        .attr('class', 'dep-ring')
-        .attr('r', d => rScale(d) + 5)
-        .attr('fill', 'none')
-        .attr('stroke', '#FF6D00')
-        .attr('stroke-width', 2)
-        .attr('stroke-dasharray', '4,3')
-        .attr('opacity', 0);
+    if (isExposed) {
+        nodeG.filter(d => depIds.has(d.id))
+            .append('circle')
+            .attr('class', 'dep-ring')
+            .attr('r', d => rScale(d) + 5)
+            .attr('fill', 'none')
+            .attr('stroke', '#FF6D00')
+            .attr('stroke-width', 2)
+            .attr('stroke-dasharray', '4,3')
+            .attr('opacity', 0);
+    }
 
     const tip = d3.select(tipId);
     nodeG.on('mouseenter', (ev, d) => {
@@ -113,7 +141,7 @@ export function buildUSPanel(svgId, tipId) {
     })
     .on('mouseleave', () => tip.classed('on', false));
 
-    const sim2 = d3.forceSimulation(data.nodes)
+    const sim = d3.forceSimulation(data.nodes)
         .force('link', d3.forceLink(edges).id(d => d.id).distance(50).strength(0.35))
         .force('charge', d3.forceManyBody().strength(-100))
         .force('center', d3.forceCenter(W / 2, H / 2))
@@ -124,5 +152,15 @@ export function buildUSPanel(svgId, tipId) {
             nodeG.attr('transform', d => `translate(${d.x},${d.y})`);
         }).alpha(0.8).restart();
 
-    setTimeout(() => sim2.alphaTarget(0), 2500);
+    setTimeout(() => sim.alphaTarget(0), 2500);
+    return sim;
+}
+
+export function buildUSPanel(unusedId, tipId) {
+    const biennium = '2024-25';
+    const data = JSON.parse(JSON.stringify(NET[biennium])); // Deep clone to avoid shared positions between sims
+    const dataExposed = JSON.parse(JSON.stringify(NET[biennium]));
+
+    simBaseline = buildSinglePanel('#us-svg-baseline', data, false, tipId);
+    simExposed = buildSinglePanel('#us-svg-exposed', dataExposed, true, tipId);
 }

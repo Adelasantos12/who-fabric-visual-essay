@@ -111,7 +111,7 @@
               Modularity: 0.294
             </div>
             <p>Two weakly connected components means the network is essentially one integrated structure with one small satellite. The fabric holds — not tightly, but coherently.</p>
-            <p>The US cluster of entities (USAID, CDC, NIH and others) accounts for <strong>616M</strong> — 12.4% of total positive flows. Hover over nodes to see individual actors.</p>
+            <p>The US cluster of entities (USAID, CDC, NIH and others) accounts for <strong>$616M</strong> — 12.4% of total positive flows. Hover over nodes to see individual actors.</p>
           </div>
         </div>
 
@@ -172,23 +172,34 @@
     <!-- ─────────── US REMOVAL ─────────── -->
     <section class="fw-section" id="usSection">
     <div class="fw-inner">
-      <h2>2025: What happens when a thick thread thins?</h2>
-      <p>US entities — USAID, CDC, NIH, DTRA, USFDA, USDA, State Department — contributed <strong>25M</strong> in the 2024–25 period (provisional): 10.9% of total positive flows, distributed across 1,530 financing relationships.</p>
-      <p>The scenario below fades US-linked flows to show which parts of the network become more exposed. Grey edges = US flows being removed. Highlighted nodes = those receiving ≥50% of their flows from US entities.</p>
+      <h2>2025: Exposure without collapse</h2>
+      <p>US entities — USAID, CDC, NIH, DTRA, USFDA, USDA, State Department — contributed <strong>$525M</strong> in the 2024–25 period (provisional): 10.9% of total positive flows, distributed across 1,530 financing relationships.</p>
+
+      <p>The US funding shock does not visually collapse the network at this level of aggregation. Instead, it reveals a subtler pattern: the fabric remains connected, but some nodes become visibly exposed once US-linked flows are faded.</p>
+
       <div class="toggle-row">
-        <button class="btn off" id="usBtn">Remove US flows</button>
-        <div>
-          <div class="exposure-note" id="expNote">25M removed · 1,530 edges faded · 4 nodes with ≥50% US dependency highlighted</div>
+        <button class="btn off" id="usBtn">Show US exposure</button>
+        <div class="exposure-stats" id="expStats">
+            <span class="stat-item"><strong id="stat-ties">0</strong> ties affected</span>
+            <span class="stat-item"><strong id="stat-flow">$0M</strong> affected</span>
+            <span class="stat-item"><strong id="stat-dep">0</strong> nodes >50% dependent</span>
         </div>
       </div>
-      <div id="us-net-wrap" style="width:100%;height:520px;background:#fafafa;border:1px solid #eee;position:relative;border-radius:4px">
-        <svg id="us-svg" width="100%" height="100%"></svg>
-        <div style="position:absolute;bottom:10px;right:14px;font-family:'Courier New',monospace;font-size:10px;color:#bbb">
-          Top 35 donors + WHO recipients · 2024–25 (Q1, provisional)
-        </div>
+
+      <div class="us-split-view">
+          <div class="us-view-box">
+              <div class="view-label">Baseline (Full 2024–25)</div>
+              <svg id="us-svg-baseline"></svg>
+          </div>
+          <div class="us-view-box">
+              <div class="view-label">Exposed (US Flows Faded)</div>
+              <svg id="us-svg-exposed"></svg>
+              <div class="view-note" id="layoutNote">Layout stable. US-linked flows faded to reveal structural exposure.</div>
+          </div>
       </div>
+
       <p style="margin-top:16px;font-size:14px;color:#666">
-        <strong>Finding:</strong> No node in this dataset receives flows <em>exclusively</em> from US entities — the network has no single point of US-only dependency at this aggregation level. Four recipient nodes rely on US sources for 50–74% of their observed flows: Poland, Czechia, Slovakia, and Iraq.
+        <strong>Finding:</strong> No node in this dataset receives flows <em>exclusively</em> from US entities — the network has no single point of US-only dependency at this aggregation level. Four recipient nodes rely on US sources for 50–74% of their observed flows: Poland, Czechia, Slovakia, and Iraq. The fabric holds, but its texture thins in specific areas.
       </p>
     </div>
     </section>
