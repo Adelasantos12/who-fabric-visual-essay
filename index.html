@@ -10,9 +10,18 @@
 
     <header class="hero">
         <div class="hero-content">
-            <h1>The Fabric of Global Health Funding</h1>
-            <p class="dek">Mapping the structural resilience and fragmentation of WHO financing (2016–2025).</p>
-            <div class="byline">By Jules · Data: WHO Programme Budget Portal</div>
+            <p class="essay-meta">A visual data essay · WHO Financing Networks · 2016–2025</p>
+            <h1>The Fabric of<br>Global Health Funding</h1>
+            <div class="intro-text">
+                <p>Every global health programme is connected to its funders through a thread of money. When many actors fund many programmes, a fabric forms. Whether that fabric holds together — or quietly comes apart — is a structural question, not a financial one.</p>
+                <p>This essay maps nine years of WHO financing data as a changing network. The story is not about the total amount of money. It is about the texture of the connections.</p>
+            </div>
+            <div class="byline">
+                By <strong>Adela Santos</strong> (<a href="mailto:adela.santos@graduateinstitute.ch">adela.santos@graduateinstitute.ch</a>)
+            </div>
+            <div class="meta-footer">
+                Data: WHO Programme Budget (Q4 2016–2023; Q1 2024–2025)  ·  Analysis: Adela Santos et al. (peer-reviewed)  ·  Network: igraph (R)  ·  Visualization: D3.js
+            </div>
         </div>
     </header>
 
@@ -23,32 +32,32 @@
         <div class="metric-strip" id="metricStrip">
           <div class="metric-item" id="m-nodes">
             <span class="metric-label">Nodes</span>
-            <span id="mv-nodes" class="metric-val">0</span>
+            <span id="mv-nodes" class="metric-val">—</span>
             <div class="m-bar"><div id="mb-nodes" class="m-bar-fill"></div></div>
           </div>
           <div class="metric-item" id="m-edges">
             <span class="metric-label">Edges</span>
-            <span id="mv-edges" class="metric-val">0</span>
+            <span id="mv-edges" class="metric-val">—</span>
             <div class="m-bar"><div id="mb-edges" class="m-bar-fill"></div></div>
           </div>
           <div class="metric-item" id="m-density">
             <span class="metric-label">Density</span>
-            <span id="mv-density" class="metric-val">0</span>
+            <span id="mv-density" class="metric-val">—</span>
             <div class="m-bar"><div id="mb-density" class="m-bar-fill"></div></div>
           </div>
           <div class="metric-item" id="m-clust">
             <span class="metric-label">Clustering</span>
-            <span id="mv-clust" class="metric-val">0</span>
+            <span id="mv-clust" class="metric-val">—</span>
             <div class="m-bar"><div id="mb-clust" class="m-bar-fill"></div></div>
           </div>
           <div class="metric-item" id="m-wcc">
             <span class="metric-label">WCC (Fragments)</span>
-            <span id="mv-wcc" class="metric-val">0</span>
+            <span id="mv-wcc" class="metric-val">—</span>
             <div class="m-bar"><div id="mb-wcc" class="m-bar-fill"></div></div>
           </div>
           <div class="metric-item" id="m-mod">
             <span class="metric-label">Modularity</span>
-            <span id="mv-mod" class="metric-val">0</span>
+            <span id="mv-mod" class="metric-val">—</span>
             <div class="m-bar"><div id="mb-mod" class="m-bar-fill"></div></div>
           </div>
         </div>
@@ -186,6 +195,27 @@
       </p>
     </div>
     </section>
+    <!-- ─────────── MIDDLE POWERS ─────────── -->
+    <section class="fw-section" id="midSection">
+    <div class="fw-inner">
+      <h2>Middle Powers: Potential Bridges?</h2>
+      <p>These actors may occupy positions with potential bridging relevance in the post-shock configuration. This should not be read as evidence that they can replace US-linked flows. Rather, it identifies possible sites of structural intermediation that merit closer scrutiny.</p>
+
+      <div class="toggle-row">
+        <button class="btn off" id="midBtn">Highlight Middle Powers</button>
+      </div>
+
+      <div class="mid-panel">
+          <div class="mid-view-box">
+              <svg id="mid-svg"></svg>
+          </div>
+      </div>
+
+      <div class="mbox" style="background:rgba(255,215,0,0.05); border-left-color:#D4AF37">
+        <strong>Assessment:</strong> Germany, the European Union, Canada, France, and Japan are identified as candidates based on their sustained volume and relative betweenness. However, structural constraints mean they operate as regional or thematic connectors rather than a unified global hub.
+      </div>
+    </div>
+    </section>
 
     <!-- ─────────── BINDING MAP ─────────── -->
     <section class="fw-section" id="bindingSection">
@@ -235,7 +265,7 @@
         <g id="bp4" class="bp"><circle cx="417" cy="291" r="6" fill="#3a8a60"/><text x="426" y="296" style="font-size:10px">2022-23</text></g>
         <g id="bp5" class="bp"><circle cx="384" cy="288" r="6" fill="#1B4332"/><text x="393" y="293" style="font-size:10px">2024-25</text></g>
       </svg>
-      <div id="bmap-note" style="opacity:0;font-size:13px;color:#666;margin-top:10px;text-align:center">Note: The trajectory suggests structural drift away from the 2016–17 baseline — a pattern consistent with hysteresis, where the system does not return to its original state even as the stress (pandemic) subsides.</div>
+      <div id="bmap-note" style="opacity:0;font-size:13px;color:#666;margin-top:10px;text-align:center">The trajectory suggests structural drift away from the more cohesive 2016–17 baseline.</div>
     </div>
     </section>
 

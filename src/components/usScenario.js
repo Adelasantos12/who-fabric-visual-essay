@@ -4,10 +4,16 @@ import { NETWORK_DATA as NET, CAT_COLOR } from '../data/network_data.js';
 let usOn = false;
 let simBaseline = null;
 let simExposed = null;
-let stats = { ties: 0, flow: 0, dep: 0 };
 
 const DEFAULT_COLOR = '#ccc';
 function getColor(cat) { return CAT_COLOR[cat] || DEFAULT_COLOR; }
+
+// Fixed stats as requested by user based on full analysis
+const FIXED_STATS = {
+    ties: '1,530',
+    flow: '525',
+    dep: '4'
+};
 
 export function toggleUS() {
     usOn = !usOn;
@@ -32,9 +38,9 @@ export function toggleUS() {
         usEdges.classed('us-edge-highlight', true);
 
         // Update stats
-        document.getElementById('stat-ties').textContent = stats.ties;
-        document.getElementById('stat-flow').textContent = `$${stats.flow}M`;
-        document.getElementById('stat-dep').textContent = stats.dep;
+        document.getElementById('stat-ties').textContent = FIXED_STATS.ties;
+        document.getElementById('stat-flow').textContent = `$${FIXED_STATS.flow}M`;
+        document.getElementById('stat-dep').textContent = FIXED_STATS.dep;
 
         setTimeout(() => {
             usEdges.classed('us-edge-highlight', false)
@@ -75,7 +81,7 @@ export function toggleUS() {
 
 function buildSinglePanel(svgId, data, isExposed, tipId) {
     const wrap = document.querySelector('.us-view-box');
-    const W = wrap.clientWidth, H = 500 - 35;
+    const W = wrap.clientWidth || 600, H = 500 - 35;
     const svg = d3.select(svgId).attr('width', '100%').attr('height', '100%');
     svg.selectAll('*').remove();
 
@@ -86,39 +92,9 @@ function buildSinglePanel(svgId, data, isExposed, tipId) {
         return idSet.has(sId) && idSet.has(tId);
     });
 
-    // Dynamic Exposure Calculation
     const US_IDS = new Set(data.nodes.filter(d => d.is_us).map(d => d.id));
-    const nodeStats = {};
-    data.nodes.forEach(n => { nodeStats[n.id] = { totalIn: 0, usIn: 0 }; });
-    edges.forEach(e => {
-        const sId = e.source?.id || e.source || e.s;
-        const tId = e.target?.id || e.target || e.t;
-        const w = e.weight || e.w || 0;
-        if (nodeStats[tId]) {
-            nodeStats[tId].totalIn += w;
-            if (US_IDS.has(sId)) nodeStats[tId].usIn += w;
-        }
-    });
-
-    const depIds = new Set(
-        data.nodes
-            .filter(n => {
-                const s = nodeStats[n.id];
-                return s.totalIn > 0 && (s.usIn / s.totalIn) >= 0.5;
-            })
-            .map(n => n.id)
-    );
-
-    // Global Stats for US Toggle
-    const usEdgesFilter = edges.filter(e => {
-        const sId = e.source?.id || e.source || e.s;
-        return US_IDS.has(sId);
-    });
-    stats = {
-        ties: usEdgesFilter.length,
-        flow: Math.round(d3.sum(usEdgesFilter, e => (e.weight || e.w || 0)) / 1e6),
-        dep: depIds.size
-    };
+    const depLabels = ['Poland', 'Czechia', 'Slovakia', 'Iraq'];
+    const depIds = new Set(data.nodes.filter(d => depLabels.some(l => d.label.includes(l))).map(d => d.id));
 
     const wArr = data.nodes.map(d => d.total_w).filter(v => v > 0);
     const wMax = d3.max(wArr) || 1, wMin = d3.min(wArr) || 0.001;

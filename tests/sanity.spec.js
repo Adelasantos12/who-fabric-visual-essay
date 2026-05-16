@@ -26,3 +26,13 @@ test('US exposure toggle works', async ({ page }) => {
   // Wait for the stats to update
   await expect(page.locator('#stat-ties')).not.toHaveText('0');
 });
+
+test('Middle powers toggle works', async ({ page }) => {
+  await page.goto('http://localhost:5173');
+  const btn = page.locator('#midBtn');
+  await btn.scrollIntoViewIfNeeded();
+  await btn.click();
+  await expect(btn).toHaveText('Reset view');
+  const midSvg = page.locator('#mid-svg');
+  await expect(midSvg).toBeVisible();
+});

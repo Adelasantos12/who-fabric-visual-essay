@@ -31,8 +31,7 @@ a{color:inherit}
 #net-svg{width:100%;flex:1;min-height:0}
 
 /* ── METRIC STRIP ── */
-.metric-strip{width:100%;padding:8px 16px 10px;border-top:1px solid #eee;
-  display:grid;grid-template-columns:repeat(6,1fr);gap:6px}
+.metric-strip{width:100%;padding:8px 16px 10px;border-top:1px solid #eee; display:grid;grid-template-columns:repeat(6,1fr);gap:6px;transition:opacity .4s}
 .metric-cell{text-align:center}
 .metric-label{font-family:'Courier New',monospace;font-size:9px;
   text-transform:uppercase;letter-spacing:.06em;color:#aaa;display:block}
@@ -181,4 +180,19 @@ em{font-style:italic} strong{font-weight:bold}
 .stat-initial {
     font-style: italic;
     color: #999;
+}
+
+.mid-panel {
+    width: 100%;
+    height: 500px;
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.mid-view-box {
+    width: 100%;
+    height: 100%;
 }

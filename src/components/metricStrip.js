@@ -1,9 +1,19 @@
 import { METRICS, M_MAX } from '../data/network_data.js';
 
 export function updateMetrics(biennium) {
-    const m = METRICS[biennium];
-    if (!m) return;
+    const strip = document.getElementById('metricStrip');
+    if (!strip) return;
 
+    if (biennium === 'intro' || !METRICS[biennium]) {
+        strip.style.opacity = '0';
+        strip.style.pointerEvents = 'none';
+        return;
+    }
+
+    strip.style.opacity = '1';
+    strip.style.pointerEvents = 'auto';
+
+    const m = METRICS[biennium];
     const pairs = [
         ['nodes', 'mv-nodes', 'mb-nodes', m.nodes, M_MAX.nodes],
         ['edges', 'mv-edges', 'mb-edges', m.edges, M_MAX.edges],
