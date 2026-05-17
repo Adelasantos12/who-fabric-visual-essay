@@ -45,7 +45,11 @@ export function renderNetwork(biennium, svgId, tipId) {
     const W = box.width || 500, H = box.height || 400;
 
     const idSet = new Set(data.nodes.map(d => d.id));
-    const edges = data.edges.filter(e => idSet.has(e.s) && idSet.has(e.t));
+    const edges = data.edges.filter(e => {
+        const s = e.source?.id || e.source || e.s;
+        const t = e.target?.id || e.target || e.t;
+        return idSet.has(s) && idSet.has(t);
+    });
 
     // node scale
     const wArr = data.nodes.map(d => d.total_w).filter(v => v > 0);
@@ -56,7 +60,7 @@ export function renderNetwork(biennium, svgId, tipId) {
     };
 
     // edge scale
-    const eArr = edges.map(e => e.w).filter(v => v > 0);
+    const eArr = edges.map(e => e.weight || e.w).filter(v => v > 0);
     const eMax = d3.max(eArr) || 1, eMin = d3.min(eArr) || 0.001;
     const eWidth = w => 0.4 + 2.5 * (Math.log(Math.max(w, 0.001)) - Math.log(eMin)) / (Math.log(eMax) - Math.log(eMin));
     const eOp = w => 0.12 + 0.45 * (Math.log(Math.max(w, 0.001)) - Math.log(eMin)) / (Math.log(eMax) - Math.log(eMin));
@@ -68,13 +72,15 @@ export function renderNetwork(biennium, svgId, tipId) {
     const link = g.append('g').attr('class', 'links')
         .selectAll('line').data(edges).join('line')
         .attr('stroke', d => {
-            const src = data.nodes.find(n => n.id === d.s);
+            const sId = d.source?.id || d.source || d.s;
+            const src = data.nodes.find(n => n.id === sId);
             return (src && src.is_us) ? '#FFCDD2' : '#ccc';
         })
-        .attr('stroke-width', d => eWidth(d.w))
-        .attr('stroke-opacity', d => eOp(d.w))
+        .attr('stroke-width', d => eWidth(d.weight || d.w))
+        .attr('stroke-opacity', d => eOp(d.weight || d.w))
         .attr('class', d => {
-            const src = data.nodes.find(n => n.id === d.s);
+            const sId = d.source?.id || d.source || d.s;
+            const src = data.nodes.find(n => n.id === sId);
             return (src && src.is_us) ? 'us-edge' : '';
         });
 
