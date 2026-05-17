@@ -196,3 +196,49 @@ em{font-style:italic} strong{font-weight:bold}
     width: 100%;
     height: 100%;
 }
+
+/* ── MOBILE OPTIMIZATIONS ── */
+@media (max-width: 600px) {
+  .hero { padding: 40px 20px; }
+  .hero h1 { font-size: 32px; }
+  .hero p { font-size: 17px; }
+
+  .viz-panel {
+    height: 45vh;
+    padding: 4px;
+    border-right: none;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .metric-strip {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px 4px;
+    padding: 6px 10px;
+  }
+
+  .metric-label { font-size: 8px; }
+  .metric-val { font-size: 11px; }
+
+  .step {
+    padding: 60px 20px;
+    min-height: 70vh;
+    align-items: flex-start;
+  }
+
+  .us-view-box, .mid-panel {
+    height: 380px;
+  }
+
+  .toggle-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .exposure-stats {
+    flex-wrap: wrap;
+    gap: 8px 15px;
+  }
+
+  .fw-section h2 { font-size: 24px; }
+}
