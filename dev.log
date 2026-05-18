@@ -1,0 +1,11 @@
+
+> who-fabric-global-health-funding@1.0.0 dev
+> vite
+
+
+  VITE v5.4.21  ready in 248 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+10:00:03 AM [vite] hmr update /src/styles.css
+8:46:06 AM [vite] page reload index.html
