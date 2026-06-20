@@ -13,7 +13,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 1,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 2,
@@ -25,7 +26,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 3,
@@ -37,7 +39,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 4,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.5978
       },
       {
         "id": 12,
@@ -49,7 +52,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 13,
@@ -61,7 +65,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 18,
@@ -73,7 +78,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 20,
@@ -85,7 +91,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 22,
@@ -97,7 +104,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 24,
@@ -109,7 +117,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 27,
@@ -121,7 +130,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 30,
@@ -133,7 +143,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.6227
       },
       {
         "id": 41,
@@ -145,7 +156,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 42,
@@ -157,7 +169,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 44,
@@ -169,7 +182,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 51,
@@ -181,7 +195,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 53,
@@ -193,7 +208,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 56,
@@ -205,7 +221,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 1,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.6081
       },
       {
         "id": 63,
@@ -217,7 +234,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 67,
@@ -229,7 +247,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 71,
@@ -241,7 +260,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 2,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 72,
@@ -253,7 +273,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 78,
@@ -265,7 +286,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 2,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.6849
       },
       {
         "id": 82,
@@ -277,7 +299,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 84,
@@ -289,7 +312,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": true,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.5726
       },
       {
         "id": 90,
@@ -301,7 +325,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 96,
@@ -313,7 +338,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 97,
@@ -325,7 +351,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 100,
@@ -337,7 +364,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 102,
@@ -349,7 +377,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.4819
       },
       {
         "id": 103,
@@ -361,7 +390,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 105,
@@ -373,7 +403,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 115,
@@ -385,7 +416,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 1,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.6484
       },
       {
         "id": 117,
@@ -397,7 +429,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.6685
       },
       {
         "id": 118,
@@ -409,7 +442,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 1,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.539
       },
       {
         "id": 127,
@@ -421,7 +455,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 8,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.3233
       },
       {
         "id": 128,
@@ -433,7 +468,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 1,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.6914
       },
       {
         "id": 130,
@@ -445,7 +481,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 8,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 131,
@@ -457,7 +494,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 134,
@@ -469,7 +507,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 145,
@@ -481,7 +520,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 148,
@@ -493,7 +533,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 149,
@@ -505,7 +546,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.7125
       },
       {
         "id": 152,
@@ -517,7 +559,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 8,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.3675
       },
       {
         "id": 173,
@@ -529,7 +572,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 180,
@@ -541,7 +585,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 2,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.748
       },
       {
         "id": 183,
@@ -553,7 +598,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.5002
       },
       {
         "id": 196,
@@ -565,7 +611,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 197,
@@ -577,7 +624,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 227,
@@ -589,7 +637,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 8,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.0
       },
       {
         "id": 244,
@@ -601,7 +650,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 251,
@@ -613,7 +663,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 252,
@@ -625,7 +676,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.3812
       },
       {
         "id": 266,
@@ -637,7 +689,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 8,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 272,
@@ -649,7 +702,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 1,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 273,
@@ -661,7 +715,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 1,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.0
       },
       {
         "id": 276,
@@ -673,7 +728,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 283,
@@ -685,7 +741,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 8,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.283
       },
       {
         "id": 290,
@@ -697,7 +754,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 312,
@@ -709,7 +767,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 1,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 313,
@@ -721,7 +780,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 318,
@@ -733,7 +793,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 320,
@@ -745,7 +806,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 330,
@@ -757,7 +819,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 351,
@@ -769,7 +832,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 8,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.6764
       },
       {
         "id": 361,
@@ -781,7 +845,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.5035
       },
       {
         "id": 362,
@@ -793,7 +858,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.1217
       },
       {
         "id": 365,
@@ -805,7 +871,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 385,
@@ -817,7 +884,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.6436
       },
       {
         "id": 387,
@@ -829,7 +897,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 1,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.0
       },
       {
         "id": 390,
@@ -841,7 +910,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 395,
@@ -853,7 +923,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 396,
@@ -865,7 +936,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 1,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 400,
@@ -877,7 +949,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 403,
@@ -889,7 +962,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 406,
@@ -901,7 +975,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.6569
       },
       {
         "id": 412,
@@ -913,7 +988,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 421,
@@ -925,7 +1001,8 @@ const NETWORK_DATA = {
         "btw": 2.4e-05,
         "mod_cls": 1,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.0137
       },
       {
         "id": 422,
@@ -937,7 +1014,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 428,
@@ -949,7 +1027,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 431,
@@ -961,7 +1040,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 439,
@@ -973,7 +1053,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.5174
       },
       {
         "id": 442,
@@ -985,7 +1066,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 444,
@@ -997,7 +1079,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 459,
@@ -1009,7 +1092,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 1,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.3907
       },
       {
         "id": 463,
@@ -1021,7 +1105,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 468,
@@ -1033,7 +1118,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 469,
@@ -1045,7 +1131,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 470,
@@ -1057,7 +1144,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 471,
@@ -1069,7 +1157,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 472,
@@ -1081,7 +1170,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 487,
@@ -1093,7 +1183,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 490,
@@ -1105,7 +1196,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 499,
@@ -1117,7 +1209,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 500,
@@ -1129,7 +1222,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 503,
@@ -1141,7 +1235,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 1,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 505,
@@ -1153,7 +1248,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 506,
@@ -1165,7 +1261,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 2,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 517,
@@ -1177,7 +1274,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 521,
@@ -1189,7 +1287,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.0292
       },
       {
         "id": 522,
@@ -1201,7 +1300,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.5057
       },
       {
         "id": 534,
@@ -1213,7 +1313,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 535,
@@ -1225,7 +1326,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 536,
@@ -1237,7 +1339,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 537,
@@ -1249,7 +1352,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 542,
@@ -1261,7 +1365,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 567,
@@ -1273,7 +1378,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.0546
       },
       {
         "id": 568,
@@ -1285,7 +1391,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 1,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.0029
       },
       {
         "id": 570,
@@ -1297,7 +1404,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 8,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.7269
       },
       {
         "id": 571,
@@ -1309,7 +1417,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 1,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.6652
       },
       {
         "id": 572,
@@ -1321,7 +1430,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 2,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.7403
       },
       {
         "id": 577,
@@ -1333,7 +1443,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.7419
       },
       {
         "id": 580,
@@ -1345,7 +1456,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 2,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.4583
       },
       {
         "id": 581,
@@ -1357,7 +1469,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 8,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.4152
       },
       {
         "id": 583,
@@ -1369,7 +1482,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 1,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.5938
       },
       {
         "id": 586,
@@ -1381,7 +1495,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 587,
@@ -1393,7 +1508,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 8,
         "is_us": true,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.7245
       },
       {
         "id": 592,
@@ -1405,7 +1521,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": true,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 608,
@@ -1417,7 +1534,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 611,
@@ -1429,7 +1547,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 619,
@@ -1441,7 +1560,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 632,
@@ -1453,7 +1573,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 1,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 635,
@@ -1465,7 +1586,8 @@ const NETWORK_DATA = {
         "btw": 0.000179,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": 0.2428
       }
     ],
     "edges": [
@@ -4883,7 +5005,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 2,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 3,
@@ -4895,7 +5018,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 59,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.4131
       },
       {
         "id": 25,
@@ -4907,7 +5031,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 129,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.0
       },
       {
         "id": 30,
@@ -4919,7 +5044,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 10,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.4542
       },
       {
         "id": 48,
@@ -4931,7 +5057,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 129,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.0094
       },
       {
         "id": 56,
@@ -4943,7 +5070,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 2,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.4675
       },
       {
         "id": 74,
@@ -4955,7 +5083,8 @@ const NETWORK_DATA = {
         "btw": 3.9e-05,
         "mod_cls": 129,
         "is_us": true,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.0029
       },
       {
         "id": 78,
@@ -4967,7 +5096,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 40,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.6025
       },
       {
         "id": 84,
@@ -4979,7 +5109,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 10,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.6306
       },
       {
         "id": 96,
@@ -4991,7 +5122,8 @@ const NETWORK_DATA = {
         "btw": 1e-06,
         "mod_cls": 129,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.0
       },
       {
         "id": 102,
@@ -5003,7 +5135,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 10,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.327
       },
       {
         "id": 107,
@@ -5015,7 +5148,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 129,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.0662
       },
       {
         "id": 115,
@@ -5027,7 +5161,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 2,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.6025
       },
       {
         "id": 117,
@@ -5039,7 +5174,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 2,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.6655
       },
       {
         "id": 118,
@@ -5051,7 +5187,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 2,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.3854
       },
       {
         "id": 126,
@@ -5063,7 +5200,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 29,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 127,
@@ -5075,7 +5213,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 59,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.3142
       },
       {
         "id": 128,
@@ -5087,7 +5226,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 2,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.6052
       },
       {
         "id": 143,
@@ -5099,7 +5239,8 @@ const NETWORK_DATA = {
         "btw": 1.9e-05,
         "mod_cls": 10,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": 0.1101
       },
       {
         "id": 149,
@@ -5111,7 +5252,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 85,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.771
       },
       {
         "id": 152,
@@ -5123,7 +5265,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 59,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.5103
       },
       {
         "id": 180,
@@ -5135,7 +5278,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 40,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": null
       },
       {
         "id": 183,
@@ -5147,7 +5291,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 10,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.1121
       },
       {
         "id": 184,
@@ -5159,7 +5304,8 @@ const NETWORK_DATA = {
         "btw": 2.8e-05,
         "mod_cls": 129,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.0031
       },
       {
         "id": 226,
@@ -5171,7 +5317,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 59,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.0
       },
       {
         "id": 272,
@@ -5183,7 +5330,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 2,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.0
       },
       {
         "id": 282,
@@ -5195,7 +5343,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 59,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.2472
       },
       {
         "id": 350,
@@ -5207,7 +5356,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 59,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.5024
       },
       {
         "id": 360,
@@ -5219,7 +5369,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 2,
         "is_us": true,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.6227
       },
       {
         "id": 384,
@@ -5231,7 +5382,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 2,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.4971
       },
       {
         "id": 386,
@@ -5243,7 +5395,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 2,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.0293
       },
       {
         "id": 405,
@@ -5255,7 +5408,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 59,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.6161
       },
       {
         "id": 418,
@@ -5267,7 +5421,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 129,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.0
       },
       {
         "id": 420,
@@ -5279,7 +5434,8 @@ const NETWORK_DATA = {
         "btw": 4.4e-05,
         "mod_cls": 2,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.0153
       },
       {
         "id": 438,
@@ -5291,7 +5447,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 10,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.3724
       },
       {
         "id": 458,
@@ -5303,7 +5460,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 2,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.382
       },
       {
         "id": 476,
@@ -5315,7 +5473,8 @@ const NETWORK_DATA = {
         "btw": 8e-06,
         "mod_cls": 59,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": 0.1283
       },
       {
         "id": 547,
@@ -5327,7 +5486,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 129,
         "is_us": true,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.0027
       },
       {
         "id": 567,
@@ -5339,7 +5499,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 2,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.0
       },
       {
         "id": 569,
@@ -5351,7 +5512,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 59,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.6761
       },
       {
         "id": 570,
@@ -5363,7 +5525,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 2,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.5566
       },
       {
         "id": 576,
@@ -5375,7 +5538,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 40,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.7045
       },
       {
         "id": 580,
@@ -5387,7 +5551,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 59,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.3799
       },
       {
         "id": 582,
@@ -5399,7 +5564,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 2,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": 0.5571
       },
       {
         "id": 586,
@@ -5411,7 +5577,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 59,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.6559
       },
       {
         "id": 596,
@@ -5423,7 +5590,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 129,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       }
     ],
     "edges": [
@@ -6071,7 +6239,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 6,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.7225
       },
       {
         "id": 45,
@@ -6083,7 +6252,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 117,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.6302
       },
       {
         "id": 73,
@@ -6095,7 +6265,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 6,
         "is_us": true,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.7684
       },
       {
         "id": 81,
@@ -6107,7 +6278,8 @@ const NETWORK_DATA = {
         "btw": 0.000518,
         "mod_cls": 6,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.7607
       },
       {
         "id": 97,
@@ -6119,7 +6291,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 6,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.7154
       },
       {
         "id": 100,
@@ -6131,7 +6304,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 120,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.6305
       },
       {
         "id": 112,
@@ -6143,7 +6317,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 145,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.8136
       },
       {
         "id": 114,
@@ -6155,7 +6330,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 162,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.6191
       },
       {
         "id": 115,
@@ -6167,7 +6343,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 145,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.8076
       },
       {
         "id": 124,
@@ -6179,7 +6356,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 85,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.2714
       },
       {
         "id": 127,
@@ -6191,7 +6369,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 145,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.7599
       },
       {
         "id": 128,
@@ -6203,7 +6382,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 162,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.7752
       },
       {
         "id": 164,
@@ -6215,7 +6395,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 165,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.7848
       },
       {
         "id": 166,
@@ -6227,7 +6408,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 117,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.7414
       },
       {
         "id": 180,
@@ -6239,7 +6421,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 6,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.7458
       },
       {
         "id": 192,
@@ -6251,7 +6434,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 117,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.7695
       },
       {
         "id": 195,
@@ -6263,7 +6447,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 120,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.7853
       },
       {
         "id": 230,
@@ -6275,7 +6460,8 @@ const NETWORK_DATA = {
         "btw": 5e-05,
         "mod_cls": 117,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.012
       },
       {
         "id": 236,
@@ -6287,7 +6473,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 165,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.0068
       },
       {
         "id": 247,
@@ -6299,7 +6486,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 165,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.0
       },
       {
         "id": 256,
@@ -6311,7 +6499,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 162,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.4852
       },
       {
         "id": 269,
@@ -6323,7 +6512,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 117,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.6849
       },
       {
         "id": 271,
@@ -6335,7 +6525,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 165,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.1656
       },
       {
         "id": 280,
@@ -6347,7 +6538,8 @@ const NETWORK_DATA = {
         "btw": 0.000116,
         "mod_cls": 165,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.5213
       },
       {
         "id": 345,
@@ -6359,7 +6551,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 147,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.6064
       },
       {
         "id": 348,
@@ -6371,7 +6564,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 147,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.7225
       },
       {
         "id": 361,
@@ -6383,7 +6577,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 6,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.6239
       },
       {
         "id": 384,
@@ -6395,7 +6590,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 145,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.7571
       },
       {
         "id": 401,
@@ -6407,7 +6603,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 6,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.8254
       },
       {
         "id": 411,
@@ -6419,7 +6616,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 117,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.0
       },
       {
         "id": 415,
@@ -6431,7 +6629,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 145,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.5024
       },
       {
         "id": 436,
@@ -6443,7 +6642,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 6,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.7107
       },
       {
         "id": 456,
@@ -6455,7 +6655,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 145,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.5585
       },
       {
         "id": 534,
@@ -6467,7 +6668,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 162,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.7279
       },
       {
         "id": 539,
@@ -6479,7 +6681,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 117,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.0
       },
       {
         "id": 541,
@@ -6491,7 +6694,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 145,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.6412
       },
       {
         "id": 544,
@@ -6503,7 +6707,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 117,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.4473
       },
       {
         "id": 553,
@@ -6515,7 +6720,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 165,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.402
       },
       {
         "id": 560,
@@ -6527,7 +6733,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 147,
         "is_us": true,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.8471
       },
       {
         "id": 594,
@@ -6539,7 +6746,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 145,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.4307
       },
       {
         "id": 609,
@@ -6551,7 +6759,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 6,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       }
     ],
     "edges": [
@@ -7054,7 +7263,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 8,
@@ -7066,7 +7276,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 113,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 9,
@@ -7078,7 +7289,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 13,
@@ -7090,7 +7302,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 15,
@@ -7102,7 +7315,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 17,
@@ -7114,7 +7328,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 20,
@@ -7126,7 +7341,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 21,
@@ -7138,7 +7354,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 110,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 24,
@@ -7150,7 +7367,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.5163
       },
       {
         "id": 30,
@@ -7162,7 +7380,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 31,
@@ -7174,7 +7393,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 33,
@@ -7186,7 +7406,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 1,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 35,
@@ -7198,7 +7419,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 110,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 37,
@@ -7210,7 +7432,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 113,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 42,
@@ -7222,7 +7445,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 9,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.5092
       },
       {
         "id": 44,
@@ -7234,7 +7458,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 46,
@@ -7246,7 +7471,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 112,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 48,
@@ -7258,7 +7484,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 113,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 51,
@@ -7270,7 +7497,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 52,
@@ -7282,7 +7510,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 110,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 55,
@@ -7294,7 +7523,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 110,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 56,
@@ -7306,7 +7536,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 57,
@@ -7318,7 +7549,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 66,
@@ -7330,7 +7562,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": true,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.6378
       },
       {
         "id": 74,
@@ -7342,7 +7575,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 113,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 80,
@@ -7354,7 +7588,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 110,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 82,
@@ -7366,7 +7601,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 84,
@@ -7378,7 +7614,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 86,
@@ -7390,7 +7627,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.5065
       },
       {
         "id": 87,
@@ -7402,7 +7640,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 113,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 92,
@@ -7414,7 +7653,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 94,
@@ -7426,7 +7666,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 110,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 96,
@@ -7438,7 +7679,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 110,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 99,
@@ -7450,7 +7692,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 104,
@@ -7462,7 +7705,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.6298
       },
       {
         "id": 105,
@@ -7474,7 +7718,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 9,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.6872
       },
       {
         "id": 115,
@@ -7486,7 +7731,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 110,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.2282
       },
       {
         "id": 119,
@@ -7498,7 +7744,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 110,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.6941
       },
       {
         "id": 120,
@@ -7510,7 +7757,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 1,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.7215
       },
       {
         "id": 121,
@@ -7522,7 +7770,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 9,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 122,
@@ -7534,7 +7783,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 123,
@@ -7546,7 +7796,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 124,
@@ -7558,7 +7809,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 127,
@@ -7570,7 +7822,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 131,
@@ -7582,7 +7835,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 141,
@@ -7594,7 +7848,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 144,
@@ -7606,7 +7861,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 110,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 145,
@@ -7618,7 +7874,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 154,
@@ -7630,7 +7887,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 110,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.7209
       },
       {
         "id": 155,
@@ -7642,7 +7900,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 9,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.5918
       },
       {
         "id": 159,
@@ -7654,7 +7913,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 167,
@@ -7666,7 +7926,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 9,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.5915
       },
       {
         "id": 171,
@@ -7678,7 +7939,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 177,
@@ -7690,7 +7952,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 178,
@@ -7702,7 +7965,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 180,
@@ -7714,7 +7978,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 9,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.689
       },
       {
         "id": 182,
@@ -7726,7 +7991,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 110,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 183,
@@ -7738,7 +8004,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.6456
       },
       {
         "id": 184,
@@ -7750,7 +8017,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 9,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 198,
@@ -7762,7 +8030,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 199,
@@ -7774,7 +8043,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 203,
@@ -7786,7 +8056,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 204,
@@ -7798,7 +8069,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 110,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 211,
@@ -7810,7 +8082,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 110,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 214,
@@ -7822,7 +8095,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 113,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 218,
@@ -7834,7 +8108,8 @@ const NETWORK_DATA = {
         "btw": 0.000327,
         "mod_cls": 112,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.0489
       },
       {
         "id": 223,
@@ -7846,7 +8121,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 128,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.0561
       },
       {
         "id": 237,
@@ -7858,7 +8134,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 110,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.0
       },
       {
         "id": 238,
@@ -7870,7 +8147,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 112,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 246,
@@ -7882,7 +8160,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 259,
@@ -7894,7 +8173,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 110,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 264,
@@ -7906,7 +8186,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 110,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.0669
       },
       {
         "id": 266,
@@ -7918,7 +8199,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 128,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.2749
       },
       {
         "id": 268,
@@ -7930,7 +8212,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 275,
@@ -7942,7 +8225,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 279,
@@ -7954,7 +8238,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 284,
@@ -7966,7 +8251,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 110,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 287,
@@ -7978,7 +8264,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 297,
@@ -7990,7 +8277,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 304,
@@ -8002,7 +8290,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 110,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 305,
@@ -8014,7 +8303,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 9,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 306,
@@ -8026,7 +8316,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 315,
@@ -8038,7 +8329,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 316,
@@ -8050,7 +8342,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.695
       },
       {
         "id": 331,
@@ -8062,7 +8355,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 110,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.0351
       },
       {
         "id": 339,
@@ -8074,7 +8368,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 1,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.6682
       },
       {
         "id": 340,
@@ -8086,7 +8381,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 110,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.6766
       },
       {
         "id": 342,
@@ -8098,7 +8394,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 110,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.7712
       },
       {
         "id": 343,
@@ -8110,7 +8407,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 110,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.4571
       },
       {
         "id": 357,
@@ -8122,7 +8420,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.5599
       },
       {
         "id": 360,
@@ -8134,7 +8433,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 361,
@@ -8146,7 +8446,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 112,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 362,
@@ -8158,7 +8459,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 366,
@@ -8170,7 +8472,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 367,
@@ -8182,7 +8485,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 382,
@@ -8194,7 +8498,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 383,
@@ -8206,7 +8511,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 388,
@@ -8218,7 +8524,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 113,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 391,
@@ -8230,7 +8537,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 393,
@@ -8242,7 +8550,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 112,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 394,
@@ -8254,7 +8563,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 396,
@@ -8266,7 +8576,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.6606
       },
       {
         "id": 402,
@@ -8278,7 +8589,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 110,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 403,
@@ -8290,7 +8602,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 406,
@@ -8302,7 +8615,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 9,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.0
       },
       {
         "id": 407,
@@ -8314,7 +8628,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 413,
@@ -8326,7 +8641,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 1,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 414,
@@ -8338,7 +8654,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 415,
@@ -8350,7 +8667,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 418,
@@ -8362,7 +8680,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.4934
       },
       {
         "id": 419,
@@ -8374,7 +8693,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 113,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 425,
@@ -8386,7 +8706,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.5643
       },
       {
         "id": 448,
@@ -8398,7 +8719,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 9,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.4639
       },
       {
         "id": 451,
@@ -8410,7 +8732,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 452,
@@ -8422,7 +8745,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 1,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 453,
@@ -8434,7 +8758,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 1,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 454,
@@ -8446,7 +8771,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 113,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 455,
@@ -8458,7 +8784,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 460,
@@ -8470,7 +8797,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 468,
@@ -8482,7 +8810,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 112,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 470,
@@ -8494,7 +8823,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 480,
@@ -8506,7 +8836,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 481,
@@ -8518,7 +8849,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 482,
@@ -8530,7 +8862,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 112,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 489,
@@ -8542,7 +8875,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 112,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 491,
@@ -8554,7 +8888,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 495,
@@ -8566,7 +8901,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 110,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.4492
       },
       {
         "id": 498,
@@ -8578,7 +8914,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 110,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 505,
@@ -8590,7 +8927,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 506,
@@ -8602,7 +8940,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 507,
@@ -8614,7 +8953,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 509,
@@ -8626,7 +8966,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 1,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 511,
@@ -8638,7 +8979,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 1,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 512,
@@ -8650,7 +8992,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 517,
@@ -8662,7 +9005,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 1,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.4849
       },
       {
         "id": 520,
@@ -8674,7 +9018,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 9,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.1956
       },
       {
         "id": 522,
@@ -8686,7 +9031,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 110,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.7251
       },
       {
         "id": 523,
@@ -8698,7 +9044,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 1,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.5749
       },
       {
         "id": 538,
@@ -8710,7 +9057,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 110,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.2112
       },
       {
         "id": 544,
@@ -8722,7 +9070,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 9,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 545,
@@ -8734,7 +9083,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 112,
         "is_us": true,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.7819
       },
       {
         "id": 547,
@@ -8746,7 +9096,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 113,
         "is_us": true,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.7678
       },
       {
         "id": 561,
@@ -8758,7 +9109,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 563,
@@ -8770,7 +9122,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 565,
@@ -8782,7 +9135,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 113,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 574,
@@ -8794,7 +9148,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 575,
@@ -8806,7 +9161,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 110,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.6996
       },
       {
         "id": 595,
@@ -8818,7 +9174,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       }
     ],
     "edges": [
@@ -15631,7 +15988,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 97,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 8,
@@ -15643,7 +16001,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 9,
@@ -15655,7 +16014,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 14,
@@ -15667,7 +16027,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 16,
@@ -15679,7 +16040,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 17,
@@ -15691,7 +16053,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 116,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 18,
@@ -15703,7 +16066,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 98,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 20,
@@ -15715,7 +16079,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 21,
@@ -15727,7 +16092,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 24,
@@ -15739,7 +16105,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.696
       },
       {
         "id": 31,
@@ -15751,7 +16118,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 93,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 32,
@@ -15763,7 +16131,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 33,
@@ -15775,7 +16144,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 35,
@@ -15787,7 +16157,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 19,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 37,
@@ -15799,7 +16170,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 39,
@@ -15811,7 +16183,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 40,
@@ -15823,7 +16196,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 116,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 42,
@@ -15835,7 +16209,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 43,
@@ -15847,7 +16222,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 97,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.5867
       },
       {
         "id": 45,
@@ -15859,7 +16235,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 47,
@@ -15871,7 +16248,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 93,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 48,
@@ -15883,7 +16261,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 49,
@@ -15895,7 +16274,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 98,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 51,
@@ -15907,7 +16287,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 93,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 52,
@@ -15919,7 +16300,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 93,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 56,
@@ -15931,7 +16313,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 116,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 57,
@@ -15943,7 +16326,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 58,
@@ -15955,7 +16339,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 65,
@@ -15967,7 +16352,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 97,
         "is_us": true,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.7826
       },
       {
         "id": 66,
@@ -15979,7 +16365,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 116,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 74,
@@ -15991,7 +16378,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 82,
@@ -16003,7 +16391,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 84,
@@ -16015,7 +16404,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 43,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 85,
@@ -16027,7 +16417,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 87,
@@ -16039,7 +16430,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.6708
       },
       {
         "id": 88,
@@ -16051,7 +16443,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 91,
@@ -16063,7 +16456,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 43,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 93,
@@ -16075,7 +16469,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 93,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 96,
@@ -16087,7 +16482,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 100,
@@ -16099,7 +16495,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 97,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.7136
       },
       {
         "id": 108,
@@ -16111,7 +16508,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 32,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.2378
       },
       {
         "id": 110,
@@ -16123,7 +16521,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 93,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.2435
       },
       {
         "id": 114,
@@ -16135,7 +16534,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 93,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.6803
       },
       {
         "id": 115,
@@ -16147,7 +16547,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 19,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.776
       },
       {
         "id": 117,
@@ -16159,7 +16560,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 118,
@@ -16171,7 +16573,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 98,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 119,
@@ -16183,7 +16586,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 122,
@@ -16195,7 +16599,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 125,
@@ -16207,7 +16612,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 98,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 129,
@@ -16219,7 +16625,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 140,
@@ -16231,7 +16638,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 142,
@@ -16243,7 +16651,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 143,
@@ -16255,7 +16664,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 98,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 144,
@@ -16267,7 +16677,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 32,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 147,
@@ -16279,7 +16690,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 116,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.6051
       },
       {
         "id": 155,
@@ -16291,7 +16703,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 93,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.4785
       },
       {
         "id": 156,
@@ -16303,7 +16716,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 97,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.6269
       },
       {
         "id": 161,
@@ -16315,7 +16729,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 116,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 169,
@@ -16327,7 +16742,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 97,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.6608
       },
       {
         "id": 173,
@@ -16339,7 +16755,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 178,
@@ -16351,7 +16768,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 179,
@@ -16363,7 +16781,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 182,
@@ -16375,7 +16794,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 43,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.7843
       },
       {
         "id": 185,
@@ -16387,7 +16807,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 98,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 186,
@@ -16399,7 +16820,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 32,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.5716
       },
       {
         "id": 187,
@@ -16411,7 +16833,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 97,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 201,
@@ -16423,7 +16846,8 @@ const NETWORK_DATA = {
         "btw": 6e-06,
         "mod_cls": 32,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.0192
       },
       {
         "id": 202,
@@ -16435,7 +16859,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 98,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 203,
@@ -16447,7 +16872,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 204,
@@ -16459,7 +16885,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 207,
@@ -16471,7 +16898,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 208,
@@ -16483,7 +16911,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 43,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 213,
@@ -16495,7 +16924,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 215,
@@ -16507,7 +16937,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 219,
@@ -16519,7 +16950,8 @@ const NETWORK_DATA = {
         "btw": 0.000222,
         "mod_cls": 43,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.1092
       },
       {
         "id": 223,
@@ -16531,7 +16963,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 93,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.1004
       },
       {
         "id": 237,
@@ -16543,7 +16976,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 93,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 244,
@@ -16555,7 +16989,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 253,
@@ -16567,7 +17002,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 93,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 257,
@@ -16579,7 +17015,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 116,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 259,
@@ -16591,7 +17028,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 93,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.555
       },
       {
         "id": 260,
@@ -16603,7 +17041,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 264,
@@ -16615,7 +17054,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.3795
       },
       {
         "id": 267,
@@ -16627,7 +17067,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 43,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 275,
@@ -16639,7 +17080,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 116,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 285,
@@ -16651,7 +17093,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 43,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 289,
@@ -16663,7 +17106,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 290,
@@ -16675,7 +17119,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 43,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 293,
@@ -16687,7 +17132,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 294,
@@ -16699,7 +17145,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 43,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 295,
@@ -16711,7 +17158,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 303,
@@ -16723,7 +17171,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 304,
@@ -16735,7 +17184,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 93,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.7876
       },
       {
         "id": 317,
@@ -16747,7 +17197,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 93,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.5426
       },
       {
         "id": 324,
@@ -16759,7 +17210,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 93,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.6745
       },
       {
         "id": 327,
@@ -16771,7 +17223,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 93,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.1828
       },
       {
         "id": 328,
@@ -16783,7 +17236,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 93,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.3883
       },
       {
         "id": 343,
@@ -16795,7 +17249,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 344,
@@ -16807,7 +17262,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 93,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 345,
@@ -16819,7 +17275,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 349,
@@ -16831,7 +17288,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 350,
@@ -16843,7 +17301,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 366,
@@ -16855,7 +17314,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 367,
@@ -16867,7 +17327,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 98,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 372,
@@ -16879,7 +17340,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 373,
@@ -16891,7 +17353,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 43,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 375,
@@ -16903,7 +17366,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 376,
@@ -16915,7 +17379,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 377,
@@ -16927,7 +17392,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 379,
@@ -16939,7 +17405,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 93,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.3882
       },
       {
         "id": 384,
@@ -16951,7 +17418,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 93,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 385,
@@ -16963,7 +17431,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 389,
@@ -16975,7 +17444,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 97,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.0
       },
       {
         "id": 390,
@@ -16987,7 +17457,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 394,
@@ -16999,7 +17470,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 98,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.6331
       },
       {
         "id": 395,
@@ -17011,7 +17483,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 43,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 396,
@@ -17023,7 +17496,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 98,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 399,
@@ -17035,7 +17509,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 401,
@@ -17047,7 +17522,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.696
       },
       {
         "id": 403,
@@ -17059,7 +17535,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 93,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 404,
@@ -17071,7 +17548,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 32,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 410,
@@ -17083,7 +17561,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.7624
       },
       {
         "id": 419,
@@ -17095,7 +17574,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 93,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 428,
@@ -17107,7 +17587,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 97,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.6328
       },
       {
         "id": 431,
@@ -17119,7 +17600,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 98,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 433,
@@ -17131,7 +17613,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 98,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 434,
@@ -17143,7 +17626,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 98,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 435,
@@ -17155,7 +17639,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 98,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 436,
@@ -17167,7 +17652,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 441,
@@ -17179,7 +17665,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 446,
@@ -17191,7 +17678,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 452,
@@ -17203,7 +17691,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 93,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 456,
@@ -17215,7 +17704,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 98,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 457,
@@ -17227,7 +17717,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 458,
@@ -17239,7 +17730,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 116,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 465,
@@ -17251,7 +17743,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 43,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 467,
@@ -17263,7 +17756,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 468,
@@ -17275,7 +17769,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 116,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.8182
       },
       {
         "id": 472,
@@ -17287,7 +17782,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 93,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.3265
       },
       {
         "id": 474,
@@ -17299,7 +17795,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 43,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 475,
@@ -17311,7 +17808,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 19,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 480,
@@ -17323,7 +17821,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 98,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 481,
@@ -17335,7 +17834,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 482,
@@ -17347,7 +17847,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 483,
@@ -17359,7 +17860,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 485,
@@ -17371,7 +17873,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 487,
@@ -17383,7 +17886,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 488,
@@ -17395,7 +17899,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 491,
@@ -17407,7 +17912,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 93,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 492,
@@ -17419,7 +17925,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 19,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.7496
       },
       {
         "id": 495,
@@ -17431,7 +17938,8 @@ const NETWORK_DATA = {
         "btw": 3e-06,
         "mod_cls": 97,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.4483
       },
       {
         "id": 497,
@@ -17443,7 +17951,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 43,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.7945
       },
       {
         "id": 498,
@@ -17455,7 +17964,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 19,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.7721
       },
       {
         "id": 516,
@@ -17467,7 +17977,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 98,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 517,
@@ -17479,7 +17990,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 116,
         "is_us": true,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.8504
       },
       {
         "id": 519,
@@ -17491,7 +18003,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 93,
         "is_us": true,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.3682
       },
       {
         "id": 532,
@@ -17503,7 +18016,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 534,
@@ -17515,7 +18029,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 536,
@@ -17527,7 +18042,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 546,
@@ -17539,7 +18055,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 547,
@@ -17551,7 +18068,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 98,
         "is_us": false,
-        "is_recep": false
+        "is_recep": false,
+        "pc": 0.8023
       },
       {
         "id": 559,
@@ -17563,7 +18081,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 93,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       },
       {
         "id": 563,
@@ -17575,7 +18094,8 @@ const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 98,
         "is_us": false,
-        "is_recep": true
+        "is_recep": true,
+        "pc": null
       }
     ],
     "edges": [
