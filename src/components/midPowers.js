@@ -99,11 +99,15 @@ export function buildMidPanel(tipId) {
 
     const tip = d3.select(tipId);
     nodeG.on('mouseenter', (ev, d) => {
+        const pcLabel = (d.pc != null && !d.is_recep)
+            ? `PC: ${d.pc.toFixed(3)} (${d.pc >= 0.65 ? 'bridge' : d.pc <= 0.2 ? 'bonder' : 'moderate'})`
+            : '';
         tip.html([
             d.label,
             d.cat,
+            `Flow: $${(d.total_w / 1e6).toFixed(1)}M`,
+            pcLabel,
             d.is_mid ? '◆ Middle-power candidate' : '',
-            `Flow: $${(d.total_w / 1e6).toFixed(1)}M`
         ].filter(Boolean).join('<br>')).classed('on', true);
     })
     .on('mousemove', ev => {

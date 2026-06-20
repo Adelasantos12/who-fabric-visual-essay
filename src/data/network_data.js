@@ -12,7 +12,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 1,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 2,
         "label": "Africa - Regional Office",
         "cat": "Recep_Regional Office",
@@ -22,7 +22,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 3,
         "label": "African Development Bank Group",
         "cat": "Development Banks and Funds",
@@ -32,7 +32,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 4,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.5978 },
       { "is_us": false, "is_mid": false, "id": 12,
         "label": "Albania",
         "cat": "Recep_State",
@@ -42,7 +42,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 13,
         "label": "Algeria",
         "cat": "Recep_State",
@@ -52,7 +52,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 18,
         "label": "American Samoa",
         "cat": "Recep_State",
@@ -62,7 +62,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 20,
         "label": "Americas - Regional Office",
         "cat": "Recep_Regional Office",
@@ -72,7 +72,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 22,
         "label": "Anguilla",
         "cat": "Recep_State",
@@ -82,7 +82,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 24,
         "label": "Antigua and Barbuda",
         "cat": "Recep_State",
@@ -92,7 +92,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 27,
         "label": "Argentina",
         "cat": "Recep_State",
@@ -102,7 +102,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 30,
         "label": "Assessed Contributions",
         "cat": "Assessed Contributions",
@@ -112,7 +112,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.6227 },
       { "is_us": false, "is_mid": false, "id": 41,
         "label": "Bahamas",
         "cat": "Recep_State",
@@ -122,7 +122,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 42,
         "label": "Bahrain",
         "cat": "Recep_State",
@@ -132,7 +132,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 44,
         "label": "Barbados",
         "cat": "Recep_State",
@@ -142,7 +142,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 51,
         "label": "Belize",
         "cat": "Recep_State",
@@ -152,7 +152,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 53,
         "label": "Bermuda",
         "cat": "Recep_State",
@@ -162,7 +162,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 56,
         "label": "Bill & Melinda Gates Foundation",
         "cat": "Philanthropic Foundations",
@@ -172,7 +172,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 1,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.6081 },
       { "is_us": false, "is_mid": false, "id": 63,
         "label": "Botswana",
         "cat": "Recep_State",
@@ -182,7 +182,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 67,
         "label": "Brunei Darussalam",
         "cat": "Recep_State",
@@ -192,7 +192,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 71,
         "label": "Burundi",
         "cat": "Recep_State",
@@ -202,7 +202,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 2,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 72,
         "label": "Cabo Verde",
         "cat": "Recep_State",
@@ -212,7 +212,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 78,
         "label": "Canadian International Development Agency (CIDA/ACDI)",
         "cat": "Member States - Voluntary Specified",
@@ -222,7 +222,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 2,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.6849 },
       { "is_us": false, "is_mid": false, "id": 82,
         "label": "Cayman Islands",
         "cat": "Recep_State",
@@ -232,7 +232,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": true, "is_mid": false, "id": 84,
         "label": "Centers for Disease Control and Prevention (CDC), United States of America",
         "cat": "Member States - Voluntary Specified",
@@ -242,7 +242,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.5726 },
       { "is_us": false, "is_mid": false, "id": 90,
         "label": "Chile",
         "cat": "Recep_State",
@@ -252,7 +252,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 96,
         "label": "Comoros",
         "cat": "Recep_State",
@@ -262,7 +262,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 97,
         "label": "Congo",
         "cat": "Recep_State",
@@ -272,7 +272,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 100,
         "label": "Cook Islands",
         "cat": "Recep_State",
@@ -282,7 +282,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 102,
         "label": "Core Voluntary Contributions",
         "cat": "Core Voluntary Contributions",
@@ -292,7 +292,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.4819 },
       { "is_us": false, "is_mid": false, "id": 103,
         "label": "Costa Rica",
         "cat": "Recep_State",
@@ -302,7 +302,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 105,
         "label": "Croatia",
         "cat": "Recep_State",
@@ -312,7 +312,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 115,
         "label": "Department for International Development (DFID), United Kingdom",
         "cat": "Member States - Voluntary Specified",
@@ -322,7 +322,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 1,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.6484 },
       { "is_us": false, "is_mid": false, "id": 117,
         "label": "Department of Foreign Affairs and Trade (DFAT), Australia",
         "cat": "Member States - Voluntary Specified",
@@ -332,7 +332,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.6685 },
       { "is_us": false, "is_mid": true, "id": 118,
         "label": "Department of Foreign Affairs, Trade and Development (DFATD), Canada",
         "cat": "Member States - Voluntary Specified",
@@ -342,7 +342,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 1,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.539 },
       { "is_us": false, "is_mid": true, "id": 127,
         "label": "Directorate-General for European Civil Protection and Humanitarian Aid Operations (ECHO), European Commission",
         "cat": "Intergovernmental Organizations",
@@ -352,7 +352,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 8,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.3233 },
       { "is_us": false, "is_mid": true, "id": 128,
         "label": "Directorate-General for International Partnerships (INTPA), European Commission",
         "cat": "Intergovernmental Organizations",
@@ -362,7 +362,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 1,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.6914 },
       { "is_us": false, "is_mid": false, "id": 130,
         "label": "Djibouti",
         "cat": "Recep_State",
@@ -372,7 +372,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 8,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 131,
         "label": "Dominica",
         "cat": "Recep_State",
@@ -382,7 +382,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 134,
         "label": "Eastern Mediterranean - Regional Office",
         "cat": "Recep_Regional Office",
@@ -392,7 +392,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 145,
         "label": "Estonia",
         "cat": "Recep_State",
@@ -402,7 +402,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 148,
         "label": "Europe - Regional Office",
         "cat": "Recep_Regional Office",
@@ -412,7 +412,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": true, "id": 149,
         "label": "European Commission",
         "cat": "Intergovernmental Organizations",
@@ -422,7 +422,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.7125 },
       { "is_us": false, "is_mid": true, "id": 152,
         "label": "Federal Foreign Office, Germany",
         "cat": "Member States - Voluntary Specified",
@@ -432,7 +432,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 8,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.3675 },
       { "is_us": false, "is_mid": false, "id": 173,
         "label": "French Polynesia",
         "cat": "Recep_State",
@@ -442,7 +442,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 180,
         "label": "GAVI Alliance",
         "cat": "Partnerships",
@@ -452,7 +452,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 2,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.748 },
       { "is_us": false, "is_mid": true, "id": 183,
         "label": "Germany",
         "cat": "Member States - Voluntary Specified",
@@ -462,7 +462,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.5002 },
       { "is_us": false, "is_mid": false, "id": 196,
         "label": "Grenada",
         "cat": "Recep_State",
@@ -472,7 +472,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 197,
         "label": "Guam",
         "cat": "Recep_State",
@@ -482,7 +482,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 227,
         "label": "International Development Association (IDA)",
         "cat": "Development Banks and Funds",
@@ -492,7 +492,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 8,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.0 },
       { "is_us": false, "is_mid": false, "id": 244,
         "label": "Iran (Islamic Republic of)",
         "cat": "Recep_State",
@@ -502,7 +502,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 251,
         "label": "Jamaica",
         "cat": "Recep_State",
@@ -512,7 +512,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 252,
         "label": "Japan",
         "cat": "Member States \u2013 Voluntary Thematic",
@@ -522,7 +522,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.3812 },
       { "is_us": false, "is_mid": false, "id": 266,
         "label": "Jordan",
         "cat": "Recep_State",
@@ -532,7 +532,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 8,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 272,
         "label": "Kenya",
         "cat": "Recep_State",
@@ -542,7 +542,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 1,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": true, "id": 273,
         "label": "KfW Entwicklungsbank, Germany",
         "cat": "Member States - Voluntary Specified",
@@ -552,7 +552,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 1,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.0 },
       { "is_us": false, "is_mid": false, "id": 276,
         "label": "Kiribati",
         "cat": "Recep_State",
@@ -562,7 +562,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 283,
         "label": "Kuwait",
         "cat": "Member States - Voluntary Specified",
@@ -572,7 +572,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 8,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.283 },
       { "is_us": false, "is_mid": false, "id": 290,
         "label": "Latvia",
         "cat": "Recep_State",
@@ -582,7 +582,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 312,
         "label": "Mali",
         "cat": "Recep_State",
@@ -592,7 +592,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 1,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 313,
         "label": "Malta",
         "cat": "Recep_State",
@@ -602,7 +602,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 318,
         "label": "Marshall Islands",
         "cat": "Recep_State",
@@ -612,7 +612,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 320,
         "label": "Mauritius",
         "cat": "Recep_State",
@@ -622,7 +622,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 330,
         "label": "Micronesia",
         "cat": "Recep_State",
@@ -632,7 +632,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 351,
         "label": "Ministry of Foreign Affairs, Japan",
         "cat": "Member States - Voluntary Specified",
@@ -642,7 +642,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 8,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.6764 },
       { "is_us": false, "is_mid": false, "id": 361,
         "label": "Miscellaneous",
         "cat": "Miscellaneous",
@@ -652,7 +652,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.5035 },
       { "is_us": false, "is_mid": false, "id": 362,
         "label": "Miscellaneous- DUPLICATE SEE 2323",
         "cat": "Others",
@@ -662,7 +662,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.1217 },
       { "is_us": false, "is_mid": false, "id": 365,
         "label": "Montenegro",
         "cat": "Recep_State",
@@ -672,7 +672,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 385,
         "label": "National Philanthropic Trust (NPT)",
         "cat": "Non Governmental Organizations",
@@ -682,7 +682,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.6436 },
       { "is_us": false, "is_mid": true, "id": 387,
         "label": "National Primary Health Care Development Agency (NPHCDA), Nigeria",
         "cat": "Member States - Voluntary Specified",
@@ -692,7 +692,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 1,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.0 },
       { "is_us": false, "is_mid": false, "id": 390,
         "label": "Nauru",
         "cat": "Recep_State",
@@ -702,7 +702,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 395,
         "label": "Nicaragua",
         "cat": "Recep_State",
@@ -712,7 +712,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 396,
         "label": "Niger",
         "cat": "Recep_State",
@@ -722,7 +722,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 1,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 400,
         "label": "Niue",
         "cat": "Recep_State",
@@ -732,7 +732,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 403,
         "label": "Northern Mariana Islands",
         "cat": "Recep_State",
@@ -742,7 +742,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 406,
         "label": "Norwegian Agency for Development Cooperation (NORAD)",
         "cat": "Member States - Voluntary Specified",
@@ -752,7 +752,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.6569 },
       { "is_us": false, "is_mid": false, "id": 412,
         "label": "occupied Palestinian territory",
         "cat": "Recep_State",
@@ -762,7 +762,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 421,
         "label": "Pakistan",
         "cat": "Member States - Voluntary Specified",
@@ -772,7 +772,7 @@ export const NETWORK_DATA = {
         "btw": 2.4e-05,
         "mod_cls": 1,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.0137 },
       { "is_us": false, "is_mid": false, "id": 422,
         "label": "Palau",
         "cat": "Recep_State",
@@ -782,7 +782,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 428,
         "label": "Peru",
         "cat": "Recep_State",
@@ -792,7 +792,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 431,
         "label": "Poland",
         "cat": "Recep_State",
@@ -802,7 +802,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 439,
         "label": "Programme Support costs",
         "cat": "Others",
@@ -812,7 +812,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.5174 },
       { "is_us": false, "is_mid": false, "id": 442,
         "label": "Puerto Rico",
         "cat": "Recep_State",
@@ -822,7 +822,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 444,
         "label": "Qatar",
         "cat": "Recep_State",
@@ -832,7 +832,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": true, "id": 459,
         "label": "Rotary International",
         "cat": "Non Governmental Organizations",
@@ -842,7 +842,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 1,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.3907 },
       { "is_us": false, "is_mid": false, "id": 463,
         "label": "Rwanda",
         "cat": "Recep_State",
@@ -852,7 +852,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 468,
         "label": "Saint Helena",
         "cat": "Recep_State",
@@ -862,7 +862,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 469,
         "label": "Saint Kitts and Nevis",
         "cat": "Recep_State",
@@ -872,7 +872,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 470,
         "label": "Saint Lucia",
         "cat": "Recep_State",
@@ -882,7 +882,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 471,
         "label": "Saint Vincent and the Grenadines",
         "cat": "Recep_State",
@@ -892,7 +892,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 472,
         "label": "Samoa",
         "cat": "Recep_State",
@@ -902,7 +902,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 487,
         "label": "Serbia",
         "cat": "Recep_State",
@@ -912,7 +912,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 490,
         "label": "Seychelles",
         "cat": "Recep_State",
@@ -922,7 +922,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 499,
         "label": "Slovakia",
         "cat": "Recep_State",
@@ -932,7 +932,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 500,
         "label": "Slovenia",
         "cat": "Recep_State",
@@ -942,7 +942,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 503,
         "label": "Somalia",
         "cat": "Recep_State",
@@ -952,7 +952,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 1,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 505,
         "label": "South East Asia - Regional Office",
         "cat": "Recep_Regional Office",
@@ -962,7 +962,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 506,
         "label": "South Sudan",
         "cat": "Recep_State",
@@ -972,7 +972,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 2,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 517,
         "label": "Suriname",
         "cat": "Recep_State",
@@ -982,7 +982,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 521,
         "label": "Swedish International Development Cooperation Agency (SIDA)",
         "cat": "Member States \u2013 Voluntary Thematic",
@@ -992,7 +992,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.0292 },
       { "is_us": false, "is_mid": false, "id": 522,
         "label": "Swiss Development Cooperation Agency (SDC/DDC)",
         "cat": "Member States - Voluntary Specified",
@@ -1002,7 +1002,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.5057 },
       { "is_us": false, "is_mid": false, "id": 534,
         "label": "Togo",
         "cat": "Recep_State",
@@ -1012,7 +1012,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 535,
         "label": "Tokelau",
         "cat": "Recep_State",
@@ -1022,7 +1022,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 536,
         "label": "Tonga",
         "cat": "Recep_State",
@@ -1032,7 +1032,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 537,
         "label": "Trinidad and Tobago",
         "cat": "Recep_State",
@@ -1042,7 +1042,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 542,
         "label": "Tuvalu",
         "cat": "Recep_State",
@@ -1052,7 +1052,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 567,
         "label": "UNITAID",
         "cat": "Partnerships",
@@ -1062,7 +1062,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.0546 },
       { "is_us": false, "is_mid": false, "id": 568,
         "label": "United Arab Emirates",
         "cat": "Member States - Voluntary Specified",
@@ -1072,7 +1072,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 1,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.0029 },
       { "is_us": false, "is_mid": true, "id": 570,
         "label": "United Nations Central Emergency Response Fund (CERF)",
         "cat": "United Nations Organizations",
@@ -1082,7 +1082,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 8,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.7269 },
       { "is_us": false, "is_mid": false, "id": 571,
         "label": "United Nations Children's Fund (UNICEF)",
         "cat": "United Nations Organizations",
@@ -1092,7 +1092,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 1,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.6652 },
       { "is_us": false, "is_mid": false, "id": 572,
         "label": "United Nations Development Programme (UNDP)",
         "cat": "United Nations Organizations",
@@ -1102,7 +1102,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 2,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.7403 },
       { "is_us": false, "is_mid": false, "id": 577,
         "label": "United Nations Fund for International Partnerships (UNFIP)",
         "cat": "United Nations Organizations",
@@ -1112,7 +1112,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.7419 },
       { "is_us": false, "is_mid": false, "id": 580,
         "label": "United Nations Office for Project Services (UNOPS)",
         "cat": "United Nations Organizations",
@@ -1122,7 +1122,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 2,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.4583 },
       { "is_us": false, "is_mid": false, "id": 581,
         "label": "United Nations Office for the Coordination of Humanitarian Affairs (UNOCHA)",
         "cat": "United Nations Organizations",
@@ -1132,7 +1132,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 8,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.4152 },
       { "is_us": false, "is_mid": false, "id": 583,
         "label": "United Nations Population Fund (UNFPA)",
         "cat": "United Nations Organizations",
@@ -1142,7 +1142,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 1,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.5938 },
       { "is_us": false, "is_mid": false, "id": 586,
         "label": "United Republic of Tanzania",
         "cat": "Recep_State",
@@ -1152,7 +1152,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": true, "is_mid": false, "id": 587,
         "label": "United States Agency for International Development (USAID)",
         "cat": "Member States - Voluntary Specified",
@@ -1162,7 +1162,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 8,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.7245 },
       { "is_us": true, "is_mid": false, "id": 592,
         "label": "United States of America",
         "cat": "Recep_State",
@@ -1172,7 +1172,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 608,
         "label": "Vanuatu",
         "cat": "Recep_State",
@@ -1182,7 +1182,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 611,
         "label": "Venezuela (Bolivarian Republic of)",
         "cat": "Recep_State",
@@ -1192,7 +1192,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 619,
         "label": "Western Pacific - Regional Office",
         "cat": "Recep_Regional Office",
@@ -1202,7 +1202,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 3,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 632,
         "label": "Zambia",
         "cat": "Recep_State",
@@ -1212,7 +1212,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 1,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 635,
         "label": "Programs",
         "cat": "Recep_program",
@@ -1222,7 +1222,7 @@ export const NETWORK_DATA = {
         "btw": 0.000179,
         "mod_cls": 5,
 
-        "is_recep": true }
+        "is_recep": true , "pc": 0.2428 }
     ],
     "edges": [
       {
@@ -4638,7 +4638,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 2,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 3,
         "label": "African Field Epidemiology Network (AFENET)",
         "cat": "Non Governmental Organizations",
@@ -4648,7 +4648,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 59,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.4131 },
       { "is_us": false, "is_mid": false, "id": 25,
         "label": "Assessed Contributions",
         "cat": "Assessed Contributions",
@@ -4658,7 +4658,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 129,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.0 },
       { "is_us": false, "is_mid": false, "id": 30,
         "label": "Austria",
         "cat": "Member States - Voluntary Specified",
@@ -4668,7 +4668,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 10,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.4542 },
       { "is_us": false, "is_mid": false, "id": 48,
         "label": "Bill & Melinda Gates Foundation",
         "cat": "Philanthropic Foundations",
@@ -4678,7 +4678,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 129,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.0094 },
       { "is_us": false, "is_mid": false, "id": 56,
         "label": "Bristol-Myers Squibb Foundation",
         "cat": "Private Sector Entities",
@@ -4688,7 +4688,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 2,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.4675 },
       { "is_us": true, "is_mid": false, "id": 74,
         "label": "Centers for Disease Control and Prevention (CDC), United States of America",
         "cat": "Member States - Voluntary Specified",
@@ -4698,7 +4698,7 @@ export const NETWORK_DATA = {
         "btw": 3.9e-05,
         "mod_cls": 129,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.0029 },
       { "is_us": false, "is_mid": false, "id": 78,
         "label": "Chiba University",
         "cat": "Academic Institutions",
@@ -4708,7 +4708,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 40,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.6025 },
       { "is_us": false, "is_mid": false, "id": 84,
         "label": "Christoffel-Blindenmission",
         "cat": "Non Governmental Organizations",
@@ -4718,7 +4718,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 10,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.6306 },
       { "is_us": false, "is_mid": false, "id": 96,
         "label": "Core Voluntary Contributions",
         "cat": "Core Voluntary Contributions",
@@ -4728,7 +4728,7 @@ export const NETWORK_DATA = {
         "btw": 1e-06,
         "mod_cls": 129,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.0 },
       { "is_us": false, "is_mid": false, "id": 102,
         "label": "D2D Water Solutions B.V.",
         "cat": "Private Sector Entities",
@@ -4738,7 +4738,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 10,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.327 },
       { "is_us": false, "is_mid": false, "id": 107,
         "label": "Department for International Development (DFID), United Kingdom",
         "cat": "Member States - Voluntary Specified",
@@ -4748,7 +4748,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 129,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.0662 },
       { "is_us": false, "is_mid": true, "id": 115,
         "label": "DG Environment, European Commission",
         "cat": "Intergovernmental Organizations",
@@ -4758,7 +4758,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 2,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.6025 },
       { "is_us": false, "is_mid": true, "id": 117,
         "label": "DG for Health and Food Safety (SANTE), European Commission",
         "cat": "Intergovernmental Organizations",
@@ -4768,7 +4768,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 2,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.6655 },
       { "is_us": false, "is_mid": true, "id": 118,
         "label": "DG for Neighbourhood and Enlargement Negotiations (NEAR), European Commission",
         "cat": "Intergovernmental Organizations",
@@ -4778,7 +4778,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 2,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.3854 },
       { "is_us": false, "is_mid": false, "id": 126,
         "label": "Eastern Mediterranean - Regional Office",
         "cat": "Recep_Regional Office",
@@ -4788,7 +4788,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 29,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 127,
         "label": "Ecuador",
         "cat": "Others",
@@ -4798,7 +4798,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 59,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.3142 },
       { "is_us": false, "is_mid": false, "id": 128,
         "label": "Edmond J. Safra Foundation",
         "cat": "Philanthropic Foundations",
@@ -4808,7 +4808,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 2,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.6052 },
       { "is_us": false, "is_mid": false, "id": 143,
         "label": "Europe - Regional Office",
         "cat": "Recep_Regional Office",
@@ -4818,7 +4818,7 @@ export const NETWORK_DATA = {
         "btw": 1.9e-05,
         "mod_cls": 10,
 
-        "is_recep": true },
+        "is_recep": true , "pc": 0.1101 },
       { "is_us": false, "is_mid": false, "id": 149,
         "label": "Executive Council of the Government of the Emirate of Dubai, United Arab Emirates",
         "cat": "Local Governments",
@@ -4828,7 +4828,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 85,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.771 },
       { "is_us": false, "is_mid": true, "id": 152,
         "label": "Federal Foreign Office, Germany",
         "cat": "Member States - Voluntary Specified",
@@ -4838,7 +4838,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 59,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.5103 },
       { "is_us": false, "is_mid": false, "id": 180,
         "label": "Fundaci\u00f3n Bancaria Caixa d\u0092Estalvis i Pensions de Barcelona,la Caixa",
         "cat": "Private Sector Entities",
@@ -4848,7 +4848,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 40,
 
-        "is_recep": false },
+        "is_recep": false , "pc": null },
       { "is_us": false, "is_mid": false, "id": 183,
         "label": "Gambia",
         "cat": "Others",
@@ -4858,7 +4858,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 10,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.1121 },
       { "is_us": false, "is_mid": false, "id": 184,
         "label": "GAVI Alliance",
         "cat": "Partnerships",
@@ -4868,7 +4868,7 @@ export const NETWORK_DATA = {
         "btw": 2.8e-05,
         "mod_cls": 129,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.0031 },
       { "is_us": false, "is_mid": false, "id": 226,
         "label": "International Development Law Organization",
         "cat": "Intergovernmental Organizations",
@@ -4878,7 +4878,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 59,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.0 },
       { "is_us": false, "is_mid": false, "id": 272,
         "label": "Korean Foundation for International Healthcare - Dr Lee Jong-Wook Memorial Fund (KOFIH)",
         "cat": "Non Governmental Organizations",
@@ -4888,7 +4888,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 2,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.0 },
       { "is_us": false, "is_mid": false, "id": 282,
         "label": "Latter-Day Saints (LDS) Charities",
         "cat": "Non Governmental Organizations",
@@ -4898,7 +4898,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 59,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.2472 },
       { "is_us": false, "is_mid": false, "id": 350,
         "label": "Mozambique",
         "cat": "Others",
@@ -4908,7 +4908,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 59,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.5024 },
       { "is_us": true, "is_mid": false, "id": 360,
         "label": "National Institutes of Health (NIH), United States of America",
         "cat": "Member States - Voluntary Specified",
@@ -4918,7 +4918,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 2,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.6227 },
       { "is_us": false, "is_mid": false, "id": 384,
         "label": "Norwegian Directorate of Health",
         "cat": "Member States - Voluntary Specified",
@@ -4928,7 +4928,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 2,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.4971 },
       { "is_us": false, "is_mid": false, "id": 386,
         "label": "Novartis",
         "cat": "Private Sector Entities",
@@ -4938,7 +4938,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 2,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.0293 },
       { "is_us": false, "is_mid": false, "id": 405,
         "label": "Paul G. Allen Family Foundation",
         "cat": "Philanthropic Foundations",
@@ -4948,7 +4948,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 59,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.6161 },
       { "is_us": false, "is_mid": false, "id": 418,
         "label": "Programme Support Costs",
         "cat": "Programme Support Costs",
@@ -4958,7 +4958,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 129,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.0 },
       { "is_us": false, "is_mid": false, "id": 420,
         "label": "Public Health England",
         "cat": "Member States - Voluntary Specified",
@@ -4968,7 +4968,7 @@ export const NETWORK_DATA = {
         "btw": 4.4e-05,
         "mod_cls": 2,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.0153 },
       { "is_us": false, "is_mid": false, "id": 438,
         "label": "Rotary of Japan",
         "cat": "Non Governmental Organizations",
@@ -4978,7 +4978,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 10,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.3724 },
       { "is_us": false, "is_mid": false, "id": 458,
         "label": "Seoul Metropolitan Government of the Republic of Korea",
         "cat": "Local Governments",
@@ -4988,7 +4988,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 2,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.382 },
       { "is_us": false, "is_mid": false, "id": 476,
         "label": "South East Asia - Regional Office",
         "cat": "Recep_Regional Office",
@@ -4998,7 +4998,7 @@ export const NETWORK_DATA = {
         "btw": 8e-06,
         "mod_cls": 59,
 
-        "is_recep": true },
+        "is_recep": true , "pc": 0.1283 },
       { "is_us": true, "is_mid": false, "id": 547,
         "label": "United States Agency for International Development (USAID)",
         "cat": "Member States - Voluntary Specified",
@@ -5008,7 +5008,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 129,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.0027 },
       { "is_us": false, "is_mid": false, "id": 567,
         "label": "Uppsala University,Sweden",
         "cat": "Academic Institutions",
@@ -5018,7 +5018,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 2,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.0 },
       { "is_us": false, "is_mid": false, "id": 569,
         "label": "Uzbekistan",
         "cat": "Others",
@@ -5028,7 +5028,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 59,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.6761 },
       { "is_us": false, "is_mid": false, "id": 570,
         "label": "Vanuatu",
         "cat": "Others",
@@ -5038,7 +5038,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 2,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.5566 },
       { "is_us": false, "is_mid": false, "id": 576,
         "label": "Vital Strategies",
         "cat": "Non Governmental Organizations",
@@ -5048,7 +5048,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 40,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.7045 },
       { "is_us": false, "is_mid": false, "id": 580,
         "label": "West African Health Organisation (WAHO)",
         "cat": "Intergovernmental Organizations",
@@ -5058,7 +5058,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 59,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.3799 },
       { "is_us": false, "is_mid": false, "id": 582,
         "label": "Western Pacific - Regional Office",
         "cat": "Recep_Regional Office",
@@ -5068,7 +5068,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 2,
 
-        "is_recep": true },
+        "is_recep": true , "pc": 0.5571 },
       { "is_us": false, "is_mid": false, "id": 586,
         "label": "World Hepatitis Alliance",
         "cat": "Non Governmental Organizations",
@@ -5078,7 +5078,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 59,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.6559 },
       { "is_us": false, "is_mid": false, "id": 596,
         "label": "Programs",
         "cat": "Recep_program",
@@ -5088,7 +5088,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 129,
 
-        "is_recep": true }
+        "is_recep": true , "pc": null }
     ],
     "edges": [
       {
@@ -5734,7 +5734,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 6,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.7225 },
       { "is_us": false, "is_mid": false, "id": 45,
         "label": "Bill & Melinda Gates Foundation",
         "cat": "Philanthropic Foundations",
@@ -5744,7 +5744,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 117,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.6302 },
       { "is_us": true, "is_mid": false, "id": 73,
         "label": "Centers for Disease Control and Prevention (CDC), United States of America",
         "cat": "Member States - Voluntary Specified",
@@ -5754,7 +5754,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 6,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.7684 },
       { "is_us": false, "is_mid": true, "id": 81,
         "label": "China",
         "cat": "Member States - Voluntary Specified",
@@ -5764,7 +5764,7 @@ export const NETWORK_DATA = {
         "btw": 0.000518,
         "mod_cls": 6,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.7607 },
       { "is_us": false, "is_mid": false, "id": 97,
         "label": "Core Voluntary Contributions",
         "cat": "Core Voluntary Contributions",
@@ -5774,7 +5774,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 6,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.7154 },
       { "is_us": false, "is_mid": false, "id": 100,
         "label": "COVID-19 Solidarity Fund",
         "cat": "COVID-19 Solidarity Fund",
@@ -5784,7 +5784,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 120,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.6305 },
       { "is_us": false, "is_mid": false, "id": 112,
         "label": "Department for International Development (DFID), United Kingdom",
         "cat": "Member States - Voluntary Specified",
@@ -5794,7 +5794,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 145,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.8136 },
       { "is_us": false, "is_mid": false, "id": 114,
         "label": "Department of Foreign Affairs and Trade (DFAT), Australia",
         "cat": "Member States - Voluntary Specified",
@@ -5804,7 +5804,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 162,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.6191 },
       { "is_us": false, "is_mid": true, "id": 115,
         "label": "Department of Foreign Affairs, Trade and Development (DFATD), Canada",
         "cat": "Member States - Voluntary Specified",
@@ -5814,7 +5814,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 145,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.8076 },
       { "is_us": false, "is_mid": true, "id": 124,
         "label": "DG for Neighbourhood and Enlargement Negotiations (NEAR), European Commission",
         "cat": "Intergovernmental Organizations",
@@ -5824,7 +5824,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 85,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.2714 },
       { "is_us": false, "is_mid": true, "id": 127,
         "label": "Directorate-General for European Civil Protection and Humanitarian Aid Operations (ECHO), European Commission",
         "cat": "Intergovernmental Organizations",
@@ -5834,7 +5834,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 145,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.7599 },
       { "is_us": false, "is_mid": true, "id": 128,
         "label": "Directorate-General for International Partnerships (INTPA), European Commission",
         "cat": "Intergovernmental Organizations",
@@ -5844,7 +5844,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 162,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.7752 },
       { "is_us": false, "is_mid": true, "id": 164,
         "label": "Federal Foreign Office, Germany",
         "cat": "Member States - Voluntary Specified",
@@ -5854,7 +5854,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 165,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.7848 },
       { "is_us": false, "is_mid": true, "id": 166,
         "label": "Federal Ministry for Economic Cooperation and Development (BMZ), Germany",
         "cat": "Member States - Voluntary Specified",
@@ -5864,7 +5864,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 117,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.7414 },
       { "is_us": false, "is_mid": false, "id": 180,
         "label": "Foreign, Commonwealth & Development Office (FCDO), United Kingdom",
         "cat": "Member States - Voluntary Specified",
@@ -5874,7 +5874,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 6,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.7458 },
       { "is_us": false, "is_mid": false, "id": 192,
         "label": "GAVI Alliance",
         "cat": "Partnerships",
@@ -5884,7 +5884,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 117,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.7695 },
       { "is_us": false, "is_mid": true, "id": 195,
         "label": "Germany",
         "cat": "Member States - Voluntary Specified",
@@ -5894,7 +5894,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 120,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.7853 },
       { "is_us": false, "is_mid": true, "id": 230,
         "label": "India",
         "cat": "Member States - Voluntary Specified",
@@ -5904,7 +5904,7 @@ export const NETWORK_DATA = {
         "btw": 5e-05,
         "mod_cls": 117,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.012 },
       { "is_us": false, "is_mid": false, "id": 236,
         "label": "International Development Association (IDA)",
         "cat": "Development Banks and Funds",
@@ -5914,7 +5914,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 165,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.0068 },
       { "is_us": false, "is_mid": false, "id": 247,
         "label": "Iran (Islamic Republic of)",
         "cat": "Member States - Voluntary Specified",
@@ -5924,7 +5924,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 165,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.0 },
       { "is_us": false, "is_mid": false, "id": 256,
         "label": "Japan",
         "cat": "Member States - Voluntary Specified",
@@ -5934,7 +5934,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 162,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.4852 },
       { "is_us": false, "is_mid": true, "id": 269,
         "label": "KfW Entwicklungsbank, Germany",
         "cat": "Member States - Voluntary Specified",
@@ -5944,7 +5944,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 117,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.6849 },
       { "is_us": false, "is_mid": false, "id": 271,
         "label": "King Salman Humanitarian Aid & Relief Center, KSrelief",
         "cat": "Member States - Voluntary Specified",
@@ -5954,7 +5954,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 165,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.1656 },
       { "is_us": false, "is_mid": false, "id": 280,
         "label": "Kuwait",
         "cat": "Member States - Voluntary Specified",
@@ -5964,7 +5964,7 @@ export const NETWORK_DATA = {
         "btw": 0.000116,
         "mod_cls": 165,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.5213 },
       { "is_us": false, "is_mid": false, "id": 345,
         "label": "Ministry of Foreign Affairs, Japan",
         "cat": "Member States - Voluntary Specified",
@@ -5974,7 +5974,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 147,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.6064 },
       { "is_us": false, "is_mid": false, "id": 348,
         "label": "Ministry of Foreign Affairs, Norway",
         "cat": "Member States - Voluntary Specified",
@@ -5984,7 +5984,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 147,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.7225 },
       { "is_us": false, "is_mid": false, "id": 361,
         "label": "Miscellaneous",
         "cat": "Miscellaneous",
@@ -5994,7 +5994,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 6,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.6239 },
       { "is_us": false, "is_mid": false, "id": 384,
         "label": "National Philanthropic Trust (NPT)",
         "cat": "Non Governmental Organizations",
@@ -6004,7 +6004,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 145,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.7571 },
       { "is_us": false, "is_mid": false, "id": 401,
         "label": "Norwegian Agency for Development Cooperation (NORAD)",
         "cat": "Member States \u00d0 Voluntary Thematic",
@@ -6014,7 +6014,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 6,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.8254 },
       { "is_us": false, "is_mid": false, "id": 411,
         "label": "Pakistan",
         "cat": "Member States - Voluntary Specified",
@@ -6024,7 +6024,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 117,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.0 },
       { "is_us": false, "is_mid": false, "id": 415,
         "label": "Pandemic Emergency Financing (PEF)",
         "cat": "Development Banks and Funds",
@@ -6034,7 +6034,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 145,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.5024 },
       { "is_us": false, "is_mid": false, "id": 436,
         "label": "Programme Support Costs",
         "cat": "Programme Support Costs",
@@ -6044,7 +6044,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 6,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.7107 },
       { "is_us": false, "is_mid": true, "id": 456,
         "label": "Rotary International",
         "cat": "Non Governmental Organizations",
@@ -6054,7 +6054,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 145,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.5585 },
       { "is_us": false, "is_mid": false, "id": 534,
         "label": "UN Multi-Partner Trust Fund Office (MPTF)",
         "cat": "United Nations Organizations",
@@ -6064,7 +6064,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 162,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.7279 },
       { "is_us": false, "is_mid": false, "id": 539,
         "label": "United Arab Emirates",
         "cat": "Member States - Voluntary Specified",
@@ -6074,7 +6074,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 117,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.0 },
       { "is_us": false, "is_mid": true, "id": 541,
         "label": "United Nations Central Emergency Response Fund (CERF)",
         "cat": "United Nations Organizations",
@@ -6084,7 +6084,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 145,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.6412 },
       { "is_us": false, "is_mid": false, "id": 544,
         "label": "United Nations Development Programme (UNDP)",
         "cat": "United Nations Organizations",
@@ -6094,7 +6094,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 117,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.4473 },
       { "is_us": false, "is_mid": false, "id": 553,
         "label": "United Nations Office for the Coordination of Humanitarian Affairs (UNOCHA)",
         "cat": "United Nations Organizations",
@@ -6104,7 +6104,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 165,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.402 },
       { "is_us": true, "is_mid": false, "id": 560,
         "label": "United States Agency for International Development (USAID)",
         "cat": "Member States \u00d0 Voluntary Thematic",
@@ -6114,7 +6114,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 147,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.8471 },
       { "is_us": false, "is_mid": false, "id": 594,
         "label": "WHO Contingency Fund for Emergencies",
         "cat": "WHO Contingency Fund for Emergencies",
@@ -6124,7 +6124,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 145,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.4307 },
       { "is_us": false, "is_mid": false, "id": 609,
         "label": "Programs",
         "cat": "Recep_program",
@@ -6134,7 +6134,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 6,
 
-        "is_recep": true }
+        "is_recep": true , "pc": null }
     ],
     "edges": [
       {
@@ -6635,7 +6635,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 8,
         "label": "Albania",
         "cat": "Recep_State",
@@ -6645,7 +6645,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 113,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 9,
         "label": "Algeria",
         "cat": "Recep_State",
@@ -6655,7 +6655,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 13,
         "label": "American Samoa",
         "cat": "Recep_State",
@@ -6665,7 +6665,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 15,
         "label": "Americas - Regional Office",
         "cat": "Recep_Regional Office",
@@ -6675,7 +6675,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 17,
         "label": "Antigua and Barbuda",
         "cat": "Recep_State",
@@ -6685,7 +6685,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 20,
         "label": "Argentina",
         "cat": "Recep_State",
@@ -6695,7 +6695,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 21,
         "label": "Armenia",
         "cat": "Recep_State",
@@ -6705,7 +6705,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 110,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 24,
         "label": "Assessed Contributions",
         "cat": "Assessed Contributions",
@@ -6715,7 +6715,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.5163 },
       { "is_us": false, "is_mid": false, "id": 30,
         "label": "Bahamas",
         "cat": "Recep_State",
@@ -6725,7 +6725,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 31,
         "label": "Bahrain",
         "cat": "Recep_State",
@@ -6735,7 +6735,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 33,
         "label": "Barbados",
         "cat": "Recep_State",
@@ -6745,7 +6745,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 1,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 35,
         "label": "Belarus",
         "cat": "Recep_State",
@@ -6755,7 +6755,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 110,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 37,
         "label": "Belize",
         "cat": "Recep_State",
@@ -6765,7 +6765,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 113,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 42,
         "label": "Bill & Melinda Gates Foundation",
         "cat": "Philanthropic Foundations",
@@ -6775,7 +6775,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 9,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.5092 },
       { "is_us": false, "is_mid": false, "id": 44,
         "label": "Bolivia (Plurinational State of)",
         "cat": "Recep_State",
@@ -6785,7 +6785,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 46,
         "label": "Bosnia and Herzegovina",
         "cat": "Recep_State",
@@ -6795,7 +6795,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 112,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 48,
         "label": "Brazil",
         "cat": "Recep_State",
@@ -6805,7 +6805,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 113,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 51,
         "label": "Brunei Darussalam",
         "cat": "Recep_State",
@@ -6815,7 +6815,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 52,
         "label": "Bulgaria",
         "cat": "Recep_State",
@@ -6825,7 +6825,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 110,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 55,
         "label": "Burundi",
         "cat": "Recep_State",
@@ -6835,7 +6835,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 110,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 56,
         "label": "Cabo Verde",
         "cat": "Recep_State",
@@ -6845,7 +6845,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 57,
         "label": "Cambodia",
         "cat": "Recep_State",
@@ -6855,7 +6855,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": true, "is_mid": false, "id": 66,
         "label": "Centers for Disease Control and Prevention (CDC), United States of America",
         "cat": "Member States - Voluntary Specified",
@@ -6865,7 +6865,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.6378 },
       { "is_us": false, "is_mid": false, "id": 74,
         "label": "Chile",
         "cat": "Recep_State",
@@ -6875,7 +6875,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 113,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 80,
         "label": "Colombia",
         "cat": "Recep_State",
@@ -6885,7 +6885,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 110,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 82,
         "label": "Congo",
         "cat": "Recep_State",
@@ -6895,7 +6895,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 84,
         "label": "Cook Islands",
         "cat": "Recep_State",
@@ -6905,7 +6905,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 86,
         "label": "Core Voluntary Contributions",
         "cat": "Core Voluntary Contributions",
@@ -6915,7 +6915,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.5065 },
       { "is_us": false, "is_mid": false, "id": 87,
         "label": "Costa Rica",
         "cat": "Recep_State",
@@ -6925,7 +6925,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 113,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 92,
         "label": "Croatia",
         "cat": "Recep_State",
@@ -6935,7 +6935,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 94,
         "label": "Cuba",
         "cat": "Recep_State",
@@ -6945,7 +6945,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 110,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 96,
         "label": "Czechia",
         "cat": "Recep_State",
@@ -6955,7 +6955,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 110,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 99,
         "label": "Democratic People's Republic of Korea",
         "cat": "Recep_State",
@@ -6965,7 +6965,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 104,
         "label": "Department of Foreign Affairs and Trade (DFAT), Australia",
         "cat": "Member States - Voluntary Specified",
@@ -6975,7 +6975,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.6298 },
       { "is_us": false, "is_mid": true, "id": 105,
         "label": "Department of Foreign Affairs, Trade and Development (DFATD), Canada",
         "cat": "Member States - Voluntary Specified",
@@ -6985,7 +6985,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 9,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.6872 },
       { "is_us": false, "is_mid": true, "id": 115,
         "label": "DG for Neighbourhood and Enlargement Negotiations (NEAR), European Commission",
         "cat": "Intergovernmental Organizations",
@@ -6995,7 +6995,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 110,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.2282 },
       { "is_us": false, "is_mid": true, "id": 119,
         "label": "Directorate-General for European Civil Protection and Humanitarian Aid Operations (ECHO), European Commission",
         "cat": "Intergovernmental Organizations",
@@ -7005,7 +7005,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 110,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.6941 },
       { "is_us": false, "is_mid": true, "id": 120,
         "label": "Directorate-General for International Partnerships (INTPA), European Commission",
         "cat": "Intergovernmental Organizations",
@@ -7015,7 +7015,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 1,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.7215 },
       { "is_us": false, "is_mid": false, "id": 121,
         "label": "Djibouti",
         "cat": "Recep_State",
@@ -7025,7 +7025,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 9,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 122,
         "label": "Dominica",
         "cat": "Recep_State",
@@ -7035,7 +7035,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 123,
         "label": "Dominican Republic",
         "cat": "Recep_State",
@@ -7045,7 +7045,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 124,
         "label": "Eastern Mediterranean - Regional Office",
         "cat": "Recep_Regional Office",
@@ -7055,7 +7055,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 127,
         "label": "Ecuador",
         "cat": "Recep_State",
@@ -7065,7 +7065,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 131,
         "label": "El Salvador",
         "cat": "Recep_State",
@@ -7075,7 +7075,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 141,
         "label": "Eritrea",
         "cat": "Recep_State",
@@ -7085,7 +7085,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 144,
         "label": "Ethiopia",
         "cat": "Recep_State",
@@ -7095,7 +7095,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 110,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 145,
         "label": "Europe - Regional Office",
         "cat": "Recep_Regional Office",
@@ -7105,7 +7105,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": true, "id": 154,
         "label": "Federal Foreign Office, Germany",
         "cat": "Member States - Voluntary Specified",
@@ -7115,7 +7115,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 110,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.7209 },
       { "is_us": false, "is_mid": true, "id": 155,
         "label": "Federal Ministry for Economic Cooperation and Development (BMZ), Germany",
         "cat": "Member States - Voluntary Specified",
@@ -7125,7 +7125,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 9,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.5918 },
       { "is_us": false, "is_mid": false, "id": 159,
         "label": "Fiji",
         "cat": "Recep_State",
@@ -7135,7 +7135,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 167,
         "label": "Foreign, Commonwealth & Development Office (FCDO), United Kingdom",
         "cat": "Member States - Voluntary Specified",
@@ -7145,7 +7145,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 9,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.5915 },
       { "is_us": false, "is_mid": false, "id": 171,
         "label": "French Polynesia",
         "cat": "Recep_State",
@@ -7155,7 +7155,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 177,
         "label": "Gabon",
         "cat": "Recep_State",
@@ -7165,7 +7165,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 178,
         "label": "Gambia",
         "cat": "Recep_State",
@@ -7175,7 +7175,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 180,
         "label": "GAVI Alliance",
         "cat": "Partnerships",
@@ -7185,7 +7185,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 9,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.689 },
       { "is_us": false, "is_mid": false, "id": 182,
         "label": "Georgia",
         "cat": "Recep_State",
@@ -7195,7 +7195,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 110,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": true, "id": 183,
         "label": "Germany",
         "cat": "Member States \u00d0 Voluntary Thematic",
@@ -7205,7 +7205,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.6456 },
       { "is_us": false, "is_mid": false, "id": 184,
         "label": "Ghana",
         "cat": "Recep_State",
@@ -7215,7 +7215,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 9,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 198,
         "label": "Grenada",
         "cat": "Recep_State",
@@ -7225,7 +7225,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 199,
         "label": "Guatemala",
         "cat": "Recep_State",
@@ -7235,7 +7235,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 203,
         "label": "Guyana",
         "cat": "Recep_State",
@@ -7245,7 +7245,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 204,
         "label": "Haiti",
         "cat": "Recep_State",
@@ -7255,7 +7255,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 110,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 211,
         "label": "Honduras",
         "cat": "Recep_State",
@@ -7265,7 +7265,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 110,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 214,
         "label": "Hungary",
         "cat": "Recep_State",
@@ -7275,7 +7275,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 113,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": true, "id": 218,
         "label": "India",
         "cat": "Member States \u00d0 Voluntary Thematic",
@@ -7285,7 +7285,7 @@ export const NETWORK_DATA = {
         "btw": 0.000327,
         "mod_cls": 112,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.0489 },
       { "is_us": false, "is_mid": false, "id": 223,
         "label": "International Development Association (IDA)",
         "cat": "Development Banks and Funds",
@@ -7295,7 +7295,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 128,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.0561 },
       { "is_us": false, "is_mid": false, "id": 237,
         "label": "Iran (Islamic Republic of)",
         "cat": "Member States - Voluntary Specified",
@@ -7305,7 +7305,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 110,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.0 },
       { "is_us": false, "is_mid": false, "id": 238,
         "label": "Iraq",
         "cat": "Recep_State",
@@ -7315,7 +7315,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 112,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 246,
         "label": "Jamaica",
         "cat": "Recep_State",
@@ -7325,7 +7325,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 259,
         "label": "Jordan",
         "cat": "Recep_State",
@@ -7335,7 +7335,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 110,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": true, "id": 264,
         "label": "KfW Entwicklungsbank, Germany",
         "cat": "Member States - Voluntary Specified",
@@ -7345,7 +7345,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 110,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.0669 },
       { "is_us": false, "is_mid": false, "id": 266,
         "label": "King Salman Humanitarian Aid & Relief Center, KSrelief",
         "cat": "Member States - Voluntary Specified",
@@ -7355,7 +7355,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 128,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.2749 },
       { "is_us": false, "is_mid": false, "id": 268,
         "label": "Kiribati",
         "cat": "Recep_State",
@@ -7365,7 +7365,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 275,
         "label": "Kyrgyzstan",
         "cat": "Recep_State",
@@ -7375,7 +7375,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 279,
         "label": "Latvia",
         "cat": "Recep_State",
@@ -7385,7 +7385,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 284,
         "label": "Libya",
         "cat": "Recep_State",
@@ -7395,7 +7395,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 110,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 287,
         "label": "Lithuania",
         "cat": "Recep_State",
@@ -7405,7 +7405,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 297,
         "label": "Maldives",
         "cat": "Recep_State",
@@ -7415,7 +7415,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 304,
         "label": "Marshall Islands",
         "cat": "Recep_State",
@@ -7425,7 +7425,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 110,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 305,
         "label": "Mauritania",
         "cat": "Recep_State",
@@ -7435,7 +7435,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 9,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 306,
         "label": "Mauritius",
         "cat": "Recep_State",
@@ -7445,7 +7445,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 315,
         "label": "Micronesia",
         "cat": "Recep_State",
@@ -7455,7 +7455,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": true, "id": 316,
         "label": "Ministry for Europe and Foreign Affairs (MEAE), France",
         "cat": "Member States \u00d0 Voluntary Thematic",
@@ -7465,7 +7465,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.695 },
       { "is_us": false, "is_mid": false, "id": 331,
         "label": "Ministry of Foreign Affairs & International Cooperation, United Arab Emirates",
         "cat": "Member States - Voluntary Specified",
@@ -7475,7 +7475,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 110,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.0351 },
       { "is_us": false, "is_mid": false, "id": 339,
         "label": "Ministry of Foreign Affairs, Italy",
         "cat": "Member States - Voluntary Specified",
@@ -7485,7 +7485,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 1,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.6682 },
       { "is_us": false, "is_mid": false, "id": 340,
         "label": "Ministry of Foreign Affairs, Japan",
         "cat": "Member States - Voluntary Specified",
@@ -7495,7 +7495,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 110,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.6766 },
       { "is_us": false, "is_mid": false, "id": 342,
         "label": "Ministry of Foreign Affairs, Netherlands",
         "cat": "Member States - Voluntary Specified",
@@ -7505,7 +7505,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 110,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.7712 },
       { "is_us": false, "is_mid": false, "id": 343,
         "label": "Ministry of Foreign Affairs, Norway",
         "cat": "Member States - Voluntary Specified",
@@ -7515,7 +7515,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 110,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.4571 },
       { "is_us": false, "is_mid": false, "id": 357,
         "label": "Miscellaneous",
         "cat": "Miscellaneous",
@@ -7525,7 +7525,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.5599 },
       { "is_us": false, "is_mid": false, "id": 360,
         "label": "Mongolia",
         "cat": "Recep_State",
@@ -7535,7 +7535,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 361,
         "label": "Montenegro",
         "cat": "Recep_State",
@@ -7545,7 +7545,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 112,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 362,
         "label": "Morocco",
         "cat": "Recep_State",
@@ -7555,7 +7555,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 366,
         "label": "Myanmar",
         "cat": "Recep_State",
@@ -7565,7 +7565,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 367,
         "label": "Namibia",
         "cat": "Recep_State",
@@ -7575,7 +7575,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 382,
         "label": "Nauru",
         "cat": "Recep_State",
@@ -7585,7 +7585,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 383,
         "label": "Nepal",
         "cat": "Recep_State",
@@ -7595,7 +7595,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 388,
         "label": "Nicaragua",
         "cat": "Recep_State",
@@ -7605,7 +7605,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 113,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 391,
         "label": "Niue",
         "cat": "Recep_State",
@@ -7615,7 +7615,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 393,
         "label": "North Macedonia",
         "cat": "Recep_State",
@@ -7625,7 +7625,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 112,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 394,
         "label": "Northern Mariana Islands",
         "cat": "Recep_State",
@@ -7635,7 +7635,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 396,
         "label": "Norwegian Agency for Development Cooperation (NORAD)",
         "cat": "Member States \u00d0 Voluntary Thematic",
@@ -7645,7 +7645,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.6606 },
       { "is_us": false, "is_mid": false, "id": 402,
         "label": "occupied Palestinian territory",
         "cat": "Recep_State",
@@ -7655,7 +7655,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 110,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 403,
         "label": "Oman",
         "cat": "Recep_State",
@@ -7665,7 +7665,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 406,
         "label": "Pakistan",
         "cat": "Member States - Voluntary Specified",
@@ -7675,7 +7675,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 9,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.0 },
       { "is_us": false, "is_mid": false, "id": 407,
         "label": "Palau",
         "cat": "Recep_State",
@@ -7685,7 +7685,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 413,
         "label": "Papua New Guinea",
         "cat": "Recep_State",
@@ -7695,7 +7695,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 1,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 414,
         "label": "Paraguay",
         "cat": "Recep_State",
@@ -7705,7 +7705,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 415,
         "label": "Peru",
         "cat": "Recep_State",
@@ -7715,7 +7715,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 418,
         "label": "PIP Framework Contributors",
         "cat": "PIP Framework Contributors",
@@ -7725,7 +7725,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.4934 },
       { "is_us": false, "is_mid": false, "id": 419,
         "label": "Poland",
         "cat": "Recep_State",
@@ -7735,7 +7735,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 113,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 425,
         "label": "Programme Support Costs",
         "cat": "Programme Support Costs",
@@ -7745,7 +7745,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.5643 },
       { "is_us": false, "is_mid": true, "id": 448,
         "label": "Rotary International",
         "cat": "Non Governmental Organizations",
@@ -7755,7 +7755,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 9,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.4639 },
       { "is_us": false, "is_mid": false, "id": 451,
         "label": "Rwanda",
         "cat": "Recep_State",
@@ -7765,7 +7765,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 452,
         "label": "Saint Kitts and Nevis",
         "cat": "Recep_State",
@@ -7775,7 +7775,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 1,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 453,
         "label": "Saint Lucia",
         "cat": "Recep_State",
@@ -7785,7 +7785,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 1,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 454,
         "label": "Saint Vincent and the Grenadines",
         "cat": "Recep_State",
@@ -7795,7 +7795,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 113,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 455,
         "label": "Samoa",
         "cat": "Recep_State",
@@ -7805,7 +7805,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 460,
         "label": "Saudi Arabia",
         "cat": "Recep_State",
@@ -7815,7 +7815,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 468,
         "label": "Serbia",
         "cat": "Recep_State",
@@ -7825,7 +7825,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 112,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 470,
         "label": "Seychelles",
         "cat": "Recep_State",
@@ -7835,7 +7835,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 480,
         "label": "South Africa",
         "cat": "Recep_State",
@@ -7845,7 +7845,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 481,
         "label": "South East Asia - Regional Office",
         "cat": "Recep_Regional Office",
@@ -7855,7 +7855,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 482,
         "label": "South Sudan",
         "cat": "Recep_State",
@@ -7865,7 +7865,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 112,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 489,
         "label": "Sudan",
         "cat": "Recep_State",
@@ -7875,7 +7875,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 112,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 491,
         "label": "Suriname",
         "cat": "Recep_State",
@@ -7885,7 +7885,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 495,
         "label": "Swiss Development Cooperation Agency (SDC/DDC)",
         "cat": "Member States - Voluntary Specified",
@@ -7895,7 +7895,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 110,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.4492 },
       { "is_us": false, "is_mid": false, "id": 498,
         "label": "Syrian Arab Republic",
         "cat": "Recep_State",
@@ -7905,7 +7905,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 110,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 505,
         "label": "Tokelau",
         "cat": "Recep_State",
@@ -7915,7 +7915,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 506,
         "label": "Tonga",
         "cat": "Recep_State",
@@ -7925,7 +7925,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 507,
         "label": "Trinidad and Tobago",
         "cat": "Recep_State",
@@ -7935,7 +7935,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 509,
         "label": "Tunisia",
         "cat": "Recep_State",
@@ -7945,7 +7945,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 1,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 511,
         "label": "Turkmenistan",
         "cat": "Recep_State",
@@ -7955,7 +7955,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 1,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 512,
         "label": "Tuvalu",
         "cat": "Recep_State",
@@ -7965,7 +7965,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 517,
         "label": "UN Multi-Partner Trust Fund Office (MPTF)",
         "cat": "United Nations Organizations",
@@ -7975,7 +7975,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 1,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.4849 },
       { "is_us": false, "is_mid": false, "id": 520,
         "label": "United Arab Emirates",
         "cat": "Member States - Voluntary Specified",
@@ -7985,7 +7985,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 9,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.1956 },
       { "is_us": false, "is_mid": true, "id": 522,
         "label": "United Nations Central Emergency Response Fund (CERF)",
         "cat": "United Nations Organizations",
@@ -7995,7 +7995,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 110,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.7251 },
       { "is_us": false, "is_mid": false, "id": 523,
         "label": "United Nations Children's Fund (UNICEF)",
         "cat": "United Nations Organizations",
@@ -8005,7 +8005,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 1,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.5749 },
       { "is_us": false, "is_mid": false, "id": 538,
         "label": "United Nations Office for the Coordination of Humanitarian Affairs (UNOCHA)",
         "cat": "United Nations Organizations",
@@ -8015,7 +8015,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 110,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.2112 },
       { "is_us": false, "is_mid": false, "id": 544,
         "label": "United Republic of Tanzania",
         "cat": "Recep_State",
@@ -8025,7 +8025,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 9,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": true, "is_mid": false, "id": 545,
         "label": "United States Agency for International Development (USAID)",
         "cat": "Member States - Voluntary Specified",
@@ -8035,7 +8035,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 112,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.7819 },
       { "is_us": true, "is_mid": false, "id": 547,
         "label": "United States Department of State (USDOS)",
         "cat": "Member States - Voluntary Specified",
@@ -8045,7 +8045,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 113,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.7678 },
       { "is_us": false, "is_mid": false, "id": 561,
         "label": "Uruguay",
         "cat": "Recep_State",
@@ -8055,7 +8055,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 563,
         "label": "Vanuatu",
         "cat": "Recep_State",
@@ -8065,7 +8065,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 565,
         "label": "Venezuela (Bolivarian Republic of)",
         "cat": "Recep_State",
@@ -8075,7 +8075,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 113,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 574,
         "label": "Western Pacific - Regional Office",
         "cat": "Recep_Regional Office",
@@ -8085,7 +8085,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 575,
         "label": "WHO Contingency Fund for Emergencies",
         "cat": "WHO Contingency Fund for Emergencies",
@@ -8095,7 +8095,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 110,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.6996 },
       { "is_us": false, "is_mid": false, "id": 595,
         "label": "Programs",
         "cat": "Recep_program",
@@ -8105,7 +8105,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 5,
 
-        "is_recep": true }
+        "is_recep": true , "pc": null }
     ],
     "edges": [
       {
@@ -14916,7 +14916,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 97,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 8,
         "label": "Albania",
         "cat": "Recep_State",
@@ -14926,7 +14926,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 9,
         "label": "Algeria",
         "cat": "Recep_State",
@@ -14936,7 +14936,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 14,
         "label": "American Samoa",
         "cat": "Recep_State",
@@ -14946,7 +14946,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 16,
         "label": "Americas - Regional Office",
         "cat": "Recep_Regional Office",
@@ -14956,7 +14956,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 17,
         "label": "Angola",
         "cat": "Recep_State",
@@ -14966,7 +14966,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 116,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 18,
         "label": "Antigua and Barbuda",
         "cat": "Recep_State",
@@ -14976,7 +14976,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 98,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 20,
         "label": "Argentina",
         "cat": "Recep_State",
@@ -14986,7 +14986,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 21,
         "label": "Armenia",
         "cat": "Recep_State",
@@ -14996,7 +14996,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 24,
         "label": "Assessed Contributions",
         "cat": "Assessed Contributions",
@@ -15006,7 +15006,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.696 },
       { "is_us": false, "is_mid": false, "id": 31,
         "label": "Azerbaijan",
         "cat": "Recep_State",
@@ -15016,7 +15016,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 93,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 32,
         "label": "Bahamas",
         "cat": "Recep_State",
@@ -15026,7 +15026,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 33,
         "label": "Bahrain",
         "cat": "Recep_State",
@@ -15036,7 +15036,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 35,
         "label": "Barbados",
         "cat": "Recep_State",
@@ -15046,7 +15046,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 19,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 37,
         "label": "Belarus",
         "cat": "Recep_State",
@@ -15056,7 +15056,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 39,
         "label": "Belize",
         "cat": "Recep_State",
@@ -15066,7 +15066,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 40,
         "label": "Benin",
         "cat": "Recep_State",
@@ -15076,7 +15076,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 116,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 42,
         "label": "Bhutan",
         "cat": "Recep_State",
@@ -15086,7 +15086,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 43,
         "label": "Bill & Melinda Gates Foundation",
         "cat": "Philanthropic Foundations",
@@ -15096,7 +15096,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 97,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.5867 },
       { "is_us": false, "is_mid": false, "id": 45,
         "label": "Bolivia (Plurinational State of)",
         "cat": "Recep_State",
@@ -15106,7 +15106,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 47,
         "label": "Bosnia and Herzegovina",
         "cat": "Recep_State",
@@ -15116,7 +15116,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 93,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 48,
         "label": "Botswana",
         "cat": "Recep_State",
@@ -15126,7 +15126,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 49,
         "label": "Brazil",
         "cat": "Recep_State",
@@ -15136,7 +15136,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 98,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 51,
         "label": "Brunei Darussalam",
         "cat": "Recep_State",
@@ -15146,7 +15146,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 93,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 52,
         "label": "Bulgaria",
         "cat": "Recep_State",
@@ -15156,7 +15156,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 93,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 56,
         "label": "Burundi",
         "cat": "Recep_State",
@@ -15166,7 +15166,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 116,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 57,
         "label": "Cabo Verde",
         "cat": "Recep_State",
@@ -15176,7 +15176,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 58,
         "label": "Cambodia",
         "cat": "Recep_State",
@@ -15186,7 +15186,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": true, "is_mid": false, "id": 65,
         "label": "Centers for Disease Control and Prevention (CDC), United States of America",
         "cat": "Member States - Voluntary Specified",
@@ -15196,7 +15196,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 97,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.7826 },
       { "is_us": false, "is_mid": false, "id": 66,
         "label": "Central African Republic",
         "cat": "Recep_State",
@@ -15206,7 +15206,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 116,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 74,
         "label": "Chile",
         "cat": "Recep_State",
@@ -15216,7 +15216,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 82,
         "label": "Colombia",
         "cat": "Recep_State",
@@ -15226,7 +15226,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 84,
         "label": "Congo",
         "cat": "Recep_State",
@@ -15236,7 +15236,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 43,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 85,
         "label": "Cook Islands",
         "cat": "Recep_State",
@@ -15246,7 +15246,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 87,
         "label": "Core Voluntary Contributions",
         "cat": "Core Voluntary Contributions",
@@ -15256,7 +15256,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.6708 },
       { "is_us": false, "is_mid": false, "id": 88,
         "label": "Costa Rica",
         "cat": "Recep_State",
@@ -15266,7 +15266,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 91,
         "label": "Cuba",
         "cat": "Recep_State",
@@ -15276,7 +15276,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 43,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 93,
         "label": "Czechia",
         "cat": "Recep_State",
@@ -15286,7 +15286,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 93,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 96,
         "label": "Democratic People's Republic of Korea",
         "cat": "Recep_State",
@@ -15296,7 +15296,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": true, "id": 100,
         "label": "Department of Foreign Affairs, Trade and Development (DFATD), Canada",
         "cat": "Member States - Voluntary Specified",
@@ -15306,7 +15306,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 97,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.7136 },
       { "is_us": false, "is_mid": true, "id": 108,
         "label": "DG for Health and Food Safety (SANTE), European Commission",
         "cat": "Intergovernmental Organizations",
@@ -15316,7 +15316,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 32,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.2378 },
       { "is_us": false, "is_mid": true, "id": 110,
         "label": "DG for Neighbourhood and Enlargement Negotiations (NEAR), European Commission",
         "cat": "Intergovernmental Organizations",
@@ -15326,7 +15326,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 93,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.2435 },
       { "is_us": false, "is_mid": true, "id": 114,
         "label": "Directorate-General for European Civil Protection and Humanitarian Aid Operations (ECHO), European Commission",
         "cat": "Intergovernmental Organizations",
@@ -15336,7 +15336,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 93,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.6803 },
       { "is_us": false, "is_mid": true, "id": 115,
         "label": "Directorate-General for International Partnerships (INTPA), European Commission",
         "cat": "Intergovernmental Organizations",
@@ -15346,7 +15346,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 19,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.776 },
       { "is_us": false, "is_mid": false, "id": 117,
         "label": "Djibouti",
         "cat": "Recep_State",
@@ -15356,7 +15356,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 118,
         "label": "Dominica",
         "cat": "Recep_State",
@@ -15366,7 +15366,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 98,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 119,
         "label": "Dominican Republic",
         "cat": "Recep_State",
@@ -15376,7 +15376,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 122,
         "label": "Eastern Mediterranean - Regional Office",
         "cat": "Recep_Regional Office",
@@ -15386,7 +15386,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 125,
         "label": "Ecuador",
         "cat": "Recep_State",
@@ -15396,7 +15396,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 98,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 129,
         "label": "El Salvador",
         "cat": "Recep_State",
@@ -15406,7 +15406,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 140,
         "label": "Eritrea",
         "cat": "Recep_State",
@@ -15416,7 +15416,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 142,
         "label": "Eswatini",
         "cat": "Recep_State",
@@ -15426,7 +15426,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 143,
         "label": "Ethiopia",
         "cat": "Recep_State",
@@ -15436,7 +15436,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 98,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 144,
         "label": "Europe - Regional Office",
         "cat": "Recep_Regional Office",
@@ -15446,7 +15446,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 32,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 147,
         "label": "European Investment Bank",
         "cat": "Development Banks and Funds",
@@ -15456,7 +15456,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 116,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.6051 },
       { "is_us": false, "is_mid": true, "id": 155,
         "label": "Federal Foreign Office, Germany",
         "cat": "Member States - Voluntary Specified",
@@ -15466,7 +15466,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 93,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.4785 },
       { "is_us": false, "is_mid": true, "id": 156,
         "label": "Federal Ministry for Economic Cooperation and Development (BMZ), Germany",
         "cat": "Member States - Voluntary Specified",
@@ -15476,7 +15476,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 97,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.6269 },
       { "is_us": false, "is_mid": false, "id": 161,
         "label": "Fiji",
         "cat": "Recep_State",
@@ -15486,7 +15486,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 116,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 169,
         "label": "Foreign, Commonwealth & Development Office (FCDO), United Kingdom",
         "cat": "Member States - Voluntary Specified",
@@ -15496,7 +15496,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 97,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.6608 },
       { "is_us": false, "is_mid": false, "id": 173,
         "label": "French Polynesia",
         "cat": "Recep_State",
@@ -15506,7 +15506,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 178,
         "label": "Gabon",
         "cat": "Recep_State",
@@ -15516,7 +15516,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 179,
         "label": "Gambia",
         "cat": "Recep_State",
@@ -15526,7 +15526,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 182,
         "label": "GAVI Alliance",
         "cat": "Partnerships",
@@ -15536,7 +15536,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 43,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.7843 },
       { "is_us": false, "is_mid": false, "id": 185,
         "label": "Georgia",
         "cat": "Recep_State",
@@ -15546,7 +15546,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 98,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": true, "id": 186,
         "label": "Germany",
         "cat": "Member States \u00d0 Voluntary Thematic",
@@ -15556,7 +15556,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 32,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.5716 },
       { "is_us": false, "is_mid": false, "id": 187,
         "label": "Ghana",
         "cat": "Recep_State",
@@ -15566,7 +15566,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 97,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 201,
         "label": "Greece",
         "cat": "Member States - Voluntary Specified",
@@ -15576,7 +15576,7 @@ export const NETWORK_DATA = {
         "btw": 6e-06,
         "mod_cls": 32,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.0192 },
       { "is_us": false, "is_mid": false, "id": 202,
         "label": "Grenada",
         "cat": "Recep_State",
@@ -15586,7 +15586,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 98,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 203,
         "label": "Guam",
         "cat": "Recep_State",
@@ -15596,7 +15596,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 204,
         "label": "Guatemala",
         "cat": "Recep_State",
@@ -15606,7 +15606,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 207,
         "label": "Guyana",
         "cat": "Recep_State",
@@ -15616,7 +15616,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 208,
         "label": "Haiti",
         "cat": "Recep_State",
@@ -15626,7 +15626,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 43,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 213,
         "label": "Honduras",
         "cat": "Recep_State",
@@ -15636,7 +15636,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 215,
         "label": "Hungary",
         "cat": "Recep_State",
@@ -15646,7 +15646,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": true, "id": 219,
         "label": "India",
         "cat": "Member States \u00d0 Voluntary Thematic",
@@ -15656,7 +15656,7 @@ export const NETWORK_DATA = {
         "btw": 0.000222,
         "mod_cls": 43,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.1092 },
       { "is_us": false, "is_mid": false, "id": 223,
         "label": "International Development Association (IDA)",
         "cat": "Development Banks and Funds",
@@ -15666,7 +15666,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 93,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.1004 },
       { "is_us": false, "is_mid": false, "id": 237,
         "label": "Iraq",
         "cat": "Recep_State",
@@ -15676,7 +15676,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 93,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 244,
         "label": "Jamaica",
         "cat": "Recep_State",
@@ -15686,7 +15686,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 253,
         "label": "Jordan",
         "cat": "Recep_State",
@@ -15696,7 +15696,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 93,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 257,
         "label": "Kenya",
         "cat": "Recep_State",
@@ -15706,7 +15706,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 116,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 259,
         "label": "King Salman Humanitarian Aid & Relief Center, KSrelief",
         "cat": "Member States - Voluntary Specified",
@@ -15716,7 +15716,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 93,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.555 },
       { "is_us": false, "is_mid": false, "id": 260,
         "label": "Kiribati",
         "cat": "Recep_State",
@@ -15726,7 +15726,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 264,
         "label": "Korea International Cooperation Agency (KOICA)",
         "cat": "Member States - Voluntary Specified",
@@ -15736,7 +15736,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.3795 },
       { "is_us": false, "is_mid": false, "id": 267,
         "label": "Kyrgyzstan",
         "cat": "Recep_State",
@@ -15746,7 +15746,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 43,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 275,
         "label": "Liberia",
         "cat": "Recep_State",
@@ -15756,7 +15756,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 116,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 285,
         "label": "Madagascar",
         "cat": "Recep_State",
@@ -15766,7 +15766,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 43,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 289,
         "label": "Maldives",
         "cat": "Recep_State",
@@ -15776,7 +15776,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 290,
         "label": "Mali",
         "cat": "Recep_State",
@@ -15786,7 +15786,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 43,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 293,
         "label": "Marshall Islands",
         "cat": "Recep_State",
@@ -15796,7 +15796,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 294,
         "label": "Mauritania",
         "cat": "Recep_State",
@@ -15806,7 +15806,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 43,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 295,
         "label": "Mauritius",
         "cat": "Recep_State",
@@ -15816,7 +15816,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 303,
         "label": "Micronesia",
         "cat": "Recep_State",
@@ -15826,7 +15826,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": true, "id": 304,
         "label": "Ministry for Europe and Foreign Affairs (MEAE), France",
         "cat": "Member States - Voluntary Specified",
@@ -15836,7 +15836,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 93,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.7876 },
       { "is_us": false, "is_mid": false, "id": 317,
         "label": "Ministry of Foreign Affairs & International Cooperation, United Arab Emirates",
         "cat": "Member States - Voluntary Specified",
@@ -15846,7 +15846,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 93,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.5426 },
       { "is_us": false, "is_mid": false, "id": 324,
         "label": "Ministry of Foreign Affairs, Japan",
         "cat": "Member States - Voluntary Specified",
@@ -15856,7 +15856,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 93,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.6745 },
       { "is_us": false, "is_mid": false, "id": 327,
         "label": "Ministry of Foreign Affairs, Netherlands",
         "cat": "Member States - Voluntary Specified",
@@ -15866,7 +15866,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 93,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.1828 },
       { "is_us": false, "is_mid": false, "id": 328,
         "label": "Ministry of Foreign Affairs, Norway",
         "cat": "Member States - Voluntary Specified",
@@ -15876,7 +15876,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 93,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.3883 },
       { "is_us": false, "is_mid": false, "id": 343,
         "label": "Mongolia",
         "cat": "Recep_State",
@@ -15886,7 +15886,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 344,
         "label": "Montenegro",
         "cat": "Recep_State",
@@ -15896,7 +15896,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 93,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 345,
         "label": "Morocco",
         "cat": "Recep_State",
@@ -15906,7 +15906,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 349,
         "label": "Myanmar",
         "cat": "Recep_State",
@@ -15916,7 +15916,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 350,
         "label": "Namibia",
         "cat": "Recep_State",
@@ -15926,7 +15926,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 366,
         "label": "Nauru",
         "cat": "Recep_State",
@@ -15936,7 +15936,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 367,
         "label": "Nepal",
         "cat": "Recep_State",
@@ -15946,7 +15946,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 98,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 372,
         "label": "Nicaragua",
         "cat": "Recep_State",
@@ -15956,7 +15956,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 373,
         "label": "Niger",
         "cat": "Recep_State",
@@ -15966,7 +15966,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 43,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 375,
         "label": "Niue",
         "cat": "Recep_State",
@@ -15976,7 +15976,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 376,
         "label": "North Macedonia",
         "cat": "Recep_State",
@@ -15986,7 +15986,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 377,
         "label": "Northern Mariana Islands",
         "cat": "Recep_State",
@@ -15996,7 +15996,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 379,
         "label": "Norwegian Agency for Development Cooperation (NORAD)",
         "cat": "Member States \u00d0 Voluntary Thematic",
@@ -16006,7 +16006,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 93,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.3882 },
       { "is_us": false, "is_mid": false, "id": 384,
         "label": "occupied Palestinian territory",
         "cat": "Recep_State",
@@ -16016,7 +16016,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 93,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 385,
         "label": "Oman",
         "cat": "Recep_State",
@@ -16026,7 +16026,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 389,
         "label": "Pakistan",
         "cat": "Member States - Voluntary Specified",
@@ -16036,7 +16036,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 97,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.0 },
       { "is_us": false, "is_mid": false, "id": 390,
         "label": "Palau",
         "cat": "Recep_State",
@@ -16046,7 +16046,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 394,
         "label": "Pandemic Fund",
         "cat": "Development Banks and Funds",
@@ -16056,7 +16056,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 98,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.6331 },
       { "is_us": false, "is_mid": false, "id": 395,
         "label": "Papua New Guinea",
         "cat": "Recep_State",
@@ -16066,7 +16066,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 43,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 396,
         "label": "Paraguay",
         "cat": "Recep_State",
@@ -16076,7 +16076,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 98,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 399,
         "label": "Peru",
         "cat": "Recep_State",
@@ -16086,7 +16086,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 401,
         "label": "PIP Framework Contributors",
         "cat": "PIP Framework Contributors",
@@ -16096,7 +16096,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.696 },
       { "is_us": false, "is_mid": false, "id": 403,
         "label": "Poland",
         "cat": "Recep_State",
@@ -16106,7 +16106,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 93,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 404,
         "label": "Portugal",
         "cat": "Recep_State",
@@ -16116,7 +16116,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 32,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 410,
         "label": "Programme Support Costs",
         "cat": "Programme Support Costs",
@@ -16126,7 +16126,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.7624 },
       { "is_us": false, "is_mid": false, "id": 419,
         "label": "Republic of Moldova",
         "cat": "Recep_State",
@@ -16136,7 +16136,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 93,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": true, "id": 428,
         "label": "Rotary International",
         "cat": "Non Governmental Organizations",
@@ -16146,7 +16146,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 97,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.6328 },
       { "is_us": false, "is_mid": false, "id": 431,
         "label": "Rwanda",
         "cat": "Recep_State",
@@ -16156,7 +16156,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 98,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 433,
         "label": "Saint Kitts and Nevis",
         "cat": "Recep_State",
@@ -16166,7 +16166,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 98,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 434,
         "label": "Saint Lucia",
         "cat": "Recep_State",
@@ -16176,7 +16176,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 98,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 435,
         "label": "Saint Vincent and the Grenadines",
         "cat": "Recep_State",
@@ -16186,7 +16186,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 98,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 436,
         "label": "Samoa",
         "cat": "Recep_State",
@@ -16196,7 +16196,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 441,
         "label": "Saudi Arabia",
         "cat": "Recep_State",
@@ -16206,7 +16206,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 446,
         "label": "Serbia",
         "cat": "Recep_State",
@@ -16216,7 +16216,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 452,
         "label": "Slovakia",
         "cat": "Recep_State",
@@ -16226,7 +16226,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 93,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 456,
         "label": "South Africa",
         "cat": "Recep_State",
@@ -16236,7 +16236,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 98,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 457,
         "label": "South East Asia - Regional Office",
         "cat": "Recep_Regional Office",
@@ -16246,7 +16246,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 458,
         "label": "South Sudan",
         "cat": "Recep_State",
@@ -16256,7 +16256,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 116,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 465,
         "label": "Sudan",
         "cat": "Recep_State",
@@ -16266,7 +16266,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 43,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 467,
         "label": "Suriname",
         "cat": "Recep_State",
@@ -16276,7 +16276,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 468,
         "label": "Susan Thompson Buffett Foundation",
         "cat": "Philanthropic Foundations",
@@ -16286,7 +16286,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 116,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.8182 },
       { "is_us": false, "is_mid": false, "id": 472,
         "label": "Swiss Development Cooperation Agency (SDC/DDC)",
         "cat": "Member States - Voluntary Specified",
@@ -16296,7 +16296,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 93,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.3265 },
       { "is_us": false, "is_mid": false, "id": 474,
         "label": "Syrian Arab Republic",
         "cat": "Recep_State",
@@ -16306,7 +16306,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 43,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 475,
         "label": "Tajikistan",
         "cat": "Recep_State",
@@ -16316,7 +16316,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 19,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 480,
         "label": "Togo",
         "cat": "Recep_State",
@@ -16326,7 +16326,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 98,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 481,
         "label": "Tokelau",
         "cat": "Recep_State",
@@ -16336,7 +16336,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 482,
         "label": "Tonga",
         "cat": "Recep_State",
@@ -16346,7 +16346,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 483,
         "label": "Trinidad and Tobago",
         "cat": "Recep_State",
@@ -16356,7 +16356,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 485,
         "label": "Tunisia",
         "cat": "Recep_State",
@@ -16366,7 +16366,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 487,
         "label": "Turkmenistan",
         "cat": "Recep_State",
@@ -16376,7 +16376,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 488,
         "label": "Tuvalu",
         "cat": "Recep_State",
@@ -16386,7 +16386,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 491,
         "label": "Ukraine",
         "cat": "Recep_State",
@@ -16396,7 +16396,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 93,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 492,
         "label": "UN Multi-Partner Trust Fund Office (MPTF)",
         "cat": "United Nations Organizations",
@@ -16406,7 +16406,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 19,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.7496 },
       { "is_us": false, "is_mid": false, "id": 495,
         "label": "United Arab Emirates",
         "cat": "Member States - Voluntary Specified",
@@ -16416,7 +16416,7 @@ export const NETWORK_DATA = {
         "btw": 3e-06,
         "mod_cls": 97,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.4483 },
       { "is_us": false, "is_mid": true, "id": 497,
         "label": "United Nations Central Emergency Response Fund (CERF)",
         "cat": "United Nations Organizations",
@@ -16426,7 +16426,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 43,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.7945 },
       { "is_us": false, "is_mid": false, "id": 498,
         "label": "United Nations Children's Fund (UNICEF)",
         "cat": "United Nations Organizations",
@@ -16436,7 +16436,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 19,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.7721 },
       { "is_us": false, "is_mid": false, "id": 516,
         "label": "United Republic of Tanzania",
         "cat": "Recep_State",
@@ -16446,7 +16446,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 98,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": true, "is_mid": false, "id": 517,
         "label": "United States Agency for International Development (USAID)",
         "cat": "Member States - Voluntary Specified",
@@ -16456,7 +16456,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 116,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.8504 },
       { "is_us": true, "is_mid": false, "id": 519,
         "label": "United States Department of State (USDOS)",
         "cat": "Member States - Voluntary Specified",
@@ -16466,7 +16466,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 93,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.3682 },
       { "is_us": false, "is_mid": false, "id": 532,
         "label": "Uruguay",
         "cat": "Recep_State",
@@ -16476,7 +16476,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 534,
         "label": "Vanuatu",
         "cat": "Recep_State",
@@ -16486,7 +16486,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 536,
         "label": "Venezuela (Bolivarian Republic of)",
         "cat": "Recep_State",
@@ -16496,7 +16496,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 546,
         "label": "Western Pacific - Regional Office",
         "cat": "Recep_Regional Office",
@@ -16506,7 +16506,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 84,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 547,
         "label": "WHO Contingency Fund for Emergencies",
         "cat": "WHO Contingency Fund for Emergencies",
@@ -16516,7 +16516,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 98,
 
-        "is_recep": false },
+        "is_recep": false , "pc": 0.8023 },
       { "is_us": false, "is_mid": false, "id": 559,
         "label": "Yemen",
         "cat": "Recep_State",
@@ -16526,7 +16526,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 93,
 
-        "is_recep": true },
+        "is_recep": true , "pc": null },
       { "is_us": false, "is_mid": false, "id": 563,
         "label": "Programs",
         "cat": "Recep_program",
@@ -16536,7 +16536,7 @@ export const NETWORK_DATA = {
         "btw": 0.0,
         "mod_cls": 98,
 
-        "is_recep": true }
+        "is_recep": true , "pc": null }
     ],
     "edges": [
       {

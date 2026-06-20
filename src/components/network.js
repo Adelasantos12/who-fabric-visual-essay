@@ -131,14 +131,17 @@ export function renderNetwork(biennium, svgId, tipId) {
     const tip = d3.select(tipId);
     nodeG
         .on('mouseenter', (event, d) => {
+            const pcLabel = (d.pc != null && !d.is_recep)
+                ? `PC: ${d.pc.toFixed(3)} (${d.pc >= 0.65 ? 'bridge' : d.pc <= 0.2 ? 'bonder' : 'moderate'})`
+                : '';
             const lines = [
                 d.label,
                 d.cat,
                 d.out_w > 0 ? `Out: $${(d.out_w / 1e6).toFixed(1)}M` : '',
                 d.in_w > 0 ? `In: $${(d.in_w / 1e6).toFixed(1)}M` : '',
+                pcLabel,
                 d.is_us ? '★ US entity' : '',
                 d.is_mid ? '◆ Middle-power candidate' : '',
-                `Modularity Class: ${d.mod_cls}`
             ].filter(Boolean).join('<br>');
             tip.html(lines).classed('on', true);
         })

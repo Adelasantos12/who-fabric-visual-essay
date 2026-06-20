@@ -147,11 +147,15 @@ function buildSinglePanel(svgId, data, isExposed, tipId) {
 
     const tip = d3.select(tipId);
     nodeG.on('mouseenter', (ev, d) => {
+        const pcLabel = (d.pc != null && !d.is_recep)
+            ? `PC: ${d.pc.toFixed(3)} (${d.pc >= 0.65 ? 'bridge' : d.pc <= 0.2 ? 'bonder' : 'moderate'})`
+            : '';
         tip.html([
             d.label,
             d.cat,
             d.out_w > 0 ? `Out: $${(d.out_w / 1e6).toFixed(1)}M` : '',
             d.in_w > 0 ? `In: $${(d.in_w / 1e6).toFixed(1)}M` : '',
+            pcLabel,
             d.is_us ? '★ US entity' : '',
             depIds.has(d.id) ? '⚠ ≥50% US-dependent' : '',
         ].filter(Boolean).join('<br>')).classed('on', true);
