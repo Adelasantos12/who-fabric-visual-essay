@@ -14,14 +14,14 @@
             <p class="kicker">A visual data essay · WHO Financing Networks · 2016–2025</p>
             <h1>The Fabric of<br>Global Health Funding</h1>
             <div class="intro-text">
-                <p>Every global health programme is connected to its funders through a thread of money. When many actors fund many programmes, a fabric forms. Whether that fabric holds together — or quietly comes apart — is a structural question, not a financial one.</p>
-                <p>This essay maps nine years of WHO financing data as a changing network. The story is not about the total amount of money. It is about the texture of the connections.</p>
+                <p>Every global health programme is connected to its funders through a thread of money. When many actors fund many programmes, a fabric forms. Whether that fabric holds or quietly comes apart is a structural question.</p>
+                <p>This essay maps nine years of WHO financing data as a changing network. It tracks who bridges otherwise-disconnected communities, who concentrates funding in a single niche, and what happens to the structure when its most consequential actor leaves.</p>
             </div>
             <div class="byline">
                 By <strong>Adela Santos</strong> (<a href="mailto:adela.santos@graduateinstitute.ch">adela.santos@graduateinstitute.ch</a>)
             </div>
             <div style="margin-top:20px; font-size:12px; color:#555">
-                Data: WHO Programme Budget (Q4 2016–2023; Q1 2024–2025) · Analysis: Adela Santos et al. (peer-reviewed) · Network: igraph (R) · Visualization: D3.js
+                Data: WHO Programme Budget (Q4 2016–2023; Q1 2024–2025) · Analysis: Adela Santos et al. (peer-reviewed) · Network analysis: igraph (R) (Csardi &amp; Nepusz, 2006) · Visualisation: D3.js
             </div>
         </div>
     </header>
@@ -47,8 +47,8 @@
             <span id="mv-density" class="metric-val">—</span>
             <div class="metric-bar-wrap"><div id="mb-density" class="metric-bar" style="width:0%"></div></div>
           </div>
-          <div class="metric-cell">
-            <span class="metric-label">Clustering</span>
+          <div class="metric-cell" title="Avg. clustering coefficient computed by Gephi treating the bipartite network as unipartite. In a strict 2-mode network, triangles are structurally impossible — true triadic closure cannot occur between two donors. Values reflect co-funding overlap in the 1-mode projection.">
+            <span class="metric-label">Clustering †</span>
             <span id="mv-clust" class="metric-val">—</span>
             <div class="metric-bar-wrap"><div id="mb-clust" class="metric-bar" style="width:0%"></div></div>
           </div>
@@ -63,6 +63,9 @@
             <div class="metric-bar-wrap"><div id="mb-mod" class="metric-bar" style="width:0%"></div></div>
           </div>
         </div>
+        <div style="padding:2px 12px 4px;font-family:'Courier New',monospace;font-size:9px;color:#bbb;line-height:1.4">
+          † Clustering computed on unipartite projection (hover label for details)
+        </div>
       </div>
 
       <!-- Scrollable Narrative Column -->
@@ -73,7 +76,7 @@
           <div class="step-inner">
             <div class="step-n">Introduction</div>
             <h2>A Network in Transition</h2>
-            <p>Global health financing is often visualized as a map of countries or a list of budgets. But its true nature is a <strong>fabric</strong>: a network of financial threads connecting donors to the programs and regions they support.</p>
+            <p>Global health financing usually appears as a map of countries or a list of budgets. Beneath that surface sits a network: financial threads connecting donors to the programmes and regions they support.</p>
             <p>This essay traces how that fabric has evolved through expansion, pandemic shock, and geopolitical shifts.</p>
             <div class="caution-sm">
                 <strong>Methodological Caution:</strong>
@@ -97,6 +100,7 @@
               WCC: <strong>2</strong> (A nearly single connected component)<br>
               Clustering: <strong>0.043</strong> (Higher local density)
             </div>
+            <div class="caution-sm">⚠ <strong>Methodological note — Clustering:</strong> This is a bipartite (2-mode) network. Triangles are structurally impossible. Donors A and B cannot form a triangle through a shared recipient because they belong to the same mode. The clustering coefficient was computed treating the network as unipartite (1-mode projection) and reflects co-funding overlap patterns rather than triadic closure in the strict graph-theoretic sense. Values are retained for comparability with the published paper.</div>
           </div>
         </div>
 
@@ -110,7 +114,7 @@
               WCC: 2 → <strong>123</strong><br>
               Modularity: <strong>0.466</strong>
             </div>
-            <p>The network is becoming more "clumpy" — donors are focusing on specific silos rather than the global whole.</p>
+            <p>The shift is structural. The network is sorting into a <strong>core-periphery pattern</strong> (Knoke, Diani, Hollway &amp; Christopoulos, 2021): a dense inner cluster of large donors that co-finance the same cross-cutting programmes, surrounded by a growing periphery connected only to narrow thematic or regional niches. The 123 isolated fragments are peripheral actors with no path into the core.</p>
           </div>
         </div>
 
@@ -119,7 +123,7 @@
           <div class="step-inner">
             <div class="step-n">Scene 03 — 2020–21: Expansion without binding</div>
             <h2>More knots. More threads. Less fabric.</h2>
-            <p>During the COVID-19 period, the network expands dramatically — 60% more actors, 36% more financial links. And every measure of structural cohesion deteriorates simultaneously.</p>
+            <p>During the COVID-19 period, the network expands dramatically: 60% more actors, 36% more financial links. Every measure of structural cohesion deteriorates at the same time.</p>
             <div class="mbox red">
               Nodes: 624 → <strong>999</strong> (+60%)<br>
               Edges: 3,277 → <strong>4,444</strong> (+36%)<br>
@@ -127,7 +131,8 @@
               Clustering: 0.050 → <strong>0.012</strong> (−76%)<br>
               WCC: 123 → <strong>546</strong> (+344%)
             </div>
-            <p>The fabric expands and thins simultaneously. New emergency actors enter. Existing ties proliferate. But the structure loses its reinforcing patches and becomes 546 loosely connected pieces.</p>
+            <p>The fabric expands and thins at once. New emergency actors enter; existing ties multiply. The structure loses its reinforcing patches and breaks into 546 loosely connected pieces.</p>
+            <div class="caution-sm">⚠ <strong>Methodological note — Modularity:</strong> The Walktrap modularity values are computed on the bipartite network treated as unipartite. Modularity is sensitive to network size and node composition. In 2018–19 and 2020–21, significantly fewer nodes carry the "Recep_State" prefix due to a source-data formatting inconsistency; in 2020–21 many new emergency actors also enter. These compositional shifts mean cross-biennium modularity values are directionally informative, not strictly comparable in magnitude.</div>
           </div>
         </div>
 
@@ -135,8 +140,8 @@
         <div class="step" data-step="2022-23">
           <div class="step-inner">
             <div class="step-n">Scene 04 — 2022–23: Partial recovery</div>
-            <h2>The fabric partly re-stitches — but not to its original texture</h2>
-            <p>Post-pandemic, the network contracts and partially reorganizes. Density and average degree recover — more threads per knot. The recovery is real but structurally incomplete. The observed pattern is consistent with <strong>hysteresis</strong> or a <strong>structural drift</strong> away from the pre-shock configuration, rather than a return to the 2016–17 baseline.</p>
+            <h2>The fabric partly re-stitches, but not to its original texture</h2>
+            <p>Post-pandemic, the network contracts and partially reorganises. Density and average degree recover (more threads per knot). The recovery is genuine but incomplete. What the data show looks more like <strong>hysteresis</strong>, or structural drift, than a return to the 2016–17 baseline.</p>
             <div class="mbox">
               Avg. degree: 4.45 → <strong>7.69</strong> (highest observed)<br>
               Density: 0.013 (above 2016–17 baseline of 0.009)<br>
@@ -151,7 +156,7 @@
           <div class="step-inner">
             <div class="step-n">Scene 05 — 2024–25: A New Stability</div>
             <h2>Stabilizing in a Modular Form</h2>
-            <p>The latest biennium (2024–25, provisional) shows the network stabilizing in this new, more modular configuration. While some connectivity has returned, the high number of fragments suggests a persistent change in how global health is financed.</p>
+            <p>The 2024–25 biennium (provisional) shows the network settling into this more fragmented shape. Some connectivity has returned, but 126 weakly connected components remain. The structure did not bounce back.</p>
             <div class="mbox">
               Density: 0.012<br>
               WCC: 126<br>
@@ -167,9 +172,9 @@
     <section class="fw-section" id="usSection">
     <div class="fw-inner">
       <h2>2025: Exposure without collapse</h2>
-      <p>US entities — USAID, CDC, NIH, DTRA, USFDA, USDA, State Department — contributed <strong>$525M</strong> in the 2024–25 period (provisional): 10.9% of total positive flows, distributed across 1,530 financing relationships.</p>
+      <p>US entities (USAID, CDC, NIH, DTRA, USFDA, USDA, State Department) contributed <strong>$525M</strong> in the 2024–25 period (provisional): 10.9% of total flows, across 1,530 financing relationships.</p>
 
-      <p>The US funding shock does not visually collapse the network at this level of aggregation. Instead, it reveals a subtler pattern: the fabric remains connected, but some nodes become visibly exposed once US-linked flows are faded.</p>
+      <p>At this scale of aggregation, removing US flows does not collapse the network visually. The fabric holds. But some nodes become exposed once US-linked flows are faded.</p>
 
       <div class="toggle-row">
         <button class="btn off" id="usBtn">Show US exposure</button>
@@ -196,6 +201,36 @@
       <p style="margin-top:25px; font-size:14px; line-height:1.6">
         <strong>Finding:</strong> No node in this dataset receives flows <em>exclusively</em> from US entities. However, four recipient nodes rely on US sources for 50–74% of their observed flows: Poland, Czechia, Slovakia, and Iraq. The fabric holds, but its texture thins in specific geographic and thematic patches.
       </p>
+
+      <h3 style="margin-top:28px;font-size:15px;font-weight:normal;font-family:'Courier New',monospace;letter-spacing:.04em;color:#444">Recomputed network metrics after US node removal (full network, 2024–25)</h3>
+      <p style="font-size:13px;color:#666;margin-bottom:12px">Metrics recomputed on the full subgraph with all 9 US-linked nodes and their 1,530 edges removed. This is a full structural recalculation, not a visual approximation.</p>
+      <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:14px 0">
+        <div style="background:#fafafa;border:1px solid #eee;padding:12px;text-align:center">
+          <div style="font-family:'Courier New',monospace;font-size:9px;text-transform:uppercase;color:#aaa;margin-bottom:4px">Nodes remaining</div>
+          <div style="font-family:'Courier New',monospace;font-size:18px;font-weight:bold;color:#333">431</div>
+          <div style="font-size:11px;color:#999">of 564 (−24%)</div>
+        </div>
+        <div style="background:#fafafa;border:1px solid #eee;padding:12px;text-align:center">
+          <div style="font-family:'Courier New',monospace;font-size:9px;text-transform:uppercase;color:#aaa;margin-bottom:4px">Edges remaining</div>
+          <div style="font-family:'Courier New',monospace;font-size:18px;font-weight:bold;color:#333">10,562</div>
+          <div style="font-size:11px;color:#999">of 12,092 (−13%)</div>
+        </div>
+        <div style="background:#fffbeb;border:1px solid #c9a100;padding:12px;text-align:center">
+          <div style="font-family:'Courier New',monospace;font-size:9px;text-transform:uppercase;color:#aaa;margin-bottom:4px">WCC after removal</div>
+          <div style="font-family:'Courier New',monospace;font-size:18px;font-weight:bold;color:#333">1</div>
+          <div style="font-size:11px;color:#999">vs 126 before (more coherent)</div>
+        </div>
+        <div style="background:#fafafa;border:1px solid #eee;padding:12px;text-align:center">
+          <div style="font-family:'Courier New',monospace;font-size:9px;text-transform:uppercase;color:#aaa;margin-bottom:4px">Flow removed</div>
+          <div style="font-family:'Courier New',monospace;font-size:18px;font-weight:bold;color:#B71C1C">$525M</div>
+          <div style="font-size:11px;color:#999">10.9% of Q1 2025 total</div>
+        </div>
+      </div>
+      <div style="background:#fafafa;border-left:3px solid #B71C1C;padding:14px 18px;margin:18px 0;font-size:14px;line-height:1.65">
+        <strong>The WCC paradox.</strong> Removing US nodes should fragment the network: the largest donor cluster leaves, the fabric should break apart. The opposite happens. WCC drops from 126 to <strong>1</strong>.<br><br>
+        The drop is a structural trap. Those 125 isolated components existed because of US-linked ties. Remove USAID and its constellation of bilateral connections, and the satellites disappear with it. What remains is the European-multilateral core: tightly connected, but on its own.<br><br>
+        The WCC count conceals the real loss. USAID's Participation Coefficient was 0.85, meaning it distributed funding across more programme communities than any other actor in the network: health emergencies, routine immunisation, non-communicable diseases, capacity building, regional programmes. No remaining actor comes close to that breadth.
+      </div>
     </div>
     </section>
 
@@ -203,7 +238,7 @@
     <section class="fw-section" id="midSection">
     <div class="fw-inner">
       <h2>Middle Powers: Potential Bridges?</h2>
-      <p>These actors may occupy positions with potential bridging relevance in the post-shock configuration. This should not be read as evidence that they can replace US-linked flows. Rather, it identifies possible sites of structural intermediation that merit closer scrutiny.</p>
+      <p>These actors hold positions in the network that may carry bridging potential after the US withdrawal. The question is whether any of them already functions as a cross-community connector, in the way USAID did. The data give a mixed answer.</p>
 
       <div class="toggle-row">
         <button class="btn off" id="midBtn">Highlight Middle Powers</button>
@@ -215,11 +250,39 @@
           </div>
       </div>
 
+      <p style="font-size:14px;color:#555;margin-bottom:14px">The <strong>Participation Coefficient (PC)</strong> measures how broadly each actor spreads its funding across the network's structural communities (Guimerà &amp; Amaral, 2005). A score near 0 (a <em>bonder</em>) means almost all funding flows into one cluster. A score near 1 (a <em>bridge</em>) means funding reaches across many communities. In the brokerage framework of Gould &amp; Fernandez (1989), a bridge actor connects communities that would otherwise have no path between them; remove it, and those communities lose contact (see also Knoke, Diani, Hollway &amp; Christopoulos, 2021, ch. 3).</p>
+
+      <p style="font-size:14px;color:#555;margin-bottom:6px">The table shows <strong>structural roles</strong>, not a ranking by size or importance.</p>
+
+      <div style="overflow-x:auto;margin:16px 0">
+      <table style="width:100%;border-collapse:collapse;font-size:13px;font-family:'Courier New',monospace">
+        <thead><tr style="border-bottom:2px solid #ccc">
+          <th style="text-align:left;padding:7px 10px">Actor</th>
+          <th style="text-align:left;padding:7px 10px">Type</th>
+          <th style="text-align:right;padding:7px 10px">Flow 2022–23</th>
+          <th style="text-align:right;padding:7px 10px">PC (2022–23)</th>
+          <th style="text-align:right;padding:7px 10px">Structural role</th>
+        </tr></thead>
+        <tbody>
+          <tr style="border-bottom:1px solid #eee"><td style="padding:6px 10px">USAID</td><td>US Entity</td><td style="text-align:right">$437M</td><td style="text-align:right"><strong>0.782</strong></td><td style="text-align:right;color:#2e7d32">Bridge — global coordinator</td></tr>
+          <tr style="border-bottom:1px solid #eee"><td style="padding:6px 10px">EU DG-INTPA</td><td>Intergovernmental</td><td style="text-align:right">$167M</td><td style="text-align:right"><strong>0.722</strong></td><td style="text-align:right;color:#2e7d32">Bridge</td></tr>
+          <tr style="border-bottom:1px solid #eee"><td style="padding:6px 10px">UN CERF</td><td>UN Organization</td><td style="text-align:right">$140M</td><td style="text-align:right"><strong>0.725</strong></td><td style="text-align:right;color:#2e7d32">Bridge</td></tr>
+          <tr style="border-bottom:1px solid #eee"><td style="padding:6px 10px">EU ECHO</td><td>Intergovernmental</td><td style="text-align:right">$149M</td><td style="text-align:right"><strong>0.694</strong></td><td style="text-align:right;color:#2e7d32">Bridge</td></tr>
+          <tr style="border-bottom:1px solid #eee"><td style="padding:6px 10px">France (MEAE)</td><td>Member State</td><td style="text-align:right">$63M</td><td style="text-align:right">0.695</td><td style="text-align:right;color:#2e7d32">Bridge</td></tr>
+          <tr style="border-bottom:1px solid #eee"><td style="padding:6px 10px">Canada (DFATD)</td><td>Member State</td><td style="text-align:right">$149M</td><td style="text-align:right"><strong>0.687</strong></td><td style="text-align:right;color:#2e7d32">Bridge</td></tr>
+          <tr style="border-bottom:1px solid #eee"><td style="padding:6px 10px">Germany</td><td>Member State</td><td style="text-align:right">$335M</td><td style="text-align:right">0.646</td><td style="text-align:right;color:#2e7d32">Bridge — thematic concentration</td></tr>
+          <tr style="border-bottom:1px solid #eee"><td style="padding:6px 10px">Rotary International</td><td>NGO</td><td style="text-align:right">$153M</td><td style="text-align:right">0.464</td><td style="text-align:right;color:#777">Moderate</td></tr>
+          <tr style="border-bottom:1px solid #eee"><td style="padding:6px 10px">India</td><td>Member State</td><td style="text-align:right">$66M</td><td style="text-align:right">0.049</td><td style="text-align:right;color:#B71C1C">Bonder — regional cluster</td></tr>
+          <tr><td style="padding:6px 10px">China</td><td>Member State</td><td style="text-align:right">—</td><td style="text-align:right">0.108</td><td style="text-align:right;color:#B71C1C">Bonder — regional cluster</td></tr>
+        </tbody>
+      </table>
+      </div>
+
       <div class="mbox" style="background:rgba(255,215,0,0.05); border-left-color:#D4AF37">
-        <strong>Assessment:</strong> Germany, the European Union, Canada, France, and Japan are identified as candidates based on their sustained volume and relative betweenness. However, structural constraints mean they operate as regional or thematic connectors rather than a unified global hub.
-        <br><br>
+        <strong>India and China</strong> are often proposed as candidates to fill the gap left by US withdrawal. By volume, that case has some surface appeal. By structure, it breaks down quickly. PC=0.049 and PC=0.108 mean that nearly all of their WHO financing flows into one modularity community: the cluster of programmes and recipient states tied to their immediate geopolitical neighbourhood. This is strategic, concentrated giving, and a coherent policy choice. The problem is that concentrated giving and cross-community bridging are structurally incompatible. A bonder can grow larger; it cannot become a bridge without changing <em>where</em> it gives, not how much.<br><br>
+        The relevant question is who gives differently. Currently, no one does.<br><br>
         <span style="font-size:12px; color:#666">
-          <em>Note:</em> Low global betweenness (&lt;0.001) suggests no confirmed dominant broker has replaced previous hub functions. Participation coefficient or community-bridging analysis is required for stronger claims of structural brokerage.
+          PC = 1 − Σ<sub>c</sub>(k<sub>ic</sub>/k<sub>i</sub>)², where k<sub>ic</sub> = weighted flow to community c, k<sub>i</sub> = total weighted out-flow (Guimerà &amp; Amaral, 2005). Communities from Walktrap modularity classes on the full network. Hover donor nodes to see PC values.
         </span>
       </div>
     </div>
@@ -229,7 +292,7 @@
     <section class="fw-section" id="bindingSection">
     <div class="fw-inner">
       <h2>Synthesis: The Binding Map</h2>
-      <p>By mapping Cohesion (Binding) against Stress, we visualize the systemic health of the fabric across the decade. </p>
+      <p>The map plots Cohesion (Binding) against Stress to show the structural health of the network across the decade.</p>
 
       <div style="text-align:center;margin:30px 0">
         <button class="btn" id="playBtn">Play trajectory</button>
@@ -265,7 +328,7 @@
         <g id="bp4" class="bp"><circle cx="417" cy="291" r="6" fill="#3a8a60"/><text x="426" y="296" style="font-size:10px">2022-23</text></g>
         <g id="bp5" class="bp"><circle cx="384" cy="288" r="6" fill="#1B4332"/><text x="393" y="293" style="font-size:10px">2024-25</text></g>
       </svg>
-      <div id="bmap-note" style="opacity:0;font-size:13px;color:#666;margin-top:10px;text-align:center">The trajectory suggests structural drift away from the more cohesive 2016–17 baseline.</div>
+      <div id="bmap-note" style="opacity:0;font-size:13px;color:#666;margin-top:10px;text-align:center">The trajectory points away from the 2016–17 baseline and has not returned to it.</div>
     </div>
     </section>
 
@@ -279,6 +342,16 @@
             </p>
             <div style="margin-top:20px">
                 <a href="https://mjgh.library.mcgill.ca/article/view/1926" target="_blank" rel="noopener noreferrer" class="btn" style="text-decoration:none; display:inline-block">Read the full article</a>
+            </div>
+
+            <div style="margin-top:32px; border-top:1px solid #e5e5e5; padding-top:20px">
+                <h3 style="font-family:'Courier New',monospace; font-size:13px; text-transform:uppercase; color:#999; margin-bottom:12px">Methodological references</h3>
+                <p style="font-size:13px; color:#777; line-height:1.7; margin:0">
+                    Csardi, G. &amp; Nepusz, T. (2006). The igraph software package for complex network research. <em>InterJournal, Complex Systems</em>, 1695.<br>
+                    Gould, R. V. &amp; Fernandez, R. M. (1989). Structures of mediation: A formal approach to brokerage in transaction networks. <em>Sociological Methodology</em>, 19, 89–126.<br>
+                    Guimerà, R. &amp; Amaral, L. A. N. (2005). Functional cartography of complex metabolic networks. <em>Nature</em>, 433, 895–900.<br>
+                    Knoke, D., Diani, M., Hollway, J. &amp; Christopoulos, D. (2021). <em>Multimodal Political Networks</em>. Cambridge University Press.
+                </p>
             </div>
         </div>
     </section>
